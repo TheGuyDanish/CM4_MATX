@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "CM4_MATX")(type "KiCad")(uri "${KIPRJMOD}/CM4_MATX.pretty")(options "")(descr ""))
+)
