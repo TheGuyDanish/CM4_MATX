@@ -1,8 +1,16 @@
 (kicad_sch (version 20200828) (generator eeschema)
 
-  (page 3 4)
+  (page 4 5)
 
   (paper "A4")
+
+  (title_block
+    (title "PCI-e Switch and Ports")
+    (date "2020-11-14")
+    (rev "0.1")
+    (company "TheGuyDanish")
+    (comment 1 "https://github.com/theguydanish/cm4_matx")
+  )
 
   (lib_symbols
     (symbol "CM4_MATX:10018783-11200TLF" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
@@ -1010,7 +1018,7 @@
   (symbol (lib_id "power:GND") (at 190.5 81.28 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "6f10bc32-beba-4625-81ba-9d90aafa7b09")
-    (property "Reference" "#PWR?" (id 0) (at 190.5 87.63 0)
+    (property "Reference" "#PWR0121" (id 0) (at 190.5 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 191.77 86.36 0))
@@ -1025,7 +1033,7 @@
   (symbol (lib_id "power:GND") (at 220.98 81.28 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "687ee9fe-f168-4dc6-8c74-4afc8da9aaaa")
-    (property "Reference" "#PWR?" (id 0) (at 220.98 87.63 0)
+    (property "Reference" "#PWR0122" (id 0) (at 220.98 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 222.25 86.36 0))
@@ -1040,7 +1048,7 @@
   (symbol (lib_id "CM4_MATX:10018783-11200TLF") (at 193.04 30.48 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "8ab5604e-8d69-4c73-a16b-d862ffbdf720")
-    (property "Reference" "J?" (id 0) (at 205.74 22.86 0))
+    (property "Reference" "J8" (id 0) (at 205.74 22.86 0))
     (property "Value" "10018783-11200TLF" (id 1) (at 205.74 25.4 0))
     (property "Footprint" "1001878410200TLF" (id 2) (at 214.63 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
@@ -1071,7 +1079,7 @@
   (symbol (lib_id "CM4_MATX:PI7C9X2G404SLBFDE") (at 30.48 55.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "2bc27fcd-3160-48f9-be0f-5a660b20cc8b")
-    (property "Reference" "IC?" (id 0) (at 125.73 45.72 0)
+    (property "Reference" "IC2" (id 0) (at 125.73 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PI7C9X2G404SLBFDE" (id 1) (at 125.73 49.53 0)

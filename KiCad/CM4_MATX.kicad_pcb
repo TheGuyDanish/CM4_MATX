@@ -9,7 +9,7 @@
     (title "Raspberry Pi CM4 - MicroATX Expansion Board")
     (date "2020-11-11")
     (rev "0.1")
-    (company "Oliver Møller")
+    (company "TheGuyDanish")
   )
 
   (layers
