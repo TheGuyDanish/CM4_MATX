@@ -2,6 +2,8 @@
 
 Welcome! CM4 MATX is a project aiming to create an open source, micro-ATX standard-compliant motherboard for the Raspberry Pi Compute Module 4.
 
+<p align="center"><a href="https://github.com/TheGuyDanish/CM4_MATX/blob/master/CM4_MATX_PCB.pdf"><img src="CM4_MATX_PCB.jpg?raw=true" width="600" height="auto" alt="PCB layout - click to view current PDF" /></a></p>
+
 The intent behind this is to provide a motherboard that can be installed in a regular case, as well as provide more, or easier access to, potential IO, as well as using a standard 24-pin ATX power supply. This project uses much of the CM4 IO board as its reference design, with new features added onto the board.
 
 The current design goals are as follows:
