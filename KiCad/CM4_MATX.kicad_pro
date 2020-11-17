@@ -291,14 +291,19 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unresolved_variable": "error",
       "wire_dangling": "error"
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "CM4_MATX"
+    ],
+    "pinned_symbol_libs": [
+      "CM4_MATX"
+    ]
   },
   "meta": {
     "filename": "CM4_MATX.kicad_pro",
@@ -352,6 +357,7 @@
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
@@ -370,7 +376,7 @@
   },
   "sheets": [
     [
-      "67f6c23e-c652-4a71-b439-ac04edab6ba6",
+      "0565ecde-2a2b-497c-a5b9-9625c6cb7840",
       ""
     ],
     [
@@ -388,6 +394,10 @@
     [
       "c5832ff1-3011-438e-bda2-1e0d07aa3027",
       "ATX_PSU"
+    ],
+    [
+      "26c1d330-8bac-4588-a428-2f7ba26a87a8",
+      "CM4_FanCRTL"
     ]
   ],
   "text_variables": {}
