@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 9)
     (tracks 0)
     (zones 0)
     (modules 15)
@@ -4295,7 +4295,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FB64941)
-    (at 569.658 192.876)
+    (at 238.188 232.246)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (path /5FB65FD3)
@@ -4315,7 +4315,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FB64939)
-    (at 412.178 192.876)
+    (at 80.708 232.246)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (path /5FB66182)
@@ -4335,7 +4335,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FB64931)
-    (at 569.658 120.486)
+    (at 238.188 159.856)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (path /5FB65D40)
@@ -4355,7 +4355,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FB64929)
-    (at 412.178 120.486)
+    (at 80.708 159.856)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (path /5FB65B17)
@@ -4375,7 +4375,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FB64921)
-    (at 366.458 120.486)
+    (at 34.988 159.856)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (path /5FB65A47)
@@ -4395,7 +4395,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FB64919)
-    (at 346.138 120.486)
+    (at 14.668 159.856)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (path /5FB658C2)
@@ -4415,7 +4415,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FB64911)
-    (at 569.658 -11.594)
+    (at 238.188 27.776)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (path /5FB64C61)
@@ -4435,7 +4435,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FB64909)
-    (at 412.178 -34.454)
+    (at 80.708 4.916)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (path /5FB649F9)
@@ -4455,7 +4455,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FB64901)
-    (at 366.458 -34.454)
+    (at 34.988 4.916)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (path /5FB6444A)
@@ -4474,9 +4474,16 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (gr_line (start 331.47 -39.37) (end 331.47 204.63) (layer Edge.Cuts) (width 0.15) (tstamp 5FB6713D))
-  (gr_line (start 331.47 204.63) (end 575.47 204.63) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 575.47 -39.37) (end 575.47 204.63) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 331.47 -39.37) (end 575.47 -39.37) (layer Edge.Cuts) (width 0.15))
+  (gr_text "REAR IO WINDOW IN CHASSIS" (at 99.06 -6.604) (layer Cmts.User)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_line (start 246.9764 -5.08) (end 246.9764 0) (layer Cmts.User) (width 0.15) (tstamp 5FB672AF))
+  (gr_line (start 88.2264 -5.08) (end 88.2264 0) (layer Cmts.User) (width 0.15) (tstamp 5FB672AE))
+  (gr_line (start 88.2264 -5.08) (end 246.9764 -5.08) (layer Cmts.User) (width 0.15))
+  (gr_line (start 88.2264 0) (end 246.9764 0) (layer Cmts.User) (width 0.15))
+  (gr_line (start 0 0) (end 0 244) (layer Edge.Cuts) (width 0.15) (tstamp 5FB6713D))
+  (gr_line (start 0 244) (end 244 244) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 244 0) (end 244 244) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 0 0) (end 244 0) (layer Edge.Cuts) (width 0.15))
 
 )
