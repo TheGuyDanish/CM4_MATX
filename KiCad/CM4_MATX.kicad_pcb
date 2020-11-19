@@ -4415,7 +4415,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FB64911)
-    (at 569.658 -34.454)
+    (at 569.658 -11.594)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (path /5FB64C61)
