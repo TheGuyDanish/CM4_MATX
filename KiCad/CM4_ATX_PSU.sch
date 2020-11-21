@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 3 6
 Title "CM4_MATX: ATX PSU Connection"
 Date "2020-11-19"
 Rev "0.1"
@@ -14,165 +14,181 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CM4_MATX:39-28-1243 J?
+L CM4_MATX:39-28-1243 J7
 U 1 1 601EF6B0
-P 4500 3200
-F 0 "J?" H 5000 3465 50  0000 C CNN
-F 1 "39-28-1243" H 5000 3374 50  0000 C CNN
-F 2 "SHDR24W125P550X420_2X12_5160X960X1310P" H 4550 4150 50  0001 L CNN
-F 3 "" H 5250 3200 50  0001 L CNN
-F 4 "24 way vertical PCB header,Mini-Fit Jr Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 24 Way 2 Row Straight PCB Header, Solder Termination, 6A" H 4550 3950 50  0001 L CNN "Description"
-F 5 "13.1" H 4550 3850 50  0001 L CNN "Height"
-F 6 "538-39-28-1243" H 4550 3750 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Molex/39-28-1243?qs=4XSMV6Twtb0I%2F4%252BTTSJFbg%3D%3D" H 4550 3650 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Molex" H 4550 3550 50  0001 L CNN "Manufacturer_Name"
-F 9 "39-28-1243" H 4550 3450 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4500 3200
+P 5950 3550
+F 0 "J7" H 6450 3815 50  0000 C CNN
+F 1 "39-28-1243" H 6450 3724 50  0000 C CNN
+F 2 "SHDR24W125P550X420_2X12_5160X960X1310P" H 6000 4500 50  0001 L CNN
+F 3 "" H 6700 3550 50  0001 L CNN
+F 4 "24 way vertical PCB header,Mini-Fit Jr Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 24 Way 2 Row Straight PCB Header, Solder Termination, 6A" H 6000 4300 50  0001 L CNN "Description"
+F 5 "13.1" H 6000 4200 50  0001 L CNN "Height"
+F 6 "538-39-28-1243" H 6000 4100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/39-28-1243?qs=4XSMV6Twtb0I%2F4%252BTTSJFbg%3D%3D" H 6000 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 6000 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "39-28-1243" H 6000 3800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5950 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 3300 4450 3300
+	5950 3650 5900 3650
 Wire Wire Line
-	4450 3300 4450 3400
+	5900 3650 5900 3750
 Wire Wire Line
-	4500 4100 4450 4100
-Connection ~ 4450 4100
+	5950 4450 5900 4450
 Wire Wire Line
-	4450 4000 4500 4000
-Connection ~ 4450 4000
+	5900 4350 5950 4350
+Connection ~ 5900 4350
 Wire Wire Line
-	4450 4000 4450 4100
+	5900 4350 5900 4450
 Wire Wire Line
-	4450 3900 4500 3900
-Connection ~ 4450 3900
+	5900 4250 5950 4250
+Connection ~ 5900 4250
 Wire Wire Line
-	4450 3900 4450 4000
+	5900 4250 5900 4350
 Wire Wire Line
-	4500 3500 4450 3500
-Connection ~ 4450 3500
+	5950 3850 5900 3850
+Connection ~ 5900 3850
 Wire Wire Line
-	4450 3500 4450 3900
+	5900 3850 5900 4250
 Wire Wire Line
-	4450 3400 4500 3400
-Connection ~ 4450 3400
+	5900 3750 5950 3750
+Connection ~ 5900 3750
 Wire Wire Line
-	4450 3400 4450 3500
-Wire Wire Line
-	4450 4100 4450 4450
-Wire Wire Line
-	5500 4000 5550 4000
-Wire Wire Line
-	5550 4000 5550 4300
-Wire Wire Line
-	5550 4450 4450 4450
-Connection ~ 4450 4450
-Wire Wire Line
-	4450 4450 4450 4750
-Wire Wire Line
-	5500 4300 5550 4300
-Connection ~ 5550 4300
-Wire Wire Line
-	5550 4300 5550 4450
+	5900 3750 5900 3850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0109
 U 1 1 601F254C
-P 4450 4750
-F 0 "#PWR?" H 4450 4500 50  0001 C CNN
-F 1 "GND" H 4455 4577 50  0000 C CNN
-F 2 "" H 4450 4750 50  0001 C CNN
-F 3 "" H 4450 4750 50  0001 C CNN
-	1    4450 4750
+P 5900 5100
+F 0 "#PWR0109" H 5900 4850 50  0001 C CNN
+F 1 "GND" H 5905 4927 50  0000 C CNN
+F 2 "" H 5900 5100 50  0001 C CNN
+F 3 "" H 5900 5100 50  0001 C CNN
+	1    5900 5100
+	1    0    0    -1  
+$EndComp
+Text HLabel 4800 3700 0    50   Input ~ 0
++3.3v
+Text HLabel 4800 4100 0    50   Input ~ 0
++5v
+Text HLabel 4800 3900 0    50   Input ~ 0
++12v
+Text HLabel 4800 4000 0    50   Input ~ 0
++5vSB
+Text HLabel 4800 3800 0    50   Input ~ 0
+-12v
+Text HLabel 4800 4200 0    50   Input ~ 0
+PS_ON
+Text HLabel 4800 4300 0    50   Input ~ 0
+PWR_OK
+NoConn ~ 6950 4450
+Connection ~ 5900 4450
+Wire Wire Line
+	5900 4450 5900 5100
+$Comp
+L power:GND #PWR0110
+U 1 1 5FF31AD9
+P 7000 5100
+F 0 "#PWR0110" H 7000 4850 50  0001 C CNN
+F 1 "GND" H 7005 4927 50  0000 C CNN
+F 2 "" H 7000 5100 50  0001 C CNN
+F 3 "" H 7000 5100 50  0001 C CNN
+	1    7000 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 3200 4400 3200
+	7000 5100 7000 4650
 Wire Wire Line
-	4400 3200 4400 3800
+	7000 4350 6950 4350
 Wire Wire Line
-	4500 3800 4400 3800
-Connection ~ 4400 3800
+	6950 4650 7000 4650
+Connection ~ 7000 4650
 Wire Wire Line
-	4400 3800 4400 4500
-Wire Wire Line
-	4400 4500 5600 4500
-Wire Wire Line
-	5600 4500 5600 4750
-Wire Wire Line
-	5500 3700 5600 3700
-Wire Wire Line
-	5600 3700 5600 4500
-Connection ~ 5600 4500
-Wire Wire Line
-	5500 3200 5600 3200
-Wire Wire Line
-	5600 3200 5600 3700
-Connection ~ 5600 3700
-Text HLabel 5600 4750 3    50   Input ~ 0
-+3.3v
-Text HLabel 5700 4750 3    50   Input ~ 0
+	7000 4650 7000 4350
+Text Label 7250 4550 2    50   ~ 0
++5v
+Text Label 7250 3750 2    50   ~ 0
 +5v
 Wire Wire Line
-	5500 3300 5700 3300
+	6950 3650 6950 3750
 Wire Wire Line
-	5700 3300 5700 3400
+	6950 4550 7250 4550
+Text Label 5650 4650 0    50   ~ 0
++5v
 Wire Wire Line
-	5500 3400 5700 3400
-Connection ~ 5700 3400
+	5950 4550 5950 4650
 Wire Wire Line
-	5700 3400 5700 4200
+	5650 4650 5950 4650
+Connection ~ 5950 4650
 Wire Wire Line
-	5500 4200 5700 4200
-Connection ~ 5700 4200
+	6950 3750 7250 3750
+Connection ~ 6950 3750
+Text Label 7250 4050 2    50   ~ 0
++3.3v
 Wire Wire Line
-	5700 4200 5700 4550
+	7250 4050 6950 4050
 Wire Wire Line
-	4500 4200 4500 4300
-Wire Wire Line
-	4500 4300 4500 4550
-Wire Wire Line
-	4500 4550 5700 4550
-Connection ~ 4500 4300
-Connection ~ 5700 4550
-Wire Wire Line
-	5700 4550 5700 4750
-Text HLabel 5800 4750 3    50   Input ~ 0
-+12v
-Wire Wire Line
-	5500 3600 5800 3600
-Wire Wire Line
-	5800 3600 5800 4600
-Wire Wire Line
-	4500 3700 4350 3700
-Wire Wire Line
-	4350 3700 4350 4600
-Wire Wire Line
-	4350 4600 5800 4600
-Connection ~ 5800 4600
-Wire Wire Line
-	5800 4600 5800 4750
-Wire Wire Line
-	4500 3600 4300 3600
-Wire Wire Line
-	4300 3600 4300 4650
-Wire Wire Line
-	4300 4650 5900 4650
-Text HLabel 5900 4750 3    50   Input ~ 0
-+5vSB
-Wire Wire Line
-	5900 4750 5900 4650
-Text HLabel 6000 4750 3    50   Input ~ 0
+	6950 4150 7250 4150
+Text Label 7250 4150 2    50   ~ 0
 -12v
+Text Label 7250 3550 2    50   ~ 0
++3.3v
 Wire Wire Line
-	5500 3800 6000 3800
+	7250 3550 6950 3550
 Wire Wire Line
-	6000 3800 6000 4750
-Wire Wire Line
-	5500 3900 6100 3900
-Text HLabel 6100 3900 2    50   Input ~ 0
+	6950 3850 7250 3850
+Text Label 7250 3850 2    50   ~ 0
+PWR_OK
+Text Label 7250 3950 2    50   ~ 0
++12v
+Text Label 7250 4250 2    50   ~ 0
 PS_ON
-Text HLabel 6100 3500 2    50   Input ~ 0
+Wire Wire Line
+	7250 4250 6950 4250
+Wire Wire Line
+	6950 3950 7250 3950
+Text Label 5650 3550 0    50   ~ 0
++3.3.v
+Text Label 5650 3950 0    50   ~ 0
++5vSB
+Text Label 5650 4050 0    50   ~ 0
++12v
+Text Label 5650 4150 0    50   ~ 0
++3.3v
+Wire Wire Line
+	5650 4150 5950 4150
+Wire Wire Line
+	5950 4050 5650 4050
+Wire Wire Line
+	5650 3950 5950 3950
+Wire Wire Line
+	5650 3550 5950 3550
+Text Label 4850 4300 0    50   ~ 0
 PWR_OK
 Wire Wire Line
-	6100 3500 5500 3500
-NoConn ~ 5500 4100
+	4850 4300 4800 4300
+Text Label 4850 4200 0    50   ~ 0
+PS_ON
+Text Label 4850 4100 0    50   ~ 0
++5v
+Text Label 4850 4000 0    50   ~ 0
++5vSB
+Text Label 4850 3900 0    50   ~ 0
++12v
+Text Label 4850 3800 0    50   ~ 0
+-12v
+Text Label 4850 3700 0    50   ~ 0
++3.3v
+Wire Wire Line
+	4850 3700 4800 3700
+Wire Wire Line
+	4800 3800 4850 3800
+Wire Wire Line
+	4850 3900 4800 3900
+Wire Wire Line
+	4800 4000 4850 4000
+Wire Wire Line
+	4850 4100 4800 4100
+Wire Wire Line
+	4800 4200 4850 4200
 $EndSCHEMATC

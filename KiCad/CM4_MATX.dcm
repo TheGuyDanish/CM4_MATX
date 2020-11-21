@@ -37,6 +37,10 @@ D USB Connectors 8P R/A RECPT
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/72309.pdf
 $ENDCMP
 #
+$CMP AP7363-10D
+F https://www.mouser.co.uk/datasheet/2/115/AP7363-247326.pdf
+$ENDCMP
+#
 $CMP ComputeModule4-CM4
 D Raspberry Pi Compute Module 4 with HRS-DF40C-100DS-0.4V(51) Connectors
 $ENDCMP
@@ -44,6 +48,16 @@ $ENDCMP
 $CMP DF40C-100DS-0.4V_51_
 D HIROSE(HRS) - DF40C-100DS-0.4V(51) - CONNECTOR, STACKING, RCPT, 100POS, 2ROW
 F https://www.hirose.com/product/en/download_file/key_name/DF40C-100DS-0.4V%2851%29/category/Drawing%20(2D)/doc_file_id/46856/?file_category_id=6&item_id=06844033451&is_series=
+$ENDCMP
+#
+$CMP FSUSB42MUX
+D ON SEMICONDUCTOR - FSUSB42MUX - USB SWITCH, DUAL, DPDT, MSOP-10
+F https://componentsearchengine.com/Datasheets/2/FSUSB42MUX.pdf
+$ENDCMP
+#
+$CMP MIC2019YM6-TR
+D MICROCHIP - MIC2019YM6-TR - LOAD SWITCH, HS, 5.5V, 0.2 - 2A, 6SOT23
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic20xx.pdf
 $ENDCMP
 #
 $CMP PI7C9X2G404SLBFDE
@@ -64,6 +78,11 @@ $ENDCMP
 $CMP SS-52100-002
 D STEWART CONNECTOR - SS-52100-002 - USB CONN, 2.0 TYPE A, RCPT, 4POS, TH
 F https://componentsearchengine.com/Datasheets/1/SS-52100-002.pdf
+$ENDCMP
+#
+$CMP TPS62067DSGR
+D 3MHz, 2A Step-Down Converter in 2x2 SON Package
+F http://www.ti.com/lit/gpn/TPS62067
 $ENDCMP
 #
 $CMP USB2517-JZX
