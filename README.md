@@ -22,7 +22,9 @@ The current design goals are as follows:
 
 I (TheGuyDanish) am not an experienced board designer, nor a whiz at electronic schematics. That's why I am posting this to Github. I'd love for other hobbyists to join this project. Not just to correct my inevitable mistakes, but also to suggest new features that would make this board even better.
 
-For technical specifics, the KiCad project was made in a nightly build. Specifically version 5.99.0-3994-g5f6d309d36. All components not found in the standard KiCad library are included in the CM4_MATX.pretty folder (PCB footprints) and CM4_MATX.kicad_sym (schematic symbols) file.
+For technical specifics, the KiCad project was made in version 5.1.8 stable. All components not found in the standard KiCad library are included in the CM4_MATX.pretty folder (PCB footprints) and CM4_MATX.lib (schematic symbols) file.
+
+Please see CONTRIBUTING.md for more information!
 
 If you have the technical skills to improve this schematic, I do implore you to make a copy of the repository, make your changes and submit them in a pull request.
 
