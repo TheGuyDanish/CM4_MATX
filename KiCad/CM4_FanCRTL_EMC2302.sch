@@ -1,0 +1,351 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1900 2700 0    50   Input ~ 0
+3.3V
+$Comp
+L Device:R R21
+U 1 1 5FD4692F
+P 3650 2900
+F 0 "R21" H 3720 2946 50  0000 L CNN
+F 1 "R10k" H 3720 2855 50  0000 L CNN
+F 2 "CM4_MATX:R_0805_2012Metric" V 3580 2900 50  0001 C CNN
+F 3 "~" H 3650 2900 50  0001 C CNN
+	1    3650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 5FD4788A
+P 3200 2900
+F 0 "R20" H 3270 2946 50  0000 L CNN
+F 1 "R10k" H 3270 2855 50  0000 L CNN
+F 2 "CM4_MATX:R_0805_2012Metric" V 3130 2900 50  0001 C CNN
+F 3 "~" H 3200 2900 50  0001 C CNN
+	1    3200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5FD478EE
+P 2700 2900
+F 0 "R19" H 2770 2946 50  0000 L CNN
+F 1 "R10k" H 2770 2855 50  0000 L CNN
+F 2 "CM4_MATX:R_0805_2012Metric" V 2630 2900 50  0001 C CNN
+F 3 "~" H 2700 2900 50  0001 C CNN
+	1    2700 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2750 3650 2700
+Wire Wire Line
+	3200 2750 3200 2700
+Wire Wire Line
+	2700 2750 2700 2700
+Wire Wire Line
+	3650 3100 3650 3050
+Wire Wire Line
+	3200 3300 3200 3050
+Wire Wire Line
+	2700 3800 2700 3050
+Connection ~ 2700 2700
+Wire Wire Line
+	3650 3100 3550 3100
+Wire Wire Line
+	3200 3300 3100 3300
+Text HLabel 3550 3100 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	2700 2700 3200 2700
+Connection ~ 3200 2700
+Wire Wire Line
+	3200 2700 3650 2700
+Text HLabel 3100 3300 0    50   Input ~ 0
+SDA
+Text HLabel 2600 3800 0    50   Input ~ 0
+ALERT#
+Wire Wire Line
+	2600 3800 2700 3800
+$Comp
+L power:GND #PWR0153
+U 1 1 5FD4E396
+P 2250 3300
+F 0 "#PWR0153" H 2250 3050 50  0001 C CNN
+F 1 "GND" H 2255 3127 50  0000 C CNN
+F 2 "" H 2250 3300 50  0001 C CNN
+F 3 "" H 2250 3300 50  0001 C CNN
+	1    2250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0154
+U 1 1 5FD4EA71
+P 6250 4450
+F 0 "#PWR0154" H 6250 4200 50  0001 C CNN
+F 1 "GND" H 6255 4277 50  0000 C CNN
+F 2 "" H 6250 4450 50  0001 C CNN
+F 3 "" H 6250 4450 50  0001 C CNN
+	1    6250 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4200 6250 4200
+Wire Wire Line
+	6250 4200 6250 4450
+Wire Wire Line
+	3650 2700 4000 2700
+Connection ~ 3650 2700
+Wire Wire Line
+	4000 3100 3650 3100
+Connection ~ 3650 3100
+Wire Wire Line
+	4000 3300 3200 3300
+Connection ~ 3200 3300
+Wire Wire Line
+	4000 3800 2700 3800
+Connection ~ 2700 3800
+Wire Wire Line
+	8950 3600 8500 3600
+Wire Wire Line
+	8950 3800 8850 3800
+Wire Wire Line
+	8950 3700 8850 3700
+$Comp
+L Device:R R22
+U 1 1 5FBB47A1
+P 6100 2400
+F 0 "R22" H 6170 2446 50  0000 L CNN
+F 1 "R10k" H 6170 2355 50  0000 L CNN
+F 2 "CM4_MATX:R_0805_2012Metric" V 6030 2400 50  0001 C CNN
+F 3 "~" H 6100 2400 50  0001 C CNN
+	1    6100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 5FBB4BE2
+P 6450 2400
+F 0 "R23" H 6520 2446 50  0000 L CNN
+F 1 "R10k" H 6520 2355 50  0000 L CNN
+F 2 "CM4_MATX:R_0805_2012Metric" V 6380 2400 50  0001 C CNN
+F 3 "~" H 6450 2400 50  0001 C CNN
+	1    6450 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 5FBB5139
+P 8150 3250
+F 0 "R24" H 8220 3296 50  0000 L CNN
+F 1 "R10k" H 8220 3205 50  0000 L CNN
+F 2 "CM4_MATX:R_0805_2012Metric" V 8080 3250 50  0001 C CNN
+F 3 "~" H 8150 3250 50  0001 C CNN
+	1    8150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 5FBB55A1
+P 8500 3250
+F 0 "R25" H 8570 3296 50  0000 L CNN
+F 1 "R10k" H 8570 3205 50  0000 L CNN
+F 2 "CM4_MATX:R_0805_2012Metric" V 8430 3250 50  0001 C CNN
+F 3 "~" H 8500 3250 50  0001 C CNN
+	1    8500 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2700 3650 2100
+Wire Wire Line
+	3650 2100 6100 2100
+Wire Wire Line
+	6100 2100 6100 2250
+Wire Wire Line
+	6100 2100 6450 2100
+Wire Wire Line
+	6450 2100 6450 2250
+Connection ~ 6100 2100
+Wire Wire Line
+	6100 2550 6100 2700
+Wire Wire Line
+	6000 3000 6450 3000
+Text HLabel 8850 3700 0    50   Input ~ 0
+VFAN
+$Comp
+L power:GND #PWR0155
+U 1 1 5FBB9240
+P 8850 3900
+F 0 "#PWR0155" H 8850 3650 50  0001 C CNN
+F 1 "GND" H 8855 3727 50  0000 C CNN
+F 2 "" H 8850 3900 50  0001 C CNN
+F 3 "" H 8850 3900 50  0001 C CNN
+	1    8850 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3900 8850 3800
+Wire Wire Line
+	6450 2100 8150 2100
+Wire Wire Line
+	8150 2100 8150 3100
+Connection ~ 6450 2100
+Wire Wire Line
+	8150 2100 8500 2100
+Wire Wire Line
+	8500 2100 8500 3100
+Connection ~ 8150 2100
+Wire Wire Line
+	6000 3500 8150 3500
+Wire Wire Line
+	6000 3800 8500 3800
+Wire Wire Line
+	8150 3400 8150 3500
+Wire Wire Line
+	8150 3500 8950 3500
+Wire Wire Line
+	6000 2700 6100 2700
+Wire Wire Line
+	6450 2550 6450 2800
+Wire Wire Line
+	8500 3400 8500 3600
+Connection ~ 8150 3500
+Connection ~ 8500 3600
+Wire Wire Line
+	8500 3600 8500 3800
+Wire Wire Line
+	6900 2800 6450 2800
+Wire Wire Line
+	6900 3000 6800 3000
+Wire Wire Line
+	6900 2900 6800 2900
+$Comp
+L power:GND #PWR0156
+U 1 1 5FBCB36E
+P 6800 3100
+F 0 "#PWR0156" H 6800 2850 50  0001 C CNN
+F 1 "GND" H 6805 2927 50  0000 C CNN
+F 2 "" H 6800 3100 50  0001 C CNN
+F 3 "" H 6800 3100 50  0001 C CNN
+	1    6800 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2700 6900 2700
+Text HLabel 6800 2900 0    50   Input ~ 0
+VFAN
+Wire Wire Line
+	6800 3100 6800 3000
+Connection ~ 6100 2700
+Connection ~ 6450 2800
+Wire Wire Line
+	6450 2800 6450 3000
+$Comp
+L CM4_MATX:47053-1000 J16
+U 1 1 5FBD4B6C
+P 6900 2700
+F 0 "J16" H 7528 2596 50  0000 L CNN
+F 1 "47053-1000" H 7528 2505 50  0000 L CNN
+F 2 "CM4_MATX:470531000" H 7550 2800 50  0001 L CNN
+F 3 "http://www.molex.com/pdm_docs/sd/470531000_sd.pdf" H 7550 2700 50  0001 L CNN
+F 4 "MOLEX - 47053-1000 - HEADER, 4POS, 1ROW, 2.54MM" H 7550 2600 50  0001 L CNN "Description"
+F 5 "8" H 7550 2500 50  0001 L CNN "Height"
+F 6 "538-47053-1000" H 7550 2400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/47053-1000?qs=ph4zPCVRuvqoDX7hrEhxNA%3D%3D" H 7550 2300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 7550 2200 50  0001 L CNN "Manufacturer_Name"
+F 9 "47053-1000" H 7550 2100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CM4_MATX:47053-1000 J17
+U 1 1 5FBD5448
+P 8950 3500
+F 0 "J17" H 9578 3396 50  0000 L CNN
+F 1 "47053-1000" H 9578 3305 50  0000 L CNN
+F 2 "CM4_MATX:470531000" H 9600 3600 50  0001 L CNN
+F 3 "http://www.molex.com/pdm_docs/sd/470531000_sd.pdf" H 9600 3500 50  0001 L CNN
+F 4 "MOLEX - 47053-1000 - HEADER, 4POS, 1ROW, 2.54MM" H 9600 3400 50  0001 L CNN "Description"
+F 5 "8" H 9600 3300 50  0001 L CNN "Height"
+F 6 "538-47053-1000" H 9600 3200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/47053-1000?qs=ph4zPCVRuvqoDX7hrEhxNA%3D%3D" H 9600 3100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 9600 3000 50  0001 L CNN "Manufacturer_Name"
+F 9 "47053-1000" H 9600 2900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0157
+U 1 1 5FBD7334
+P 3750 4450
+F 0 "#PWR0157" H 3750 4200 50  0001 C CNN
+F 1 "GND" H 3755 4277 50  0000 C CNN
+F 2 "" H 3750 4450 50  0001 C CNN
+F 3 "" H 3750 4450 50  0001 C CNN
+	1    3750 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4200 3750 4450
+Wire Wire Line
+	3750 4200 4000 4200
+Text Label 6350 3500 0    50   ~ 0
+PWM2
+Text Label 6350 3800 0    50   ~ 0
+TACH2
+Text Label 3700 3300 0    50   ~ 0
+SMDATA
+Text Label 3750 3100 0    50   ~ 0
+SMCLK
+Text Label 3750 3800 0    50   ~ 0
+ALERT#
+Text Label 6200 2700 0    50   ~ 0
+PWM1
+Text Label 6200 3000 0    50   ~ 0
+TACH1
+Wire Wire Line
+	1900 2700 2250 2700
+$Comp
+L Device:C C35
+U 1 1 5FBE0AB0
+P 2250 2900
+F 0 "C35" H 2365 2946 50  0000 L CNN
+F 1 "C100n" H 2365 2855 50  0000 L CNN
+F 2 "CM4_MATX:C_0805_2012Metric" H 2288 2750 50  0001 C CNN
+F 3 "~" H 2250 2900 50  0001 C CNN
+	1    2250 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2700 2250 2750
+Connection ~ 2250 2700
+Wire Wire Line
+	2250 2700 2700 2700
+Wire Wire Line
+	2250 3050 2250 3300
+$Comp
+L CM4_MATX:EMC2302 U?
+U 1 1 5FBE9C67
+P 4000 2700
+F 0 "U?" H 5000 3087 60  0000 C CNN
+F 1 "EMC2302" H 5000 2981 60  0000 C CNN
+F 2 "CM4_MATX:MSOP-10-1EP_3x3mm_P0.5mm_EP1.73x1.98mm" H 5000 2940 60  0001 C CNN
+F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/2302.pdf" H 3750 1250 60  0001 C CNN
+F 4 "886-EMC2302-2-AIZLTR" H 4750 3350 50  0001 C CNN "Mouser No"
+F 5 "Microchip Technology" H 4650 3550 50  0001 C CNN "Mfr."
+F 6 "EMC2302-2-AIZL-TR" H 4650 3450 50  0001 C CNN "Mfr. No"
+	1    4000 2700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -32,6 +32,10 @@ $CMP 39-28-1243
 D 24 way vertical PCB header,Mini-Fit Jr Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 24 Way 2 Row Straight PCB Header, Solder Termination, 6A
 $ENDCMP
 #
+$CMP 47053-1000
+F http://www.molex.com/pdm_docs/sd/470531000_sd.pdf
+$ENDCMP
+#
 $CMP 72309-8014BLF
 D USB Connectors 8P R/A RECPT
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/72309.pdf
@@ -48,6 +52,11 @@ $ENDCMP
 $CMP DF40C-100DS-0.4V_51_
 D HIROSE(HRS) - DF40C-100DS-0.4V(51) - CONNECTOR, STACKING, RCPT, 100POS, 2ROW
 F https://www.hirose.com/product/en/download_file/key_name/DF40C-100DS-0.4V%2851%29/category/Drawing%20(2D)/doc_file_id/46856/?file_category_id=6&item_id=06844033451&is_series=
+$ENDCMP
+#
+$CMP EMC2302
+D Dual RPM-Based PWM Fan Controller
+F https://ww1.microchip.com/downloads/en/DeviceDoc/2302.pdf
 $ENDCMP
 #
 $CMP FSUSB42MUX
