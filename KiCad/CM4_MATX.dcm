@@ -55,6 +55,11 @@ D ON SEMICONDUCTOR - FSUSB42MUX - USB SWITCH, DUAL, DPDT, MSOP-10
 F https://componentsearchengine.com/Datasheets/2/FSUSB42MUX.pdf
 $ENDCMP
 #
+$CMP GSD090012SEU
+D Memory Card Connectors SD CARD CONNECTOR 9 POS, SMT
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/gsd09001xseu.pdf
+$ENDCMP
+#
 $CMP MIC2019YM6-TR
 D MICROCHIP - MIC2019YM6-TR - LOAD SWITCH, HS, 5.5V, 0.2 - 2A, 6SOT23
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic20xx.pdf
