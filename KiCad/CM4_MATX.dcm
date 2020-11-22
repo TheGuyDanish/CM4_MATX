@@ -60,6 +60,11 @@ D Memory Card Connectors SD CARD CONNECTOR 9 POS, SMT
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/gsd09001xseu.pdf
 $ENDCMP
 #
+$CMP MAX31740ATA+
+D Ultra-Simple Fan-Speed Controller
+F https://datasheets.maximintegrated.com/en/ds/MAX31740.pdf
+$ENDCMP
+#
 $CMP MIC2019YM6-TR
 D MICROCHIP - MIC2019YM6-TR - LOAD SWITCH, HS, 5.5V, 0.2 - 2A, 6SOT23
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic20xx.pdf
