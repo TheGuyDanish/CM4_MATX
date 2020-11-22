@@ -157,7 +157,7 @@ F 3 "~" H 7450 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1400 1600 0    50   ~ 0
-PLEASE READ:\n\nCF:    330 nF for 33Hz; 430nF for 25kHz PWM\n\nD0:    PWM duty cycle for temperatures below T_MIN; GND for 0%, VDD for D_MIN; connecting pad 1 and 2 on jumper recommended\n\nThermistor voltage devider: configured for T_Start 25°C with finest control range\n\nD_MIN voltage devider: sets minimum active PWM duty cycle (typically between 0.05VDD to 0.2VDD, depending on desired minimum duty cycle.) with VMIN/VDD = R2/(R1+R2) = DMIN (%)/200
+PLEASE READ:\n\nC36:   330 nF for 33Hz; 430nF for 25kHz PWM\n\nD0:    PWM duty cycle for temperatures below T_MIN; connect to GND for 0%, to VDD for D_MIN; connecting pad 1 and 2 on jumper JP1 recommended\n\nThermistor voltage devider:    configured for T_Start 25°C with finest control range\n\nD_MIN voltage devider:    sets minimum active PWM duty cycle (typically between 0.05VDD to 0.2VDD, depending on desired minimum duty cycle.) with VMIN/VDD = R2/(R1+R2) = DMIN (%)/200
 Wire Wire Line
 	7450 3550 7450 3600
 Wire Wire Line
