@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title "CM4 MATX Root Sheet"
 Date "2020-11-19"
 Rev "0.1"
@@ -323,4 +323,12 @@ Wire Wire Line
 	9600 4750 9950 4750
 Text Label 9600 4750 0    50   ~ 0
 -12v
+$Sheet
+S 3150 3900 900  900 
+U 5FBAD4A8
+F0 "CM4_FanCRTL_MAX31740" 50
+F1 "CM4_FanCRTL_MAX31740.sch" 50
+F2 "3.3V" I L 3150 4100 50 
+F3 "V_FAN" I L 3150 4300 50 
+$EndSheet
 $EndSCHEMATC
