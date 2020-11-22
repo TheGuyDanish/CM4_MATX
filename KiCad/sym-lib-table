@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name "CM4_MATX")(type "KiCad")(uri "${KIPRJMOD}/CM4_MATX.kicad_sym")(options "")(descr ""))
+  (lib (name CM4_MATX)(type Legacy)(uri ${KIPRJMOD}/CM4_MATX.lib)(options "")(descr ""))
 )

@@ -1,3 +1,5 @@
 *-backups
 fp-info-cache
+*-bak
 *.bak
+*.bck
