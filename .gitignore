@@ -1,5 +1,4 @@
 *-backups
 fp-info-cache
-*bak
-*lib-table
-*cache.lib
+*-bak
+*.bak
