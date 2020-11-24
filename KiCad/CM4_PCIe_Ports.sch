@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -184,7 +184,7 @@ P 4800 6200
 F 0 "J13" V 5250 4250 50  0000 L CNN
 F 1 "10018783-11200TLF" V 5350 3550 50  0000 L CNN
 F 2 "1001878410200TLF" H 5650 6300 50  0001 L CNN
-F 3 "" H 5650 6200 50  0001 L CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_gen3.pdf" H 5650 6200 50  0001 L CNN
 F 4 "PCI Express / PCI Connectors 36P CARD EDGE CONN X1 VERTICAL" H 5650 6100 50  0001 L CNN "Description"
 F 5 "11" H 5650 6000 50  0001 L CNN "Height"
 F 6 "649-10018783-1200TLF" H 5650 5900 50  0001 L CNN "Mouser Part Number"

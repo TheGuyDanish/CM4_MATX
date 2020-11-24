@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 8
 Title "CM4_MATX: CM4 High Speed IO"
 Date "2020-11-19"
 Rev "0.1"
@@ -1194,4 +1194,103 @@ Wire Wire Line
 Connection ~ 1950 7200
 Wire Wire Line
 	1950 7200 2600 7200
+$Comp
+L CM4_MATX:AP2822CKETR-G1 U5
+U 1 1 606F7FB7
+P 6250 7400
+F 0 "U5" H 6675 6935 50  0000 C CNN
+F 1 "AP2822CKETR-G1" H 6675 7026 50  0000 C CNN
+F 2 "CM4_MATX:SOT95P282X145-5N" H 7200 7500 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2822.pdf" H 7200 7400 50  0001 L CNN
+F 4 "Power Switch/Driver 1:1 N-Channel 1A SOT-23-5" H 7200 7300 50  0001 L CNN "Description"
+F 5 "1.45" H 7200 7200 50  0001 L CNN "Height"
+F 6 "621-AP2822CKETR-G1" H 7200 7100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2822CKETR-G1?qs=5V6w%252Be2aIqZGZGFGIHi7bg%3D%3D" H 7200 7000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Diodes Inc." H 7200 6900 50  0001 L CNN "Manufacturer_Name"
+F 9 "AP2822CKETR-G1" H 7200 6800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6250 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 607440BA
+P 6550 7500
+F 0 "C13" H 6642 7546 50  0000 L CNN
+F 1 "100nF" H 6642 7455 50  0000 L CNN
+F 2 "" H 6550 7500 50  0001 C CNN
+F 3 "~" H 6550 7500 50  0001 C CNN
+	1    6550 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 7400 6550 7400
+Text Label 6550 7400 0    50   ~ 0
+HDMI_5v
+Wire Wire Line
+	6550 7400 6850 7400
+Connection ~ 6550 7400
+Wire Wire Line
+	6250 7300 6300 7300
+Wire Wire Line
+	6300 7300 6300 7500
+$Comp
+L power:GND #PWR0138
+U 1 1 6078E634
+P 6300 7500
+F 0 "#PWR0138" H 6300 7250 50  0001 C CNN
+F 1 "GND" H 6305 7327 50  0000 C CNN
+F 2 "" H 6300 7500 50  0001 C CNN
+F 3 "" H 6300 7500 50  0001 C CNN
+	1    6300 7500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6250 7200
+Text HLabel 4850 7200 0    50   Input ~ 0
++5v
+$Comp
+L Device:C_Small C11
+U 1 1 607D8C18
+P 5000 7300
+F 0 "C11" H 5092 7346 50  0000 L CNN
+F 1 "100nF" H 5092 7255 50  0000 L CNN
+F 2 "" H 5000 7300 50  0001 C CNN
+F 3 "~" H 5000 7300 50  0001 C CNN
+	1    5000 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 7200 4850 7200
+Wire Wire Line
+	5000 7200 5350 7200
+Connection ~ 5000 7200
+$Comp
+L power:GND #PWR0153
+U 1 1 6080BEE5
+P 5000 7450
+F 0 "#PWR0153" H 5000 7200 50  0001 C CNN
+F 1 "GND" H 5005 7277 50  0000 C CNN
+F 2 "" H 5000 7450 50  0001 C CNN
+F 3 "" H 5000 7450 50  0001 C CNN
+	1    5000 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 7450 5000 7400
+Wire Wire Line
+	5350 7200 5350 7400
+Wire Wire Line
+	5350 7400 5400 7400
+Connection ~ 5350 7200
+Wire Wire Line
+	5350 7200 5400 7200
+Wire Notes Line
+	4600 7750 6900 7750
+Wire Notes Line
+	6900 7750 6900 6850
+Wire Notes Line
+	6900 6850 4600 6850
+Wire Notes Line
+	4600 6850 4600 7750
+Text Notes 4600 7750 0    50   ~ 0
+5v rail for HDMI
 $EndSCHEMATC
