@@ -3,12 +3,12 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 8 10
 Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Date "2020-11-27"
+Rev "0.1"
+Comp "CM4_MATX Contributors"
+Comment1 "https://github.com/theguydanish/CM4_MATX"
 Comment2 ""
 Comment3 ""
 Comment4 ""

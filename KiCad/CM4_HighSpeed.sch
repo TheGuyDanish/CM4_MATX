@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 2 10
 Title "CM4_MATX: CM4 High Speed IO"
-Date "2020-11-19"
+Date "2020-11-27"
 Rev "0.1"
-Comp "Oliver Møller/TheGuyDanish"
+Comp "CM4_MATX Contributors"
 Comment1 "https://github.com/theguydanish/CM4_MATX"
 Comment2 ""
 Comment3 ""
@@ -1125,7 +1125,7 @@ L Device:R_Small R1
 U 1 1 5FD49D55
 P 1950 6900
 F 0 "R1" H 1800 6950 50  0000 L CNN
-F 1 "2.2k 1%" H 1600 6850 50  0000 L CNN
+F 1 "2.2K 1%" H 1600 6850 50  0000 L CNN
 F 2 "" H 1950 6900 50  0001 C CNN
 F 3 "~" H 1950 6900 50  0001 C CNN
 	1    1950 6900
@@ -1136,7 +1136,7 @@ L Device:R_Small R2
 U 1 1 5FD4A3BC
 P 2200 6850
 F 0 "R2" H 2259 6896 50  0000 L CNN
-F 1 "2.2k 1%" H 2259 6805 50  0000 L CNN
+F 1 "2.2K 1%" H 2259 6805 50  0000 L CNN
 F 2 "" H 2200 6850 50  0001 C CNN
 F 3 "~" H 2200 6850 50  0001 C CNN
 	1    2200 6850
