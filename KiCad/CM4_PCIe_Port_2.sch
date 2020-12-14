@@ -5,9 +5,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 10
 Title "PCIe x16 - Slot 2"
-Date "2020-11-27"
+Date "2020-12-14"
 Rev "0.1"
-Comp "CM4_MATX Contributors"
+Comp "Copyright Oliver Møller/@TheGuyDanish 2020, CERN OHL-P v2"
 Comment1 "https://github.com/theguydanish/CM4_MATX"
 Comment2 ""
 Comment3 ""
@@ -48,8 +48,8 @@ L power:GND #PWR?
 U 1 1 5FD79985
 P 10300 3700
 AR Path="/5FCA7683/5FD79985" Ref="#PWR?"  Part="1" 
-AR Path="/5FD73012/5FD79985" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10300 3450 50  0001 C CNN
+AR Path="/5FD73012/5FD79985" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 10300 3450 50  0001 C CNN
 F 1 "GND" H 10305 3527 50  0000 C CNN
 F 2 "" H 10300 3700 50  0001 C CNN
 F 3 "" H 10300 3700 50  0001 C CNN

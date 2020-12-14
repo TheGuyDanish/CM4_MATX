@@ -5,9 +5,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 10
 Title "PCIe x16 - Slot 1"
-Date "2020-11-27"
+Date "2020-12-14"
 Rev "0.1"
-Comp "CM4_MATX Contributors"
+Comp "Copyright Oliver Møller/@TheGuyDanish 2020, CERN OHL-P v2"
 Comment1 "https://github.com/theguydanish/CM4_MATX"
 Comment2 ""
 Comment3 ""
@@ -71,12 +71,12 @@ $EndComp
 Wire Wire Line
 	10250 3200 10250 4300
 $Comp
-L power:GND #PWR?
-U 1 1 5FD6C596
+L power:GND #PWR0139
+U 1 1 5FE38D75
 P 10250 4450
-AR Path="/5FCA7683/5FD6C596" Ref="#PWR?"  Part="1" 
-AR Path="/5FD6762E/5FD6C596" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10250 4200 50  0001 C CNN
+AR Path="/5FCA7683/5FE38D75" Ref="#PWR0139"  Part="1" 
+AR Path="/5FD6762E/5FE38D75" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0139" H 10250 4200 50  0001 C CNN
 F 1 "GND" H 10255 4277 50  0000 C CNN
 F 2 "" H 10250 4450 50  0001 C CNN
 F 3 "" H 10250 4450 50  0001 C CNN

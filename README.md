@@ -33,3 +33,16 @@ If you have the technical skills to improve this schematic, I do implore you to 
 If you have ideas you would like to add to the design goals, please submit them in an issue so they can be discussed.
 
 Lastly, huge thanks to volkertb, UnKnoWn-Consortium, mo-g and geerlingguy for the discussion of this in https://github.com/geerlingguy/raspberry-pi-pcie-devices/issues/19 that spawned this effort.
+
+# License
+
+Copyright Oliver Møller/[@TheGuyDanish](https://github.com/TheGuyDanish) 2020.
+
+This source describes Open Hardware and is licensed under the CERN-OHL-P v2
+
+You may redistribute and modify this documentation and make products
+using it under the terms of the CERN-OHL-P v2 (https:/cern.ch/cern-ohl).
+This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED
+WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY
+AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-P v2
+for applicable conditions

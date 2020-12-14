@@ -5,9 +5,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 10
 Title "CM4_MATX: USB Hub and Ports"
-Date "2020-11-27"
+Date "2020-12-14"
 Rev "0.1"
-Comp "CM4_MATX Contributors"
+Comp "Copyright Oliver Møller/@TheGuyDanish 2020, CERN OHL-P v2"
 Comment1 "https://github.com/theguydanish/CM4_MATX"
 Comment2 ""
 Comment3 ""
@@ -1243,10 +1243,10 @@ Wire Wire Line
 Wire Wire Line
 	9600 2250 9700 2250
 $Comp
-L Device:C_Small C?
+L Device:C_Small C7
 U 1 1 5FCA3246
 P 5750 700
-F 0 "C?" H 5842 746 50  0000 L CNN
+F 0 "C7" H 5842 746 50  0000 L CNN
 F 1 "100nF" H 5842 655 50  0000 L CNN
 F 2 "" H 5750 700 50  0001 C CNN
 F 3 "~" H 5750 700 50  0001 C CNN
@@ -1260,10 +1260,10 @@ Wire Wire Line
 	5750 800  5350 800 
 Connection ~ 5350 800 
 $Comp
-L Device:C_Small C?
+L Device:C_Small C9
 U 1 1 5FCC6E0E
 P 6150 700
-F 0 "C?" H 6242 746 50  0000 L CNN
+F 0 "C9" H 6242 746 50  0000 L CNN
 F 1 "100nF" H 6242 655 50  0000 L CNN
 F 2 "" H 6150 700 50  0001 C CNN
 F 3 "~" H 6150 700 50  0001 C CNN
@@ -1277,10 +1277,10 @@ Wire Wire Line
 	5750 800  6150 800 
 Connection ~ 5750 800 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0133
 U 1 1 5FCE87B8
 P 1600 1600
-F 0 "#PWR?" H 1600 1350 50  0001 C CNN
+F 0 "#PWR0133" H 1600 1350 50  0001 C CNN
 F 1 "GND" H 1600 1450 50  0000 C CNN
 F 2 "" H 1600 1600 50  0001 C CNN
 F 3 "" H 1600 1600 50  0001 C CNN
@@ -1290,10 +1290,10 @@ $EndComp
 Wire Wire Line
 	1600 1550 1600 1600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0134
 U 1 1 5FCF3652
 P 1600 700
-F 0 "#PWR?" H 1600 450 50  0001 C CNN
+F 0 "#PWR0134" H 1600 450 50  0001 C CNN
 F 1 "GND" H 1600 550 50  0000 C CNN
 F 2 "" H 1600 700 50  0001 C CNN
 F 3 "" H 1600 700 50  0001 C CNN

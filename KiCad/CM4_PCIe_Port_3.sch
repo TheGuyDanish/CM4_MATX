@@ -5,9 +5,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 10
 Title ""
-Date "2020-11-27"
+Date "2020-12-14"
 Rev "0.1"
-Comp "CM4_MATX Contributors"
+Comp "Copyright Oliver Møller/@TheGuyDanish 2020, CERN OHL-P v2"
 Comment1 "https://github.com/theguydanish/CM4_MATX"
 Comment2 ""
 Comment3 ""
@@ -52,10 +52,10 @@ Text HLabel 8300 3150 1    50   Input ~ 0
 PCIE3_RX_P
 $Comp
 L CM4_MATX:10018783-10113TLF J?
-U 1 1 5FD6C58F
+U 1 1 5FE38D74
 P 9900 3250
-AR Path="/5FCA7683/5FD6C58F" Ref="J?"  Part="1" 
-AR Path="/5FD6762E/5FD6C58F" Ref="J15"  Part="1" 
+AR Path="/5FCA7683/5FE38D74" Ref="J?"  Part="1" 
+AR Path="/5FD6762E/5FE38D74" Ref="J15"  Part="1" 
 F 0 "J15" V 10354 -4978 50  0000 R CNN
 F 1 "10018783-10113TLF" V 10445 -4978 50  0000 R CNN
 F 2 "10018783-10113TLF" H 10750 3350 50  0001 L CNN
@@ -75,8 +75,8 @@ L power:GND #PWR?
 U 1 1 5FD6C596
 P 10250 4450
 AR Path="/5FCA7683/5FD6C596" Ref="#PWR?"  Part="1" 
-AR Path="/5FD6762E/5FD6C596" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10250 4200 50  0001 C CNN
+AR Path="/5FD6762E/5FD6C596" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR0140" H 10250 4200 50  0001 C CNN
 F 1 "GND" H 10255 4277 50  0000 C CNN
 F 2 "" H 10250 4450 50  0001 C CNN
 F 3 "" H 10250 4450 50  0001 C CNN

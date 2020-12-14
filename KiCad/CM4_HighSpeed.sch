@@ -5,9 +5,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 10
 Title "CM4_MATX: CM4 High Speed IO"
-Date "2020-11-27"
+Date "2020-12-14"
 Rev "0.1"
-Comp "CM4_MATX Contributors"
+Comp "Copyright Oliver Møller/@TheGuyDanish 2020, CERN OHL-P v2"
 Comment1 "https://github.com/theguydanish/CM4_MATX"
 Comment2 ""
 Comment3 ""
@@ -187,6 +187,8 @@ $Comp
 L CM4_MATX:ComputeModule4-CM4 Module1
 U 2 1 5FB73006
 P 350 950
+AR Path="/5FB73006" Ref="Module1"  Part="2" 
+AR Path="/5FB441BA/5FB73006" Ref="Module1"  Part="2" 
 F 0 "Module1" H 2600 1247 50  0000 C CNN
 F 1 "ComputeModule4-CM4" H 2600 1156 50  0000 C CNN
 F 2 "CM4_MATX:rpiCM4" H -1250 800 50  0001 C CNN

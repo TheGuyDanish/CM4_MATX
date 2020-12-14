@@ -5,9 +5,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 10
 Title "GPIO, SDIO, PIn Headers, Ethernet"
-Date "2020-11-27"
+Date "2020-12-14"
 Rev "0.1"
-Comp "CM4_MATX Contributors"
+Comp "Copyright Oliver Møller/@TheGuyDanish 2020, CERN OHL-P v2"
 Comment1 "https://github.com/theguydanish/CM4_MATX"
 Comment2 ""
 Comment3 ""
@@ -17,6 +17,8 @@ $Comp
 L CM4_MATX:ComputeModule4-CM4 Module1
 U 1 1 5FBC3653
 P 5650 1000
+AR Path="/5FBC3653" Ref="Module1"  Part="1" 
+AR Path="/5FBC336F/5FBC3653" Ref="Module1"  Part="1" 
 F 0 "Module1" H 2800 1100 50  0000 C CNN
 F 1 "ComputeModule4-CM4" H 2800 1000 50  0000 C CNN
 F 2 "CM4_MATX:rpiCM4" H 4050 850 50  0001 C CNN
@@ -1170,7 +1172,7 @@ F 3 "" H 7000 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 8300 2400 2    50   ~ 0
-3.3v
++3.3v
 Text Label 8300 2300 2    50   ~ 0
 FP_PLED
 Wire Wire Line
