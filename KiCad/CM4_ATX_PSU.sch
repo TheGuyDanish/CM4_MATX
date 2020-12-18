@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 10
 Title "CM4_MATX: ATX PSU Connection"
-Date "2020-11-19"
+Date "2020-12-14"
 Rev "0.1"
-Comp "Oliver Møller/TheGuyDanish"
+Comp "Copyright Oliver Møller/@TheGuyDanish 2020, CERN OHL-P v2"
 Comment1 "https://github.com/theguydanish/CM4_MATX"
 Comment2 ""
 Comment3 ""
@@ -19,7 +19,7 @@ U 1 1 601EF6B0
 P 5950 3550
 F 0 "J7" H 6450 3815 50  0000 C CNN
 F 1 "39-28-1243" H 6450 3724 50  0000 C CNN
-F 2 "SHDR24W125P550X420_2X12_5160X960X1310P" H 6000 4500 50  0001 L CNN
+F 2 "CM4_MATX:SHDR24W125P550X420_2X12_5160X960X1310P" H 6000 4500 50  0001 L CNN
 F 3 "" H 6700 3550 50  0001 L CNN
 F 4 "24 way vertical PCB header,Mini-Fit Jr Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 24 Way 2 Row Straight PCB Header, Solder Termination, 6A" H 6000 4300 50  0001 L CNN "Description"
 F 5 "13.1" H 6000 4200 50  0001 L CNN "Height"

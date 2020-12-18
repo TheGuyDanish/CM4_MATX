@@ -37,6 +37,21 @@ D USB Connectors 8P R/A RECPT
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/72309.pdf
 $ENDCMP
 #
+$CMP 74LVC1G07GW,125
+D 74LVC1G07 - Buffer with open-drain output@en-us
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G07.pdf
+$ENDCMP
+#
+$CMP AP2822CKETR-G1
+D Power Switch/Driver 1:1 N-Channel 1A SOT-23-5
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2822.pdf
+$ENDCMP
+#
+$CMP AP7361C-FGE-7
+D LDO Voltage Regulators 1A LDO Reg w/Enable ADJ 6.5Vin 1700mW
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
 $CMP AP7363-10D
 F https://www.mouser.co.uk/datasheet/2/115/AP7363-247326.pdf
 $ENDCMP
@@ -73,6 +88,10 @@ $ENDCMP
 $CMP RJMG2012119A0NR
 D Modular Connectors / Ethernet Connectors R/A,DipType, LowProf ShortBod1000baseT
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjmg2012119a0nr.pdf
+$ENDCMP
+#
+$CMP RT9742GGJ5
+F https://www.richtek.com/assets/product_file/RT9742/DS9742-10.pdf
 $ENDCMP
 #
 $CMP SI-52008-F

@@ -2,6 +2,8 @@
 
 Welcome! CM4 MATX is a project aiming to create an open source, micro-ATX standard-compliant motherboard for the Raspberry Pi Compute Module 4.
 
+<p align="center"><img src="CM4_MATX_rendering.png?raw=true" alt="3D rendering of the PCB (design not final)" /></p>
+
 <p align="center"><a href="https://github.com/TheGuyDanish/CM4_MATX/blob/master/CM4_MATX_PCB.pdf"><img src="CM4_MATX_PCB.jpg?raw=true" width="600" height="auto" alt="PCB layout - click to view current PDF" /></a></p>
 
 The intent behind this is to provide a motherboard that can be installed in a regular case, as well as provide more, or easier access to, potential IO, as well as using a standard 24-pin ATX power supply. This project uses much of the CM4 IO board as its reference design, with new features added onto the board.
@@ -31,3 +33,16 @@ If you have the technical skills to improve this schematic, I do implore you to 
 If you have ideas you would like to add to the design goals, please submit them in an issue so they can be discussed.
 
 Lastly, huge thanks to volkertb, UnKnoWn-Consortium, mo-g and geerlingguy for the discussion of this in https://github.com/geerlingguy/raspberry-pi-pcie-devices/issues/19 that spawned this effort.
+
+# License
+
+Copyright Oliver Møller/[@TheGuyDanish](https://github.com/TheGuyDanish) 2020.
+
+This source describes Open Hardware and is licensed under the CERN-OHL-P v2
+
+You may redistribute and modify this documentation and make products
+using it under the terms of the CERN-OHL-P v2 (https:/cern.ch/cern-ohl).
+This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED
+WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY
+AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-P v2
+for applicable conditions

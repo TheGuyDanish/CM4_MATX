@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -14,177 +14,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CM4_MATX:10018783-10113TLF J14
-U 1 1 5FCA7C1E
-P 9950 1300
-F 0 "J14" V 10404 -6928 50  0000 R CNN
-F 1 "10018783-10113TLF" V 10495 -6928 50  0000 R CNN
-F 2 "CM4_MATX:10018783-10113TLF" H 10800 1400 50  0001 L CNN
-F 3 "" H 10800 1300 50  0001 L CNN
-F 4 "PCI Express / PCI Connectors x16 164 POS" H 10800 1200 50  0001 L CNN "Description"
-F 5 "649-18783-10113TLF" H 10800 1000 50  0001 L CNN "Mouser Part Number"
-F 6 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10018783-10113TLF?qs=9v8X2fPoQt7D6fmbE7fqDA%3D%3D" H 10800 900 50  0001 L CNN "Mouser Price/Stock"
-F 7 "Amphenol" H 10800 800 50  0001 L CNN "Manufacturer_Name"
-F 8 "10018783-10113TLF" H 10800 700 50  0001 L CNN "Manufacturer_Part_Number"
-	1    9950 1300
-	0    1    1    0   
-$EndComp
-Text HLabel 9950 1200 1    50   Input ~ 0
-PCIE2_PRSNT
-Wire Wire Line
-	9950 1200 9950 1300
-Wire Wire Line
-	9650 1300 9650 1250
-Wire Wire Line
-	9650 1250 10300 1250
-Text HLabel 8950 1200 1    50   Input ~ 0
-PCIE2_PERST
-Wire Wire Line
-	8950 1200 8950 1300
-$Comp
-L power:GND #PWR0133
-U 1 1 5FCBA080
-P 10300 2500
-F 0 "#PWR0133" H 10300 2250 50  0001 C CNN
-F 1 "GND" H 10305 2327 50  0000 C CNN
-F 2 "" H 10300 2500 50  0001 C CNN
-F 3 "" H 10300 2500 50  0001 C CNN
-	1    10300 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10300 1250 10300 2350
-Wire Wire Line
-	9650 2300 9650 2350
-Wire Wire Line
-	9650 2350 10300 2350
-Connection ~ 10300 2350
-Wire Wire Line
-	10300 2350 10300 2500
-Wire Wire Line
-	8850 1300 8850 1250
-Wire Wire Line
-	8850 1250 9650 1250
-Connection ~ 9650 1250
-Text HLabel 8750 1200 1    50   Input ~ 0
-PCIE2_CLK_P
-Text HLabel 8650 1200 1    50   Input ~ 0
-PCIE2_CLK_N
-Wire Wire Line
-	8550 1300 8550 1250
-Wire Wire Line
-	8550 1250 8850 1250
-Connection ~ 8850 1250
-Text HLabel 8350 1200 1    50   Input ~ 0
-PCIE2_RX_P
-Text HLabel 8450 1200 1    50   Input ~ 0
-PCIE2_RX_N
-Wire Wire Line
-	8250 1300 8250 1250
-Wire Wire Line
-	8250 1250 8550 1250
-Connection ~ 8550 1250
-Wire Wire Line
-	8450 1300 8450 1200
-Wire Wire Line
-	8350 1200 8350 1300
-Wire Wire Line
-	8650 1200 8650 1300
-Wire Wire Line
-	8750 1300 8750 1200
-Wire Wire Line
-	9350 2300 9350 2350
-Wire Wire Line
-	9350 2350 9650 2350
-Connection ~ 9650 2350
-NoConn ~ 9450 2300
-NoConn ~ 9550 2300
-NoConn ~ 8950 2300
-Text HLabel 8650 2400 3    50   Input ~ 0
-PCIE2_TX_N
-Text HLabel 8550 2400 3    50   Input ~ 0
-PCIE2_TX_P
-Wire Wire Line
-	8550 2400 8550 2300
-Wire Wire Line
-	8650 2300 8650 2400
-Wire Wire Line
-	8750 2300 8750 2350
-Wire Wire Line
-	8750 2350 9350 2350
-Connection ~ 9350 2350
-Wire Wire Line
-	8450 2300 8450 2350
-Wire Wire Line
-	8450 2350 8750 2350
-Connection ~ 8750 2350
-Wire Wire Line
-	8250 2300 8250 2350
-Wire Wire Line
-	8250 2350 8450 2350
-Connection ~ 8450 2350
-NoConn ~ 8350 2300
-Wire Wire Line
-	8750 3550 8750 3650
-Wire Wire Line
-	8950 3550 8950 3650
-Wire Wire Line
-	9950 3650 9950 3550
-Wire Wire Line
-	8550 3600 8850 3600
-Connection ~ 8550 3600
-Wire Wire Line
-	8550 3650 8550 3600
-Wire Wire Line
-	8850 3600 9650 3600
-Connection ~ 8850 3600
-Wire Wire Line
-	8850 3600 8850 3650
-Wire Wire Line
-	9650 3600 10300 3600
-Connection ~ 9650 3600
-Wire Wire Line
-	9650 3650 9650 3600
-Wire Wire Line
-	8250 3600 8550 3600
-Wire Wire Line
-	8250 3650 8250 3600
-Text HLabel 9950 3550 1    50   Input ~ 0
-PCIE3_PRSNT
-Text HLabel 8950 3550 1    50   Input ~ 0
-PCIE3_PERST
-Text HLabel 8750 3550 1    50   Input ~ 0
-PCIE3_CLK_P
-Text HLabel 8650 3550 1    50   Input ~ 0
-PCIE3_CLK_N
-Text HLabel 8450 3550 1    50   Input ~ 0
-PCIE3_RX_N
-Text HLabel 8350 3550 1    50   Input ~ 0
-PCIE3_RX_P
-$Comp
-L CM4_MATX:10018783-10113TLF J15
-U 1 1 5FCD0EA6
-P 9950 3650
-F 0 "J15" V 10404 -4578 50  0000 R CNN
-F 1 "10018783-10113TLF" V 10495 -4578 50  0000 R CNN
-F 2 "10018783-10113TLF" H 10800 3750 50  0001 L CNN
-F 3 "" H 10800 3650 50  0001 L CNN
-F 4 "PCI Express / PCI Connectors x16 164 POS" H 10800 3550 50  0001 L CNN "Description"
-F 5 "649-18783-10113TLF" H 10800 3350 50  0001 L CNN "Mouser Part Number"
-F 6 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10018783-10113TLF?qs=9v8X2fPoQt7D6fmbE7fqDA%3D%3D" H 10800 3250 50  0001 L CNN "Mouser Price/Stock"
-F 7 "Amphenol" H 10800 3150 50  0001 L CNN "Manufacturer_Name"
-F 8 "10018783-10113TLF" H 10800 3050 50  0001 L CNN "Manufacturer_Part_Number"
-	1    9950 3650
-	0    1    1    0   
-$EndComp
-$Comp
 L CM4_MATX:10018783-11200TLF J13
 U 1 1 5FCE9EC4
 P 4800 6200
 F 0 "J13" V 5250 4250 50  0000 L CNN
 F 1 "10018783-11200TLF" V 5350 3550 50  0000 L CNN
 F 2 "1001878410200TLF" H 5650 6300 50  0001 L CNN
-F 3 "" H 5650 6200 50  0001 L CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_gen3.pdf" H 5650 6200 50  0001 L CNN
 F 4 "PCI Express / PCI Connectors 36P CARD EDGE CONN X1 VERTICAL" H 5650 6100 50  0001 L CNN "Description"
 F 5 "11" H 5650 6000 50  0001 L CNN "Height"
 F 6 "649-10018783-1200TLF" H 5650 5900 50  0001 L CNN "Mouser Part Number"
@@ -290,64 +126,6 @@ NoConn ~ 4400 7200
 NoConn ~ 4300 7200
 NoConn ~ 3800 7200
 NoConn ~ 4200 6200
-Wire Wire Line
-	10300 3600 10300 4700
-$Comp
-L power:GND #PWR0135
-U 1 1 5FD0EC2C
-P 10300 4850
-F 0 "#PWR0135" H 10300 4600 50  0001 C CNN
-F 1 "GND" H 10305 4677 50  0000 C CNN
-F 2 "" H 10300 4850 50  0001 C CNN
-F 3 "" H 10300 4850 50  0001 C CNN
-	1    10300 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 4700 9650 4650
-Wire Wire Line
-	9350 4650 9350 4700
-Wire Wire Line
-	9350 4700 9650 4700
-Wire Wire Line
-	9650 4700 10300 4700
-Connection ~ 9650 4700
-Connection ~ 10300 4700
-Wire Wire Line
-	10300 4700 10300 4850
-Wire Wire Line
-	9350 4700 8750 4700
-Wire Wire Line
-	8750 4700 8750 4650
-Connection ~ 9350 4700
-Wire Wire Line
-	8750 4700 8450 4700
-Wire Wire Line
-	8450 4700 8450 4650
-Connection ~ 8750 4700
-Wire Wire Line
-	8450 4700 8250 4700
-Wire Wire Line
-	8250 4700 8250 4650
-Connection ~ 8450 4700
-Wire Wire Line
-	8650 3650 8650 3550
-Wire Wire Line
-	8450 3550 8450 3650
-Wire Wire Line
-	8350 3650 8350 3550
-Text HLabel 8550 4750 3    50   Input ~ 0
-PCIE3_TX_P
-Text HLabel 8650 4750 3    50   Input ~ 0
-PCIE3_TX_N
-Wire Wire Line
-	8650 4750 8650 4650
-Wire Wire Line
-	8550 4650 8550 4750
-NoConn ~ 8350 4650
-NoConn ~ 8950 4650
-NoConn ~ 9450 4650
-NoConn ~ 9550 4650
 Text Notes 3700 7750 0    50   ~ 0
 PCIE1 symbol is subject to change. Couldn't fit 3*x16 onto the schematic neatly.\n-TheGuyDanish
 Text Notes 6950 6450 0    50   ~ 0
