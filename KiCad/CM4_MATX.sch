@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title "CM4 MATX Root Sheet"
 Date "2020-12-14"
 Rev "0.1"
@@ -237,13 +237,7 @@ Text Label 9650 5300 0    50   ~ 0
 Text Label 9650 5400 0    50   ~ 0
 +12v
 Wire Wire Line
-	9650 5400 10000 5400
-Wire Wire Line
-	10000 5300 9650 5300
-Wire Wire Line
 	9650 5200 10000 5200
-Wire Wire Line
-	10000 5100 9650 5100
 Wire Wire Line
 	10000 4850 9650 4850
 Wire Wire Line
@@ -527,4 +521,34 @@ Wire Wire Line
 	2300 1950 3050 1950
 Wire Wire Line
 	2300 1850 3050 1850
+$Sheet
+S 7850 5850 1100 500 
+U 60168781
+F0 "PCIe_PWR" 50
+F1 "CM4_PCIe_PWR.sch" 50
+F2 "+12V_P" I L 7850 6250 50 
+F3 "+3.3V_P" I L 7850 5950 50 
+F4 "+3.3V_AUX_P" I L 7850 6100 50 
+F5 "+12V" I R 8950 6250 50 
+F6 "+3.3V" I R 8950 5950 50 
+F7 "+5V_SB" I R 8950 6100 50 
+$EndSheet
+Wire Wire Line
+	8950 5950 9150 5950
+Wire Wire Line
+	9150 5100 10000 5100
+Wire Wire Line
+	8950 6100 9250 6100
+Wire Wire Line
+	9250 5300 10000 5300
+Wire Wire Line
+	8950 6250 9350 6250
+Wire Wire Line
+	9350 5400 10000 5400
+Wire Wire Line
+	9150 5100 9150 5950
+Wire Wire Line
+	9250 5300 9250 6100
+Wire Wire Line
+	9350 5400 9350 6250
 $EndSCHEMATC
