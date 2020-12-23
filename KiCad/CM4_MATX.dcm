@@ -104,6 +104,12 @@ D Memory Card Connectors SD CARD CONNECTOR 9 POS, SMT
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/gsd09001xseu.pdf
 $ENDCMP
 #
+$CMP Jumper_3_Open
+D Jumper, 3-pole, both open
+K Jumper SPDT
+F ~
+$ENDCMP
+#
 $CMP MAX6639ATE+
 D Board Mount Temperature Sensors 2-Channel Temperature Monitor with Dual, Automatic, PWM Fan-Speed Controller
 F https://datasheets.maximintegrated.com/en/ds/MAX6639-MAX6639F.pdf
@@ -142,12 +148,6 @@ $ENDCMP
 $CMP SS-52100-002
 D STEWART CONNECTOR - SS-52100-002 - USB CONN, 2.0 TYPE A, RCPT, 4POS, TH
 F https://componentsearchengine.com/Datasheets/1/SS-52100-002.pdf
-$ENDCMP
-#
-$CMP SolderJumper_3_Open
-D Solder Jumper, 3-pole, open
-K Solder Jumper SPDT
-F ~
 $ENDCMP
 #
 $CMP TPS62067DSGR

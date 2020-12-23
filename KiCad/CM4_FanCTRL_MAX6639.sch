@@ -14,15 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	4400 3800 3350 3800
-Connection ~ 3350 3800
-Wire Wire Line
 	4400 4000 3500 4000
-Wire Wire Line
-	4400 4200 3350 4200
-Wire Wire Line
-	3350 4200 3350 4400
-Connection ~ 3350 4200
 Wire Wire Line
 	4400 4400 4150 4400
 Wire Wire Line
@@ -143,59 +135,10 @@ Wire Wire Line
 	6400 5650 7050 5650
 Text HLabel 8200 5650 2    50   Input ~ 0
 +3.3v
-Wire Wire Line
-	3350 3800 3350 3550
 Text HLabel 3350 3550 0    50   Input ~ 0
 +3.3v
-$Comp
-L CM4_MATX:SolderJumper_3_Open JP1
-U 1 1 5FE566B4
-P 3350 4000
-F 0 "JP1" V 3350 4067 50  0000 L CNN
-F 1 "SolderJumper_3_Open" H 3350 4110 50  0001 C CNN
-F 2 "CM4_MATX:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 3400 4200 50  0001 C CNN
-F 3 "~" H 3350 4000 50  0001 C CNN
-	1    3350 4000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3350 4200 2750 4200
-$Comp
-L CM4_MATX:C C39
-U 1 1 5FE5258E
-P 2750 4000
-F 0 "C39" H 2865 4046 50  0000 L CNN
-F 1 "C0.1u" H 2865 3955 50  0000 L CNN
-F 2 "CM4_MATX:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2788 3850 50  0001 C CNN
-F 3 "~" H 2750 4000 50  0001 C CNN
-	1    2750 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 3850 2750 3800
-Wire Wire Line
-	2750 3800 3350 3800
-Wire Wire Line
-	2750 4150 2750 4200
-Text HLabel 8350 1850 0    50   Input ~ 0
-+5v
-Text HLabel 9050 1850 2    50   Input ~ 0
+Text HLabel 9100 1850 2    50   Input ~ 0
 +12v
-$Comp
-L CM4_MATX:SolderJumper_3_Open JP2
-U 1 1 5FE6272C
-P 8700 1850
-F 0 "JP2" H 8700 1963 50  0000 C CNN
-F 1 "SolderJumper_3_Open" H 8700 1960 50  0001 C CNN
-F 2 "CM4_MATX:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 8750 2050 50  0001 C CNN
-F 3 "~" H 8700 1850 50  0001 C CNN
-	1    8700 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8350 1850 8500 1850
-Wire Wire Line
-	8900 1850 9050 1850
 Text Label 3850 3800 0    50   ~ 0
 +3.3v
 Text Label 3850 4000 0    50   ~ 0
@@ -416,6 +359,75 @@ Wire Wire Line
 	6650 2500 6650 3050
 Connection ~ 7900 2500
 Connection ~ 6650 3050
-Text Notes 1400 4600 0    50   ~ 0
+Text Notes 3200 4650 2    50   ~ 0
 Addressselection by connecting jumperpads:\n2 and 3    ->   5Eh \nnone       ->   5Ch\n2 and 1    ->   58h 
+$Comp
+L CM4_MATX:C C39
+U 1 1 5FE5258E
+P 2300 4000
+F 0 "C39" H 2415 4046 50  0000 L CNN
+F 1 "C0.1u" H 2415 3955 50  0000 L CNN
+F 2 "CM4_MATX:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2338 3850 50  0001 C CNN
+F 3 "~" H 2300 4000 50  0001 C CNN
+	1    2300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CM4_MATX:Jumper_3_Open JP?
+U 1 1 5FE5CBBB
+P 3350 4000
+F 0 "JP?" V 3396 4087 50  0000 L CNN
+F 1 "Jumper_3_Open" V 3305 4087 50  0000 L CNN
+F 2 "CM4_MATX:PinHeader_1x03_P2.54mm_Vertical" H 3350 4000 50  0001 C CNN
+F 3 "~" H 3350 4000 50  0001 C CNN
+	1    3350 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 4200 3750 4200
+Wire Wire Line
+	3750 4200 3750 4300
+Wire Wire Line
+	3750 4300 3350 4300
+Wire Wire Line
+	3350 4300 3350 4250
+Wire Wire Line
+	3350 4300 3350 4400
+Connection ~ 3350 4300
+Wire Wire Line
+	4400 3800 3750 3800
+Wire Wire Line
+	3750 3800 3750 3700
+Wire Wire Line
+	3750 3700 3350 3700
+Wire Wire Line
+	3350 3700 3350 3750
+Wire Wire Line
+	3350 3700 3350 3550
+Connection ~ 3350 3700
+Wire Wire Line
+	3350 3700 2300 3700
+Wire Wire Line
+	2300 3700 2300 3850
+Wire Wire Line
+	2300 4150 2300 4300
+Wire Wire Line
+	2300 4300 3350 4300
+Text HLabel 8300 1850 0    50   Input ~ 0
++5v
+Wire Wire Line
+	8950 1850 9100 1850
+Wire Wire Line
+	8300 1850 8450 1850
+$Comp
+L CM4_MATX:Jumper_3_Open JP?
+U 1 1 5FE7DA5B
+P 8700 1850
+F 0 "JP?" H 8700 2074 50  0000 C CNN
+F 1 "Jumper_3_Open" H 8700 1983 50  0000 C CNN
+F 2 "CM4_MATX:PinHeader_1x03_P2.54mm_Vertical" H 8700 1850 50  0001 C CNN
+F 3 "~" H 8700 1850 50  0001 C CNN
+	1    8700 1850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
