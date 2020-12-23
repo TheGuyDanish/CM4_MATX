@@ -56,6 +56,12 @@ $CMP AP7363-10D
 F https://www.mouser.co.uk/datasheet/2/115/AP7363-247326.pdf
 $ENDCMP
 #
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
 $CMP ComputeModule4-CM4
 D Raspberry Pi Compute Module 4 with HRS-DF40C-100DS-0.4V(51) Connectors
 $ENDCMP
@@ -70,9 +76,37 @@ D ON SEMICONDUCTOR - FSUSB42MUX - USB SWITCH, DUAL, DPDT, MSOP-10
 F https://componentsearchengine.com/Datasheets/2/FSUSB42MUX.pdf
 $ENDCMP
 #
+$CMP Fan_4pin
+D Fan, tacho output, PWM input, 4-pin connector
+K Fan Motor tacho PWM
+F http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+$ENDCMP
+#
+$CMP Fan_CPU_4pin
+D CPU Fan, tacho output, PWM input, 4-pin connector
+K Fan Motor tacho PWM
+F http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+$ENDCMP
+#
+$CMP Fan_Tacho_PWM
+D Fan, tacho output, PWM input, 4-pin connector
+K Fan Motor tacho PWM
+F http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
 $CMP GSD090012SEU
 D Memory Card Connectors SD CARD CONNECTOR 9 POS, SMT
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/gsd09001xseu.pdf
+$ENDCMP
+#
+$CMP MAX6639ATE+
+D Board Mount Temperature Sensors 2-Channel Temperature Monitor with Dual, Automatic, PWM Fan-Speed Controller
+F https://datasheets.maximintegrated.com/en/ds/MAX6639-MAX6639F.pdf
 $ENDCMP
 #
 $CMP MIC2019YM6-TR
@@ -83,6 +117,12 @@ $ENDCMP
 $CMP PI7C9X2G404SLBFDE
 D PCI Interface IC 4 port 4 lane PCIe 2.0 Packet Switch
 F https://www.mouser.co.uk/datasheet/2/115/PI7C9X2G404SL-1140655.pdf
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R res resistor
+F ~
 $ENDCMP
 #
 $CMP RJMG2012119A0NR
@@ -102,6 +142,12 @@ $ENDCMP
 $CMP SS-52100-002
 D STEWART CONNECTOR - SS-52100-002 - USB CONN, 2.0 TYPE A, RCPT, 4POS, TH
 F https://componentsearchengine.com/Datasheets/1/SS-52100-002.pdf
+$ENDCMP
+#
+$CMP SolderJumper_3_Open
+D Solder Jumper, 3-pole, open
+K Solder Jumper SPDT
+F ~
 $ENDCMP
 #
 $CMP TPS62067DSGR
