@@ -56,6 +56,10 @@ $CMP AP7363-10D
 F https://www.mouser.co.uk/datasheet/2/115/AP7363-247326.pdf
 $ENDCMP
 #
+$CMP ARJM11C7-502-AB-ER2-T
+D Modular Connectors / Ethernet Connectors RJ45 JACK W/MAG 1000Base-T
+$ENDCMP
+#
 $CMP C
 D Unpolarized capacitor
 K cap capacitor
@@ -129,11 +133,6 @@ $CMP R
 D Resistor
 K R res resistor
 F ~
-$ENDCMP
-#
-$CMP RJMG2012119A0NR
-D Modular Connectors / Ethernet Connectors R/A,DipType, LowProf ShortBod1000baseT
-F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjmg2012119a0nr.pdf
 $ENDCMP
 #
 $CMP RT9742GGJ5
