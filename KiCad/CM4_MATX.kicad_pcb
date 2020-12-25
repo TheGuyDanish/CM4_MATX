@@ -1964,7 +1964,7 @@
     (pad A82 thru_hole circle (at 71.35 -3.25) (size 1.28 1.28) (drill 0.78) (layers *.Cu *.Mask)
       (net 15 GND))
     (pad B82 thru_hole circle (at 71.35 3.25) (size 1.28 1.28) (drill 0.78) (layers *.Cu *.Mask)
-      (net 584 "Net-(J14-PadB82)"))
+      (net 580 "Net-(J14-PadB82)"))
     (model ${KIPRJMOD}/CM4_MATX.3dshapes/10018783-10113TLF.stp
       (offset (xyz 14.25 0 0))
       (scale (xyz 1 1 1))
