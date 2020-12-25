@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 11
+Sheet 6 12
 Title "GPIO, SDIO, PIn Headers, Ethernet"
 Date "2020-12-14"
 Rev "0.1"
@@ -735,23 +735,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf" H 10300 3600 50  0001 C C
 	1    10300 3600
 	1    0    0    -1  
 $EndComp
-$Comp
-L CM4_MATX:RJMG2012119A0NR J18
-U 1 1 5FE25B1D
-P 8500 4900
-F 0 "J18" H 9350 5165 50  0000 C CNN
-F 1 "RJMG2012119A0NR" H 9350 5074 50  0000 C CNN
-F 2 "CM4_MATX:RJMG2012119A0NR" H 10050 5000 50  0001 L CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjmg2012119a0nr.pdf" H 10050 4900 50  0001 L CNN
-F 4 "Modular Connectors / Ethernet Connectors R/A,DipType, LowProf ShortBod1000baseT" H 10050 4800 50  0001 L CNN "Description"
-F 5 "11.5" H 10050 4700 50  0001 L CNN "Height"
-F 6 "523-RJMG2012119A0NR" H 10050 4600 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Amphenol-Commercial-Products/RJMG2012119A0NR?qs=AVT0UMTfAuKJQq6L01KD5Q%3D%3D" H 10050 4500 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Amphenol" H 10050 4400 50  0001 L CNN "Manufacturer_Name"
-F 9 "RJMG2012119A0NR" H 10050 4300 50  0001 L CNN "Manufacturer_Part_Number"
-	1    8500 4900
-	1    0    0    -1  
-$EndComp
 Text Label 9500 3500 0    50   ~ 0
 TRD3_P
 Text Label 9500 3700 0    50   ~ 0
@@ -806,120 +789,89 @@ F 3 "" H 8650 4100 50  0001 C CNN
 	1    8650 4100
 	1    0    0    -1  
 $EndComp
-Text Label 8150 5700 0    50   ~ 0
+Text Label 10350 5000 2    50   ~ 0
 TRD3_N
-Text Label 8150 5600 0    50   ~ 0
+Text Label 10350 4900 2    50   ~ 0
 TRD3_P
-Text Label 8150 5000 0    50   ~ 0
+Text Label 8550 5600 0    50   ~ 0
 TRD2_N
-Text Label 8150 5100 0    50   ~ 0
+Text Label 8550 5500 0    50   ~ 0
 TRD2_P
-Text Label 10450 4900 2    50   ~ 0
+Text Label 8550 4900 0    50   ~ 0
 TRD0_P
-Text Label 8150 5800 0    50   ~ 0
+Text Label 8550 5000 0    50   ~ 0
 TRD0_N
-Text Label 8150 5300 0    50   ~ 0
+Text Label 8550 5200 0    50   ~ 0
 TRD1_N
-Text Label 8150 5200 0    50   ~ 0
+Text Label 8550 5100 0    50   ~ 0
 TRD1_P
-Wire Wire Line
-	8150 5800 8500 5800
-Wire Wire Line
-	8150 5700 8500 5700
-Wire Wire Line
-	8150 5600 8500 5600
-Wire Wire Line
-	8150 5300 8500 5300
-Wire Wire Line
-	8150 5200 8500 5200
-Wire Wire Line
-	8150 5100 8500 5100
-Wire Wire Line
-	8150 5000 8500 5000
-Wire Wire Line
-	8500 4900 8450 4900
-Wire Wire Line
-	8450 4900 8450 5400
-Wire Wire Line
-	8500 5400 8450 5400
-Connection ~ 8450 5400
-Wire Wire Line
-	8450 5400 8450 5500
-Wire Wire Line
-	8500 5500 8450 5500
-Connection ~ 8450 5500
 $Comp
 L Device:C_Small C17
 U 1 1 5FF96245
-P 7750 5650
-F 0 "C17" H 7842 5696 50  0000 L CNN
-F 1 "100nF" H 7842 5605 50  0000 L CNN
-F 2 "" H 7750 5650 50  0001 C CNN
-F 3 "~" H 7750 5650 50  0001 C CNN
-	1    7750 5650
+P 8350 5550
+F 0 "C17" H 8050 5600 50  0000 L CNN
+F 1 "100nF" H 8050 5500 50  0000 L CNN
+F 2 "" H 8350 5550 50  0001 C CNN
+F 3 "~" H 8350 5550 50  0001 C CNN
+	1    8350 5550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7750 5550 7750 5500
-Wire Wire Line
-	7750 5500 8450 5500
 $Comp
 L power:GND #PWR0161
 U 1 1 5FFAE3C1
-P 7750 5750
-F 0 "#PWR0161" H 7750 5500 50  0001 C CNN
-F 1 "GND" H 7755 5577 50  0000 C CNN
-F 2 "" H 7750 5750 50  0001 C CNN
-F 3 "" H 7750 5750 50  0001 C CNN
-	1    7750 5750
+P 8350 5700
+F 0 "#PWR0161" H 8350 5450 50  0001 C CNN
+F 1 "GND" H 8355 5527 50  0000 C CNN
+F 2 "" H 8350 5700 50  0001 C CNN
+F 3 "" H 8350 5700 50  0001 C CNN
+	1    8350 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R20
 U 1 1 60020F1A
-P 10600 5100
-F 0 "R20" V 10550 4950 50  0000 C CNN
-F 1 "470 1%" V 10650 5250 50  0000 C CNN
-F 2 "" H 10600 5100 50  0001 C CNN
-F 3 "~" H 10600 5100 50  0001 C CNN
-	1    10600 5100
+P 10450 5200
+F 0 "R20" V 10400 5050 50  0000 C CNN
+F 1 "470 1%" V 10500 5350 50  0000 C CNN
+F 2 "" H 10450 5200 50  0001 C CNN
+F 3 "~" H 10450 5200 50  0001 C CNN
+	1    10450 5200
 	0    1    1    0   
 $EndComp
-Text Label 11100 5100 2    50   ~ 0
+Text Label 10950 5200 2    50   ~ 0
 ETH_LEDG
 Wire Wire Line
-	11100 5100 10700 5100
+	10950 5200 10550 5200
 $Comp
 L Device:R_Small R21
 U 1 1 60063275
-P 10600 5300
-F 0 "R21" V 10550 5150 50  0000 C CNN
-F 1 "470 1%" V 10650 5450 50  0000 C CNN
-F 2 "" H 10600 5300 50  0001 C CNN
-F 3 "~" H 10600 5300 50  0001 C CNN
-	1    10600 5300
+P 10450 5400
+F 0 "R21" V 10400 5250 50  0000 C CNN
+F 1 "470 1%" V 10500 5550 50  0000 C CNN
+F 2 "" H 10450 5400 50  0001 C CNN
+F 3 "~" H 10450 5400 50  0001 C CNN
+	1    10450 5400
 	0    1    1    0   
 $EndComp
-Text Label 11100 5300 2    50   ~ 0
+Text Label 10950 5400 2    50   ~ 0
 ETH_LEDY
 Wire Wire Line
-	11100 5300 10700 5300
+	10950 5400 10550 5400
 Wire Wire Line
-	10500 5300 10200 5300
-Text Label 10450 5200 2    50   ~ 0
+	10350 5400 10050 5400
+Text Label 10300 5100 2    50   ~ 0
 +3.3v
 $Comp
 L power:GND #PWR0162
 U 1 1 600BCD87
-P 10200 5950
-F 0 "#PWR0162" H 10200 5700 50  0001 C CNN
-F 1 "GND" H 10205 5777 50  0000 C CNN
-F 2 "" H 10200 5950 50  0001 C CNN
-F 3 "" H 10200 5950 50  0001 C CNN
-	1    10200 5950
+P 10050 5850
+F 0 "#PWR0162" H 10050 5600 50  0001 C CNN
+F 1 "GND" H 10055 5677 50  0000 C CNN
+F 2 "" H 10050 5850 50  0001 C CNN
+F 3 "" H 10050 5850 50  0001 C CNN
+	1    10050 5850
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10200 5500
 $Comp
 L CM4_MATX:GSD090012SEU J16
 U 1 1 601066FA
@@ -1118,7 +1070,7 @@ Wire Notes Line
 Text Notes 5700 1950 0    50   ~ 0
 Full-size SD Card Holder
 Wire Wire Line
-	10200 5100 10500 5100
+	10050 5200 10350 5200
 Wire Notes Line
 	7800 4400 7800 3050
 Wire Notes Line
@@ -1258,22 +1210,60 @@ Wire Notes Line
 Text Notes 6600 3000 0    50   ~ 0
 Logic Buffer to drive Power LED
 Wire Wire Line
-	10450 5200 10200 5200
-Wire Wire Line
-	10200 4900 10450 4900
-Wire Wire Line
-	10200 5000 10550 5000
-Wire Wire Line
-	10200 5600 10200 5700
-Wire Wire Line
-	10200 5700 10200 5950
-Connection ~ 10200 5700
-Text Label 10550 5000 2    50   ~ 0
-TRCT1
-Text Label 7750 5500 0    50   ~ 0
-TRCT1
+	10300 5100 10050 5100
 Text HLabel 1000 2850 0    50   Input ~ 0
 ID_SD
 Text HLabel 4600 2850 2    50   Input ~ 0
 ID_SC
+$Comp
+L CM4_MATX:ARJM11C7-502-AB-ER2-T J18
+U 1 1 5FE8DCB2
+P 8850 4900
+F 0 "J18" H 9450 5165 50  0000 C CNN
+F 1 "ARJM11C7-502-AB-ER2-T" H 9450 5074 50  0000 C CNN
+F 2 "CM4_MATX:ARJM11C7502ABER2T" H 9900 5000 50  0001 L CNN
+F 3 "" H 9900 4900 50  0001 L CNN
+F 4 "Modular Connectors / Ethernet Connectors RJ45 JACK W/MAG 1000Base-T" H 9900 4800 50  0001 L CNN "Description"
+F 5 "13.8" H 9900 4700 50  0001 L CNN "Height"
+F 6 "815-RJM11C7502ABER2T" H 9900 4600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ABRACON/ARJM11C7-502-AB-ER2-T?qs=YCa%2FAAYMW01Li4L1TO4qtw%3D%3D" H 9900 4500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ABRACON" H 9900 4400 50  0001 L CNN "Manufacturer_Name"
+F 9 "ARJM11C7-502-AB-ER2-T" H 9900 4300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8850 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 5500 10050 5600
+Connection ~ 10050 5600
+Wire Wire Line
+	10050 5600 10050 5850
+Wire Wire Line
+	8550 4900 8850 4900
+Wire Wire Line
+	8550 5000 8850 5000
+Wire Wire Line
+	8550 5200 8850 5200
+Wire Wire Line
+	8850 5100 8550 5100
+Wire Wire Line
+	8550 5500 8850 5500
+Wire Wire Line
+	8550 5600 8850 5600
+Wire Wire Line
+	10350 4900 10050 4900
+Wire Wire Line
+	10050 5000 10350 5000
+Text Label 10300 5300 2    50   ~ 0
++3.3v
+Wire Wire Line
+	10300 5300 10050 5300
+Wire Wire Line
+	8850 5300 8850 5400
+Wire Wire Line
+	8850 5400 8350 5400
+Wire Wire Line
+	8350 5400 8350 5450
+Connection ~ 8850 5400
+Wire Wire Line
+	8350 5650 8350 5700
 $EndSCHEMATC
