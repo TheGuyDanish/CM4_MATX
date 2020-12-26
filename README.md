@@ -36,6 +36,8 @@ Lastly, huge thanks to volkertb, UnKnoWn-Consortium, mo-g and geerlingguy for th
 
 # License
 
+NOTE: Some models, schematics, and/or footprints, are provided by individual manufacturers. As such, all terms and conditions for use, as well as licensing, falls to these original manufacturers. For more information, please inquire with the original component manufacturer or raise an issue here.
+
 Copyright Oliver Møller/[@TheGuyDanish](https://github.com/TheGuyDanish) 2020.
 
 This source describes Open Hardware and is licensed under the CERN-OHL-P v2
