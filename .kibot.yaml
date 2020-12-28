@@ -1,0 +1,160 @@
+# documentation at https://github.com/INTI-CMNB/kibot
+
+kibot:
+  version: 1
+
+preflight:
+  # [boolean=false] Zones are filled before doing any operation involving PCB layers
+  check_zone_fills: true
+  # [list(dict)] A list of entries to filter out ERC/DRC messages
+  #filters: 
+  #  - filter: 'Filter description'
+  #    error: '10'
+  #    regex: 'Regular expression to match'
+  # [boolean=false] Option for `run_drc`. Ignores the unconnected nets. Useful if you didn't finish the routing
+  #ignore_unconnected: true
+  # [boolean=false] Runs the DRC (Distance Rules Check). To ensure we have a valid PCB
+  #run_drc: true
+  # [boolean=false] Runs the ERC (Electrical Rules Check). To ensure the schematic is electrically correct
+  #run_erc: true
+  # [boolean=false] Update the XML version of the BoM (Bill of Materials).
+  #update_xml: true
+
+
+outputs:
+  ### GERBERS ######################################################
+  - name: 'gerbers'
+    comment: "Exporting the PCB to Gerbers."
+    type: 'gerber'
+    dir: 'gerber'
+    options:
+      # generic layer options
+      exclude_edge_layer: false
+      exclude_pads_from_silkscreen: false
+      plot_sheet_reference: false
+      plot_footprint_refs: true
+      plot_footprint_values: true
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+      line_width: 0.15
+      # gerber options
+      use_aux_axis_as_origin: false
+      subtract_mask_from_silk: true
+      use_protel_extensions: false
+      gerber_precision: 4.5
+      create_gerber_job_file: true
+      # PCBWay (the currently targeted manufacturer) does not support X2 files.
+      use_gerber_x2_attributes: false
+      use_gerber_net_attributes: false
+    layers:
+      - 'F.Cu'
+      - 'B.Cu'
+
+  - name: 'gerber_drills'
+    comment: 'Exporting drillings of PCB to Gerbers.'
+    type: 'gerb_drill'
+    dir: 'gerber'
+    options:
+      # [dict|string] [hpgl,ps,gerber,dxf,svg,pdf] format for a graphical drill map.
+      # Not generated unless a format is specified
+      map:
+        # [string='%f-%i%v.%x'] name for the map file, KiCad defaults if empty (%i='PTH_drill_map'). Affected by global options
+        output: ''
+        # [string='pdf'] [hpgl,ps,gerber,dxf,svg,pdf] format for a graphical drill map
+        type: 'gerber'
+      # [string='%f-%i%v.%x'] name for the drill file, KiCad defaults if empty (%i='PTH_drill'). Affected by global options
+      output: ''
+      # [boolean=false] use the auxiliar axis as origin for coordinates
+      use_aux_axis_as_origin: false
+
+  - name: 'position'
+    comment: 'Generating position information for the PCB components.'
+    type: 'position'
+    dir: 'gerber'
+    options:
+      # [list(dict)|list(string)] which columns are included in the output
+      #columns:
+        # [string=''] [Ref,Val,Package,PosX,PosY,Rot,Side] Internal name
+      #  id: ''
+        # [string=''] Name to use in the outut file. The id is used when empty
+      #  name: ''
+      # [string|list(string)=''] Name of the filter to mark components as not fitted.
+      # A short-cut to use for simple cases where a variant is an overkill
+      #dnf_filter: ''
+      # [string='ASCII'] [ASCII,CSV] format for the position file
+      format: 'CSV'
+      # [boolean=true] only include the surface mount components
+      only_smd: true
+      # [string='%f-%i%v.%x'] output file name (%i='top_pos'|'bottom_pos'|'both_pos', %x='pos'|'csv'). Affected by global options
+      output: 'positions.csv'
+      # [boolean=true] generate two separated files, one for the top and another for the bottom
+      separate_files_for_front_and_back: true
+      # [string='millimeters'] [millimeters,inches] units used for the positions
+      units: 'millimeters'
+      # [string=''] Board variant to apply
+      #variant: ''
+
+  ### PDFs ##########################################################
+  - name: 'pdf-sch'
+    comment: 'Exporting the PCB to PDF. Suitable for printing.'
+    type: 'pdf_sch_print'
+    dir: 'pdf' 
+    options:
+      # [string|list(string)=''] Name of the filter to mark components as not fitted.
+      # A short-cut to use for simple cases where a variant is an overkill
+      #dnf_filter: ''
+      # [string='%f-%i%v.%x'] filename for the output PDF (%i=layers, %x=pdf). Affected by global options
+      output: 'CM4_MATX_SCH.pdf'
+      # [string=''] Board variant to apply
+      #variant:
+
+  - name: 'pdf-pcb'
+    comment: "Exporting the PCB as PDF"
+    type: 'pdf_pcb_print'
+    dir: 'pdf'
+    options:
+      # [string|list(string)=''] Name of the filter to mark components as not fitted.
+      # A short-cut to use for simple cases where a variant is an overkill
+      #dnf_filter: ''
+      # [string='full'] what to use to indicate the drill places, can be none, small or full (for real scale)
+      drill_marks: 'full'
+      # [boolean=false] print mirrored (X axis inverted). ONLY for KiCad 6
+      mirror: false
+      # [boolean=false] print in black and white
+      monochrome: false
+      # [string='%f-%i%v.%x'] filename for the output PDF (%i=layers, %x=pdf). Affected by global options
+      output: 'CM4_MATX_PCB.pdf'
+      # `output_name` is an alias for `output`
+      # [boolean=true] include the title-block
+      plot_sheet_reference: true
+      # [number=1.0] scale factor (0 means autoscaling)
+      scaling: 1.0
+      # [boolean=false] print layers in separated pages
+      separated: false
+      # [string=''] Board variant to apply
+      #variant: ''
+    layers: 'all'
+
+  ### STEP ##########################################################
+  - name: 'step'
+    comment: 'Exporting the PCB as a 3D model.'
+    type: 'step'
+    dir: 'step'
+    options:
+      # [string|list(string)=''] Name of the filter to mark components as not fitted.
+      # A short-cut to use for simple cases where a variant is an overkill
+      #dnf_filter: ''
+      # [boolean=true] use metric units instead of inches
+      metric_units: true
+      # [number=-1] the minimum distance between points to treat them as separate ones (-1 is KiCad default: 0.01 mm)
+      min_distance: -1
+      # [boolean=false] used to exclude 3D models for components with 'virtual' attribute
+      no_virtual: false
+      # [string='grid'] determines the coordinates origin. Using grid the coordinates are the same as you have in the design sheet.
+      # The drill option uses the auxiliar reference defined by the user.
+      # You can define any other origin using the format 'X,Y', i.e. '3.2,-10'
+      origin: 'grid'
+      # [string='%f-%i%v.%x'] name for the generated STEP file (%i='3D' %x='step'). Affected by global options
+      output: 'CM4_MATX.step'
+      # [string=''] Board variant to apply
+      #variant: ''

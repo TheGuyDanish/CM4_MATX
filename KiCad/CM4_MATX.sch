@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title "CM4 MATX Root Sheet"
-Date "2020-12-14"
+Date "2020-12-28"
 Rev "0.1"
 Comp "Copyright Oliver Møller/@TheGuyDanish 2020, CERN OHL-P v2"
 Comment1 "https://github.com/theguydanish/CM4_MATX"
@@ -46,11 +46,12 @@ F0 "ATX_PSU" 50
 F1 "CM4_ATX_PSU.sch" 50
 F2 "+3.3v" I L 10000 5100 50 
 F3 "+5v" I L 10000 5200 50 
-F4 "+12v" I L 10000 5400 50 
+F4 "+12v" I L 10000 5500 50 
 F5 "+5vSB" I L 10000 5300 50 
 F6 "-12v" I L 10000 5000 50 
 F7 "PS_ON" I L 10000 4850 50 
 F8 "PWR_OK" I L 10000 4750 50 
+F9 "+3.3vSB" I L 10000 5400 50 
 $EndSheet
 $Sheet
 S 3050 950  1400 2550
@@ -88,100 +89,100 @@ $EndSheet
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5FB6444A
-P 1150 7200
-F 0 "H1" H 1250 7246 50  0000 L CNN
-F 1 "MountingHole" H 1250 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1150 7200 50  0001 C CNN
-F 3 "~" H 1150 7200 50  0001 C CNN
-	1    1150 7200
+P 650 7200
+F 0 "H1" H 750 7246 50  0000 L CNN
+F 1 "MountingHole" H 750 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 650 7200 50  0001 C CNN
+F 3 "~" H 650 7200 50  0001 C CNN
+	1    650  7200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5FB649F9
-P 1550 7200
-F 0 "H2" H 1650 7246 50  0000 L CNN
-F 1 "MountingHole" H 1650 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1550 7200 50  0001 C CNN
-F 3 "~" H 1550 7200 50  0001 C CNN
-	1    1550 7200
+P 1350 7200
+F 0 "H2" H 1450 7246 50  0000 L CNN
+F 1 "MountingHole" H 1450 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1350 7200 50  0001 C CNN
+F 3 "~" H 1350 7200 50  0001 C CNN
+	1    1350 7200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5FB64C61
-P 1950 7200
-F 0 "H3" H 2050 7246 50  0000 L CNN
-F 1 "MountingHole" H 2050 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1950 7200 50  0001 C CNN
-F 3 "~" H 1950 7200 50  0001 C CNN
-	1    1950 7200
+P 2050 7200
+F 0 "H3" H 2150 7246 50  0000 L CNN
+F 1 "MountingHole" H 2150 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2050 7200 50  0001 C CNN
+F 3 "~" H 2050 7200 50  0001 C CNN
+	1    2050 7200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5FB658C2
-P 1150 7400
-F 0 "H4" H 1250 7446 50  0000 L CNN
-F 1 "MountingHole" H 1250 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1150 7400 50  0001 C CNN
-F 3 "~" H 1150 7400 50  0001 C CNN
-	1    1150 7400
+P 650 7400
+F 0 "H4" H 750 7446 50  0000 L CNN
+F 1 "MountingHole" H 750 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 650 7400 50  0001 C CNN
+F 3 "~" H 650 7400 50  0001 C CNN
+	1    650  7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 5FB65A47
-P 1150 7600
-F 0 "H5" H 1250 7646 50  0000 L CNN
-F 1 "MountingHole" H 1250 7555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1150 7600 50  0001 C CNN
-F 3 "~" H 1150 7600 50  0001 C CNN
-	1    1150 7600
+P 650 7600
+F 0 "H5" H 750 7646 50  0000 L CNN
+F 1 "MountingHole" H 750 7555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 650 7600 50  0001 C CNN
+F 3 "~" H 650 7600 50  0001 C CNN
+	1    650  7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 5FB65B17
-P 1550 7400
-F 0 "H6" H 1650 7446 50  0000 L CNN
-F 1 "MountingHole" H 1650 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1550 7400 50  0001 C CNN
-F 3 "~" H 1550 7400 50  0001 C CNN
-	1    1550 7400
+P 1350 7400
+F 0 "H6" H 1450 7446 50  0000 L CNN
+F 1 "MountingHole" H 1450 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1350 7400 50  0001 C CNN
+F 3 "~" H 1350 7400 50  0001 C CNN
+	1    1350 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H7
 U 1 1 5FB65D40
-P 1950 7400
-F 0 "H7" H 2050 7446 50  0000 L CNN
-F 1 "MountingHole" H 2050 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1950 7400 50  0001 C CNN
-F 3 "~" H 1950 7400 50  0001 C CNN
-	1    1950 7400
+P 2050 7400
+F 0 "H7" H 2150 7446 50  0000 L CNN
+F 1 "MountingHole" H 2150 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2050 7400 50  0001 C CNN
+F 3 "~" H 2050 7400 50  0001 C CNN
+	1    2050 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H9
 U 1 1 5FB65FD3
-P 1950 7600
-F 0 "H9" H 2050 7646 50  0000 L CNN
-F 1 "MountingHole" H 2050 7555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1950 7600 50  0001 C CNN
-F 3 "~" H 1950 7600 50  0001 C CNN
-	1    1950 7600
+P 2050 7600
+F 0 "H9" H 2150 7646 50  0000 L CNN
+F 1 "MountingHole" H 2150 7555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2050 7600 50  0001 C CNN
+F 3 "~" H 2050 7600 50  0001 C CNN
+	1    2050 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H8
 U 1 1 5FB66182
-P 1550 7600
-F 0 "H8" H 1650 7646 50  0000 L CNN
-F 1 "MountingHole" H 1650 7555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1550 7600 50  0001 C CNN
-F 3 "~" H 1550 7600 50  0001 C CNN
-	1    1550 7600
+P 1350 7600
+F 0 "H8" H 1450 7646 50  0000 L CNN
+F 1 "MountingHole" H 1450 7555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1350 7600 50  0001 C CNN
+F 3 "~" H 1350 7600 50  0001 C CNN
+	1    1350 7600
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -234,7 +235,7 @@ Text Label 9650 5200 0    50   ~ 0
 +5v
 Text Label 9650 5300 0    50   ~ 0
 +5vSB
-Text Label 9650 5400 0    50   ~ 0
+Text Label 9650 5500 0    50   ~ 0
 +12v
 Wire Wire Line
 	9650 5200 10000 5200
@@ -534,7 +535,7 @@ F6 "+3.3V" I R 8950 5950 50
 F7 "+5V_SB" I R 8950 6100 50 
 $EndSheet
 Wire Wire Line
-	9650 5400 10000 5400
+	9650 5500 10000 5500
 Wire Wire Line
 	10000 5100 9650 5100
 Wire Wire Line
@@ -551,4 +552,51 @@ Wire Wire Line
 	8950 6100 9300 6100
 Wire Wire Line
 	8950 6250 9300 6250
+$Sheet
+S 5400 5400 950  1000
+U 5FE3694B
+F0 "FanCTRL_MAX6639" 50
+F1 "CM4_FanCTRL_MAX6639.sch" 50
+F2 "SDA" I L 5400 5500 50 
+F3 "SCL" I L 5400 5600 50 
+F4 "~OT" I L 5400 5750 50 
+F5 "~FANFAIL" I L 5400 5850 50 
+F6 "~THERM" I L 5400 5950 50 
+F7 "~ALERT" I L 5400 6050 50 
+F8 "+3.3v" I L 5400 6200 50 
+F9 "+5v" I R 6350 5500 50 
+F10 "+12v" I R 6350 5600 50 
+$EndSheet
+Text Label 6700 5600 2    50   ~ 0
++12v
+Wire Wire Line
+	6350 5600 6700 5600
+Text Label 6700 5500 2    50   ~ 0
++5v
+Wire Wire Line
+	6700 5500 6350 5500
+Text Label 5050 6200 0    50   ~ 0
++3.3v
+Wire Wire Line
+	5400 6200 5050 6200
+Wire Wire Line
+	5050 5600 5400 5600
+Text Label 5050 5500 0    50   ~ 0
+SDA0
+Text Label 5050 5600 0    50   ~ 0
+SCL0
+Wire Wire Line
+	5400 5500 5050 5500
+NoConn ~ 5400 5750
+NoConn ~ 5400 5850
+NoConn ~ 5400 5950
+NoConn ~ 5400 6050
+Text Label 9650 5400 0    50   ~ 0
++3.3vSB
+Wire Wire Line
+	9650 5400 10000 5400
+Text Label 7500 6100 0    50   ~ 0
++3.3vSB
+Wire Wire Line
+	7500 6100 7850 6100
 $EndSCHEMATC

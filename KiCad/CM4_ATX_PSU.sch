@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 11
+Sheet 3 12
 Title "CM4_MATX: ATX PSU Connection"
-Date "2020-12-14"
+Date "2020-12-28"
 Rev "0.1"
 Comp "Copyright Oliver Møller/@TheGuyDanish 2020, CERN OHL-P v2"
 Comment1 "https://github.com/theguydanish/CM4_MATX"
@@ -69,7 +69,7 @@ F 3 "" H 5900 5100 50  0001 C CNN
 $EndComp
 Text HLabel 4800 3700 0    50   Input ~ 0
 +3.3v
-Text HLabel 4800 4100 0    50   Input ~ 0
+Text HLabel 4800 4200 0    50   Input ~ 0
 +5v
 Text HLabel 4800 3900 0    50   Input ~ 0
 +12v
@@ -77,9 +77,9 @@ Text HLabel 4800 4000 0    50   Input ~ 0
 +5vSB
 Text HLabel 4800 3800 0    50   Input ~ 0
 -12v
-Text HLabel 4800 4200 0    50   Input ~ 0
-PS_ON
 Text HLabel 4800 4300 0    50   Input ~ 0
+PS_ON
+Text HLabel 4800 4400 0    50   Input ~ 0
 PWR_OK
 NoConn ~ 6950 4450
 Connection ~ 5900 4450
@@ -163,13 +163,13 @@ Wire Wire Line
 	5650 3950 5950 3950
 Wire Wire Line
 	5650 3550 5950 3550
-Text Label 4850 4300 0    50   ~ 0
+Text Label 4850 4400 0    50   ~ 0
 PWR_OK
 Wire Wire Line
-	4850 4300 4800 4300
-Text Label 4850 4200 0    50   ~ 0
+	4850 4400 4800 4400
+Text Label 4850 4300 0    50   ~ 0
 PS_ON
-Text Label 4850 4100 0    50   ~ 0
+Text Label 4850 4200 0    50   ~ 0
 +5v
 Text Label 4850 4000 0    50   ~ 0
 +5vSB
@@ -188,7 +188,45 @@ Wire Wire Line
 Wire Wire Line
 	4800 4000 4850 4000
 Wire Wire Line
-	4850 4100 4800 4100
+	4850 4200 4800 4200
 Wire Wire Line
-	4800 4200 4850 4200
+	4800 4300 4850 4300
+Text Label 5050 5950 0    50   ~ 0
++5vSB
+$Comp
+L CM4_MATX:AP7363-33D U2
+U 1 1 5FEC8807
+P 5700 5950
+F 0 "U2" H 5700 6215 50  0000 C CNN
+F 1 "AP7363-33D" H 5700 6124 50  0000 C CNN
+F 2 "" H 5700 5950 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/115/AP7363-247326.pdf" H 5700 5950 50  0001 C CNN
+	1    5700 5950
+	1    0    0    -1  
+$EndComp
+Text Label 6400 5950 2    50   ~ 0
++3.3vSB
+Wire Wire Line
+	5050 5950 5350 5950
+Wire Wire Line
+	6050 5950 6400 5950
+$Comp
+L CM4_MATX:GND #PWR0209
+U 1 1 5FECAD45
+P 5700 6350
+F 0 "#PWR0209" H 5700 6100 50  0001 C CNN
+F 1 "GND" H 5705 6177 50  0000 C CNN
+F 2 "" H 5700 6350 50  0001 C CNN
+F 3 "" H 5700 6350 50  0001 C CNN
+	1    5700 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 6350 5700 6300
+Text Label 4850 4100 0    50   ~ 0
++3.3vSB
+Text HLabel 4800 4100 0    50   Input ~ 0
++3.3vSB
+Wire Wire Line
+	4800 4100 4850 4100
 $EndSCHEMATC
