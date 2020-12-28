@@ -42,6 +42,7 @@ jobs:
         path: output/step/CM4_MATX.step
     - name: Upload Gerber job files
       uses: actions/upload-artifact@v2
+      with:
         name: CM4_MATX_Gerber.zip
         path: output/gerber/
       
