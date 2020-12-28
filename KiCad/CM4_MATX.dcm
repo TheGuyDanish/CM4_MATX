@@ -56,6 +56,10 @@ $CMP AP7363-10D
 F https://www.mouser.co.uk/datasheet/2/115/AP7363-247326.pdf
 $ENDCMP
 #
+$CMP AP7363-33D
+F https://www.mouser.co.uk/datasheet/2/115/AP7363-247326.pdf
+$ENDCMP
+#
 $CMP ARJM11C7-502-AB-ER2-T
 D Modular Connectors / Ethernet Connectors RJ45 JACK W/MAG 1000Base-T
 $ENDCMP

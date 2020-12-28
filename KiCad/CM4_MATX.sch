@@ -46,11 +46,12 @@ F0 "ATX_PSU" 50
 F1 "CM4_ATX_PSU.sch" 50
 F2 "+3.3v" I L 10000 5100 50 
 F3 "+5v" I L 10000 5200 50 
-F4 "+12v" I L 10000 5400 50 
+F4 "+12v" I L 10000 5500 50 
 F5 "+5vSB" I L 10000 5300 50 
 F6 "-12v" I L 10000 5000 50 
 F7 "PS_ON" I L 10000 4850 50 
 F8 "PWR_OK" I L 10000 4750 50 
+F9 "+3.3vSB" I L 10000 5400 50 
 $EndSheet
 $Sheet
 S 3050 950  1400 2550
@@ -234,7 +235,7 @@ Text Label 9650 5200 0    50   ~ 0
 +5v
 Text Label 9650 5300 0    50   ~ 0
 +5vSB
-Text Label 9650 5400 0    50   ~ 0
+Text Label 9650 5500 0    50   ~ 0
 +12v
 Wire Wire Line
 	9650 5200 10000 5200
@@ -534,7 +535,7 @@ F6 "+3.3V" I R 8950 5950 50
 F7 "+5V_SB" I R 8950 6100 50 
 $EndSheet
 Wire Wire Line
-	9650 5400 10000 5400
+	9650 5500 10000 5500
 Wire Wire Line
 	10000 5100 9650 5100
 Wire Wire Line
@@ -590,4 +591,12 @@ NoConn ~ 5200 5750
 NoConn ~ 5200 5850
 NoConn ~ 5200 5950
 NoConn ~ 5200 6050
+Text Label 9650 5400 0    50   ~ 0
++3.3vSB
+Wire Wire Line
+	9650 5400 10000 5400
+Text Label 7500 6100 0    50   ~ 0
++3.3vSB
+Wire Wire Line
+	7500 6100 7850 6100
 $EndSCHEMATC

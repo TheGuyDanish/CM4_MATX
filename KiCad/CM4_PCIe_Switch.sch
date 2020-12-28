@@ -493,7 +493,7 @@ Wire Wire Line
 Wire Wire Line
 	10850 1600 10450 1600
 Text Label 9650 2000 0    50   ~ 0
-+3.3v
++3.3vSB
 $Comp
 L Device:C_Small C51
 U 1 1 5FF9544D
