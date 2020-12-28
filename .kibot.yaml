@@ -43,7 +43,8 @@ outputs:
       use_protel_extensions: false
       gerber_precision: 4.5
       create_gerber_job_file: true
-      use_gerber_x2_attributes: true
+      # PCBWay (the currently targeted manufacturer) does not support X2 files.
+      use_gerber_x2_attributes: false
       use_gerber_net_attributes: false
     layers:
       - 'F.Cu'
