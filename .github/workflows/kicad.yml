@@ -1,0 +1,48 @@
+name: kicad
+
+on:
+  push:
+    paths:
+    - '**.sch'
+    - '**.kicad_pcb'
+  pull_request:
+    paths:
+      - '**.sch'
+      - '**.kicad_pcb'
+
+jobs:
+  kicad:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: INTI-CMNB/KiBot@v0.8.1
+      with:
+      # Required - kibot config file
+        config: .kibot.yaml
+      # optional - prefix to output defined in config
+        dir: output
+      # optional - schematic file
+        schema: 'KiCad/CM4_MATX.sch'
+      # optional - PCB design file
+        board: 'KiCad/CM4_MATX.kicad_pcb'
+    - name: Upload PCB PDF
+      uses: actions/upload-artifact@v2
+      with:
+        name: CM4_MATX_PCB.pdf
+        path: output/pdf/CM4_MATX_PCB.pdf
+    - name: Upload Schematic PDF
+      uses: actions/upload-artifact@v2
+      with:
+        name: CM4_MATX_SCH.pdf
+        path: output/pdf/CM4_MATX_SCH.pdf
+    - name: Upload 3D (STEP) model
+      uses: actions/upload-artifact@v2
+      with:
+        name: CM4_MATX.step
+        path: output/step/CM4_MATX.step
+    - name: Upload Gerber job files
+      uses: actions/upload-artifact@v2
+      with:
+        name: CM4_MATX_Gerber.zip
+        path: output/gerber/
+      

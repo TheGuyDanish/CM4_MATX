@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 12
 Title "CM4_MATX: PCIe Switch"
-Date "2020-12-14"
+Date "2020-12-28"
 Rev "0.1"
 Comp "Copyright Oliver Møller/@TheGuyDanish 2020, CERN OHL-P v2"
 Comment1 "https://github.com/theguydanish/CM4_MATX"
@@ -493,7 +493,7 @@ Wire Wire Line
 Wire Wire Line
 	10850 1600 10450 1600
 Text Label 9650 2000 0    50   ~ 0
-+3.3v
++3.3vSB
 $Comp
 L Device:C_Small C51
 U 1 1 5FF9544D
