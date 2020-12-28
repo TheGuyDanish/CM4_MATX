@@ -24,7 +24,7 @@ jobs:
       # optional - schematic file
         schema: 'KiCad/CM4_MATX.sch'
       # optional - PCB design file
-        board: '**.kicad_pcb'
+        board: 'KiCad/CM4_MATX.kicad_pcb'
     - name: upload results
       uses: actions/upload-artifact@v2
       with:
