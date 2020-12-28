@@ -22,7 +22,7 @@ jobs:
       # optional - prefix to output defined in config
         dir: output
       # optional - schematic file
-        schema: '**.sch'
+        schema: 'KiCad/CM4_MATX.sch'
       # optional - PCB design file
         board: '**.kicad_pcb'
     - name: upload results
