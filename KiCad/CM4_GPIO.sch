@@ -1266,4 +1266,37 @@ Wire Wire Line
 Connection ~ 8850 5400
 Wire Wire Line
 	8350 5650 8350 5700
+$Comp
+L CM4_MATX:Jumper_3_Open JP?
+U 1 1 602A5D6A
+P 6950 4850
+F 0 "JP?" H 6950 5074 50  0000 C CNN
+F 1 "Jumper_3_Open" H 6950 4983 50  0000 C CNN
+F 2 "CM4_MATX:PinHeader_1x03_P2.54mm_Vertical" H 6950 4850 50  0001 C CNN
+F 3 "~" H 6950 4850 50  0001 C CNN
+	1    6950 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 4850 7450 4850
+Wire Wire Line
+	6450 4850 6700 4850
+Text Label 6950 5100 0    50   ~ 0
+GPIO_VREF
+Wire Wire Line
+	6950 5000 6950 5100
+Text Label 6450 4850 0    50   ~ 0
++1.8v
+Text Label 7450 4850 2    50   ~ 0
++3.3v
+Wire Notes Line
+	7550 4450 6350 4450
+Wire Notes Line
+	6350 5250 7550 5250
+Text Notes 6400 4550 0    50   ~ 0
+GPIO_VREF Selection
+Wire Notes Line
+	7550 4450 7550 5250
+Wire Notes Line
+	6350 4450 6350 5250
 $EndSCHEMATC
