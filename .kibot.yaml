@@ -18,7 +18,7 @@ preflight:
   # [boolean=false] Runs the ERC (Electrical Rules Check). To ensure the schematic is electrically correct
   #run_erc: true
   # [boolean=false] Update the XML version of the BoM (Bill of Materials).
-  update_xml: true
+  #update_xml: true
 
 
 outputs:
