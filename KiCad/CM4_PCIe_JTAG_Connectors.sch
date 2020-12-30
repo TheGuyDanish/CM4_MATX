@@ -1,0 +1,235 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 15 15
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5FEFA9C8
+P 5700 1450
+F 0 "J?" H 5750 1867 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 5750 1776 50  0000 C CNN
+F 2 "" H 5700 1450 50  0001 C CNN
+F 3 "~" H 5700 1450 50  0001 C CNN
+	1    5700 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1250 6200 1250
+Wire Wire Line
+	6000 1350 6200 1350
+Wire Wire Line
+	6000 1450 6200 1450
+Wire Wire Line
+	6000 1550 6200 1550
+Wire Wire Line
+	6000 1650 6200 1650
+Text HLabel 6200 1250 2    50   Input ~ 0
+PCIE1_JTAG_TMS
+Text HLabel 6200 1350 2    50   Input ~ 0
+PCIE1_JTAG_TCLK
+Text HLabel 6200 1450 2    50   Input ~ 0
+PCIE1_JTAG_TDO
+Text HLabel 6200 1550 2    50   Input ~ 0
+PCIE1_JTAG_TDI
+Text HLabel 6200 1650 2    50   Input ~ 0
+PCIE1_JTAG_RESET
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5FF01F75
+P 5700 3300
+F 0 "J?" H 5750 3717 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 5750 3626 50  0000 C CNN
+F 2 "" H 5700 3300 50  0001 C CNN
+F 3 "~" H 5700 3300 50  0001 C CNN
+	1    5700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3400 5300 3400
+Wire Wire Line
+	6000 3100 6200 3100
+Wire Wire Line
+	6000 3200 6200 3200
+Wire Wire Line
+	6000 3300 6200 3300
+Wire Wire Line
+	6000 3400 6200 3400
+Wire Wire Line
+	6000 3500 6200 3500
+Text HLabel 6200 3100 2    50   Input ~ 0
+PCIE2_JTAG_TMS
+Text HLabel 6200 3200 2    50   Input ~ 0
+PCIE2_JTAG_TCLK
+Text HLabel 6200 3300 2    50   Input ~ 0
+PCIE2_JTAG_TDO
+Text HLabel 6200 3400 2    50   Input ~ 0
+PCIE2_JTAG_TDI
+Text HLabel 6200 3500 2    50   Input ~ 0
+PCIE2_JTAG_RESET
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5FF02E31
+P 5700 5000
+F 0 "J?" H 5750 5417 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 5750 5326 50  0000 C CNN
+F 2 "" H 5700 5000 50  0001 C CNN
+F 3 "~" H 5700 5000 50  0001 C CNN
+	1    5700 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5100 5300 5100
+Wire Wire Line
+	6000 4800 6200 4800
+Wire Wire Line
+	6000 4900 6200 4900
+Wire Wire Line
+	6000 5000 6200 5000
+Wire Wire Line
+	6000 5100 6200 5100
+Wire Wire Line
+	6000 5200 6200 5200
+Text HLabel 6200 4800 2    50   Input ~ 0
+PCIE3_JTAG_TMS
+Text HLabel 6200 4900 2    50   Input ~ 0
+PCIE3_JTAG_TCLK
+Text HLabel 6200 5000 2    50   Input ~ 0
+PCIE3_JTAG_TDO
+Text HLabel 6200 5100 2    50   Input ~ 0
+PCIE3_JTAG_TDI
+Text HLabel 6200 5200 2    50   Input ~ 0
+PCIE3_JTAG_RESET
+Wire Wire Line
+	5250 1350 5500 1350
+Wire Wire Line
+	5500 1550 5300 1550
+Wire Wire Line
+	5250 1350 5250 1450
+Wire Wire Line
+	5250 1450 5500 1450
+Connection ~ 5250 1450
+Wire Wire Line
+	5250 1450 5250 1650
+Wire Wire Line
+	5250 1650 5500 1650
+Connection ~ 5250 1650
+Wire Wire Line
+	5250 1650 5250 1750
+Wire Wire Line
+	5250 1250 5250 1050
+Wire Wire Line
+	5250 1250 5500 1250
+Wire Wire Line
+	5250 3200 5250 3300
+Wire Wire Line
+	5250 3200 5500 3200
+Wire Wire Line
+	5250 3300 5500 3300
+Connection ~ 5250 3300
+Wire Wire Line
+	5250 3300 5250 3500
+Wire Wire Line
+	5250 3500 5500 3500
+Connection ~ 5250 3500
+Wire Wire Line
+	5250 3500 5250 3600
+Wire Wire Line
+	5250 4900 5250 5000
+Wire Wire Line
+	5250 4900 5500 4900
+Wire Wire Line
+	5250 5000 5500 5000
+Connection ~ 5250 5000
+Wire Wire Line
+	5250 5000 5250 5200
+Wire Wire Line
+	5250 5200 5500 5200
+Connection ~ 5250 5200
+Wire Wire Line
+	5250 5200 5250 5300
+Wire Wire Line
+	5250 4800 5250 4600
+Wire Wire Line
+	5250 4800 5500 4800
+Wire Wire Line
+	5250 3100 5250 2900
+Wire Wire Line
+	5250 3100 5500 3100
+$Comp
+L CM4_MATX:GND #PWR?
+U 1 1 5FF1138C
+P 5250 3600
+F 0 "#PWR?" H 5250 3350 50  0001 C CNN
+F 1 "GND" H 5255 3427 50  0000 C CNN
+F 2 "" H 5250 3600 50  0001 C CNN
+F 3 "" H 5250 3600 50  0001 C CNN
+	1    5250 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CM4_MATX:GND #PWR?
+U 1 1 5FF116BE
+P 5250 5300
+F 0 "#PWR?" H 5250 5050 50  0001 C CNN
+F 1 "GND" H 5255 5127 50  0000 C CNN
+F 2 "" H 5250 5300 50  0001 C CNN
+F 3 "" H 5250 5300 50  0001 C CNN
+	1    5250 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CM4_MATX:GND #PWR?
+U 1 1 5FF119C5
+P 5250 1750
+F 0 "#PWR?" H 5250 1500 50  0001 C CNN
+F 1 "GND" H 5255 1577 50  0000 C CNN
+F 2 "" H 5250 1750 50  0001 C CNN
+F 3 "" H 5250 1750 50  0001 C CNN
+	1    5250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VP #PWR?
+U 1 1 5FF11C6C
+P 5250 4600
+F 0 "#PWR?" H 5400 4550 50  0001 C CNN
+F 1 "+3.3VP" H 5265 4773 50  0000 C CNN
+F 2 "" H 5250 4600 50  0001 C CNN
+F 3 "" H 5250 4600 50  0001 C CNN
+	1    5250 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VP #PWR?
+U 1 1 5FF12037
+P 5250 2900
+F 0 "#PWR?" H 5400 2850 50  0001 C CNN
+F 1 "+3.3VP" H 5265 3073 50  0000 C CNN
+F 2 "" H 5250 2900 50  0001 C CNN
+F 3 "" H 5250 2900 50  0001 C CNN
+	1    5250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VP #PWR?
+U 1 1 5FF122A9
+P 5250 1050
+F 0 "#PWR?" H 5400 1000 50  0001 C CNN
+F 1 "+3.3VP" H 5265 1223 50  0000 C CNN
+F 2 "" H 5250 1050 50  0001 C CNN
+F 3 "" H 5250 1050 50  0001 C CNN
+	1    5250 1050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
