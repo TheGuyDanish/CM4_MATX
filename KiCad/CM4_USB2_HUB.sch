@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 12
+Sheet 8 15
 Title "CM4_MATX: USB Hub and Ports"
 Date "2020-12-28"
 Rev "0.1"
