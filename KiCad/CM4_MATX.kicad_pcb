@@ -1348,6 +1348,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/CM4_MATX.3dshapes/CC7V-T1A.stp
+      (offset (xyz -0.0508 -0.0508 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module CM4_MATX:SO-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5D9F72B1) (tstamp 5FF24C06)
