@@ -2079,7 +2079,7 @@
     (pad A11 thru_hole circle (at -1.65 -1.25) (size 1.28 1.28) (drill 0.78) (layers *.Cu *.Mask)
       (net 554 /PCIe_Subsystem/PCIe_Slot3/PCIE3_PERST))
     (model ${KIPRJMOD}/CM4_MATX.3dshapes/10018783-10113TLF.stp
-      (offset (xyz 14.25 0 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -2435,7 +2435,7 @@
     (pad A11 thru_hole circle (at -1.65 -1.25) (size 1.28 1.28) (drill 0.78) (layers *.Cu *.Mask)
       (net 556 /PCIe_Subsystem/PCIe_Slot1/PCIE1_PERST))
     (model ${KIPRJMOD}/CM4_MATX.3dshapes/10018783-10113TLF.stp
-      (offset (xyz 14.25 0 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -2791,7 +2791,7 @@
     (pad A11 thru_hole circle (at -1.65 -1.25) (size 1.28 1.28) (drill 0.78) (layers *.Cu *.Mask)
       (net 555 /PCIe_Subsystem/PCIe_Slot2/PCIE2_PERST))
     (model ${KIPRJMOD}/CM4_MATX.3dshapes/10018783-10113TLF.stp
-      (offset (xyz 14.25 0 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
