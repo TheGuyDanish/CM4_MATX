@@ -128,6 +128,12 @@ D MICROCHIP - MIC2019YM6-TR - LOAD SWITCH, HS, 5.5V, 0.2 - 2A, 6SOT23
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic20xx.pdf
 $ENDCMP
 #
+$CMP PCF85263AT
+D Tiny Real-Time Clock/calendar with alarm function, battery switch-over, time stamp input, I2C bus, SO-8
+K RTC battery I2C
+F https://www.nxp.com/docs/en/data-sheet/PCF85263A.pdf
+$ENDCMP
+#
 $CMP PI7C9X2G404SLBFDE
 D PCI Interface IC 4 port 4 lane PCIe 2.0 Packet Switch
 F https://www.mouser.co.uk/datasheet/2/115/PI7C9X2G404SL-1140655.pdf
