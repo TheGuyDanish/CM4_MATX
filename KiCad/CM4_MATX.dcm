@@ -64,6 +64,12 @@ $CMP ARJM11C7-502-AB-ER2-T
 D Modular Connectors / Ethernet Connectors RJ45 JACK W/MAG 1000Base-T
 $ENDCMP
 #
+$CMP Battery_Cell
+D Single-cell battery
+K battery cell
+F ~
+$ENDCMP
+#
 $CMP C
 D Unpolarized capacitor
 K cap capacitor
@@ -72,6 +78,12 @@ $ENDCMP
 #
 $CMP ComputeModule4-CM4
 D Raspberry Pi Compute Module 4 with HRS-DF40C-100DS-0.4V(51) Connectors
+$ENDCMP
+#
+$CMP Crystal
+D Two pin crystal
+K quartz ceramic resonator oscillator
+F ~
 $ENDCMP
 #
 $CMP DF40C-100DS-0.4V_51_
@@ -126,6 +138,12 @@ $ENDCMP
 $CMP MIC2019YM6-TR
 D MICROCHIP - MIC2019YM6-TR - LOAD SWITCH, HS, 5.5V, 0.2 - 2A, 6SOT23
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic20xx.pdf
+$ENDCMP
+#
+$CMP PCF85263AT
+D Tiny Real-Time Clock/calendar with alarm function, battery switch-over, time stamp input, I2C bus, SO-8
+K RTC battery I2C
+F https://www.nxp.com/docs/en/data-sheet/PCF85263A.pdf
 $ENDCMP
 #
 $CMP PI7C9X2G404SLBFDE

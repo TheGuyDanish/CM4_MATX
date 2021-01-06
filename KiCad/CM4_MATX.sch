@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 15
+Sheet 1 16
 Title "CM4 MATX Root Sheet"
 Date "2020-12-28"
 Rev "0.1"
@@ -517,4 +517,25 @@ Wire Wire Line
 	8950 2350 9050 2350
 Text Notes 9250 2500 1    50   ~ 10
 Extra unclaimed SMBUS/I2C busses. \nWill be routed to header if not used.
+$Sheet
+S 5400 6650 950  600 
+U 5FF1DE74
+F0 "RTC_PCF85263A" 50
+F1 "CM4_RTC_PCF85263A.sch" 50
+F2 "SCL" I L 5400 6850 50 
+F3 "SDA" I L 5400 6750 50 
+F4 "+5v" I L 5400 7050 50 
+$EndSheet
+Wire Wire Line
+	5050 6850 5400 6850
+Text Label 5050 6750 0    50   ~ 0
+SDA0
+Text Label 5050 6850 0    50   ~ 0
+SCL0
+Wire Wire Line
+	5400 6750 5050 6750
+Text Label 5050 7050 0    50   ~ 0
++5v
+Wire Wire Line
+	5400 7050 5050 7050
 $EndSCHEMATC
