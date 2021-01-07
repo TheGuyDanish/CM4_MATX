@@ -492,13 +492,7 @@ Connection ~ 10700 2450
 Wire Wire Line
 	9350 2750 9700 2750
 Wire Notes Line
-	9200 3300 11150 3300
-Wire Notes Line
 	11150 3300 11150 1900
-Wire Notes Line
-	11150 1900 9200 1900
-Wire Notes Line
-	9200 1900 9200 3300
 Text Notes 9200 3300 0    50   ~ 0
 Stacked USB Headers
 Text Label 9850 1300 0    50   ~ 0
@@ -593,46 +587,6 @@ F 3 "" H 9300 1450 50  0001 C CNN
 	1    9300 1450
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0126
-U 1 1 5FF0B6D3
-P 8000 1450
-F 0 "#PWR0126" H 8000 1200 50  0001 C CNN
-F 1 "GND" H 8005 1277 50  0000 C CNN
-F 2 "" H 8000 1450 50  0001 C CNN
-F 3 "" H 8000 1450 50  0001 C CNN
-	1    8000 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0127
-U 1 1 5FF0AFE9
-P 7300 1450
-F 0 "#PWR0127" H 7300 1200 50  0001 C CNN
-F 1 "GND" H 7305 1277 50  0000 C CNN
-F 2 "" H 7300 1450 50  0001 C CNN
-F 3 "" H 7300 1450 50  0001 C CNN
-	1    7300 1450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 7400 1300
-NoConn ~ 7900 1300
-Wire Wire Line
-	8000 1200 8000 1450
-Wire Wire Line
-	7900 1200 8000 1200
-Wire Wire Line
-	7300 1200 7300 1450
-Wire Wire Line
-	7400 1200 7300 1200
-Wire Wire Line
-	7400 1100 7100 1100
-Wire Wire Line
-	7100 1000 7400 1000
-Wire Wire Line
-	7900 1000 8200 1000
-Wire Wire Line
-	8200 1100 7900 1100
 Wire Wire Line
 	8700 1100 8400 1100
 Wire Wire Line
@@ -641,29 +595,10 @@ Text Label 8400 1100 0    50   ~ 0
 HD5_P
 Text Label 8400 1000 0    50   ~ 0
 HD5_N
-Text Label 8200 1100 2    50   ~ 0
-HD4_P
-Text Label 8200 1000 2    50   ~ 0
-HD4_N
-Text Label 7100 1100 0    50   ~ 0
-HD3_P
-Text Label 7100 1000 0    50   ~ 0
-HD3_N
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J8
-U 1 1 5FEAE38F
-P 7600 1100
-F 0 "J8" H 7650 1517 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 7650 1426 50  0000 C CNN
-F 2 "CM4_MATX:PinHeader_2x05_P2.54mm_Vertical" H 7600 1100 50  0001 C CNN
-F 3 "~" H 7600 1100 50  0001 C CNN
-	1    7600 1100
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	9600 600  9600 1850
-Text Notes 7000 1850 0    50   ~ 0
-USB Expansion Headers\n(Note: Include silkscreen information about which end is NC)
+Text Notes 8300 1850 0    50   ~ 0
+USB Expansion Header
 Wire Wire Line
 	4850 3900 5200 3900
 Wire Wire Line
@@ -1210,28 +1145,14 @@ Wire Notes Line
 	9750 600  11150 600 
 Wire Notes Line
 	9750 1850 11150 1850
-Text HLabel 7350 900  0    50   Input ~ 0
-HD3_5v
-Wire Wire Line
-	7350 900  7400 900 
-Text HLabel 7950 900  2    50   Input ~ 0
-HD4_5v
 Text HLabel 8650 900  0    50   Input ~ 0
 HD5_5v
 Wire Wire Line
 	8650 900  8700 900 
-Wire Wire Line
-	7900 900  7950 900 
 Text HLabel 9250 900  2    50   Input ~ 0
 HD6_5v
 Wire Wire Line
 	9250 900  9200 900 
-Wire Notes Line
-	7000 600  7000 1850
-Wire Notes Line
-	7000 600  9600 600 
-Wire Notes Line
-	7000 1850 9600 1850
 Text HLabel 9600 2600 0    50   Input ~ 0
 HD2_5v
 Wire Wire Line
@@ -1320,6 +1241,95 @@ Wire Notes Line
 	11200 6500 7550 6500
 Text Notes 7550 6500 0    50   ~ 0
 USB OTG/Slave connector for eMMC flashing on support CM4s
-Entry Wire Line
-	8800 1550 8900 1650
+$Comp
+L CM4_MATX:72309-8014BLF J1
+U 1 1 626F6425
+P 7850 2250
+F 0 "J1" H 8350 2515 50  0000 C CNN
+F 1 "72309-8014BLF" H 8350 2424 50  0000 C CNN
+F 2 "CM4_MATX:723098014BLF" H 8700 2350 50  0001 L CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/72309.pdf" H 8700 2250 50  0001 L CNN
+F 4 "USB Connectors 8P R/A RECPT" H 8700 2150 50  0001 L CNN "Description"
+F 5 "15" H 8700 2050 50  0001 L CNN "Height"
+F 6 "649-72309-8014BLF" H 8700 1950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/72309-8014BLF?qs=D%252By4jQJzx8Iuk4xBbyHrOA%3D%3D" H 8700 1850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Amphenol" H 8700 1750 50  0001 L CNN "Manufacturer_Name"
+F 9 "72309-8014BLF" H 8700 1650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7850 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 2450 8850 2550
+Connection ~ 8850 2550
+Wire Wire Line
+	8850 2550 8850 2650
+Connection ~ 8850 2650
+Wire Wire Line
+	8850 2650 8850 2750
+Connection ~ 8850 2750
+Wire Wire Line
+	8850 2750 8850 2900
+$Comp
+L power:GND #PWR0103
+U 1 1 626F6432
+P 8850 2950
+F 0 "#PWR0103" H 8850 2700 50  0001 C CNN
+F 1 "GND" H 8855 2777 50  0000 C CNN
+F 2 "" H 8850 2950 50  0001 C CNN
+F 3 "" H 8850 2950 50  0001 C CNN
+	1    8850 2950
+	1    0    0    -1  
+$EndComp
+Text Label 7500 2350 0    50   ~ 0
+HD3_N
+Text Label 7500 2450 0    50   ~ 0
+HD3_P
+Text Label 7500 2750 0    50   ~ 0
+HD4_N
+Text Label 9200 2250 2    50   ~ 0
+HD4_P
+Wire Wire Line
+	9200 2250 8850 2250
+Wire Wire Line
+	7500 2350 7850 2350
+Wire Wire Line
+	7850 2450 7500 2450
+Wire Wire Line
+	7850 2550 7800 2550
+Wire Wire Line
+	7800 2550 7800 2900
+Wire Wire Line
+	7800 2900 8850 2900
+Connection ~ 8850 2900
+Wire Wire Line
+	8850 2900 8850 2950
+Wire Wire Line
+	8850 2350 8850 2450
+Connection ~ 8850 2450
+Wire Wire Line
+	7500 2750 7850 2750
+Text HLabel 7750 2200 0    50   Input ~ 0
+HD3_5v
+Text HLabel 7750 2600 0    50   Input ~ 0
+HD4_5v
+Wire Wire Line
+	7750 2600 7750 2650
+Wire Wire Line
+	7750 2650 7850 2650
+Wire Wire Line
+	7750 2200 7750 2250
+Wire Wire Line
+	7750 2250 7850 2250
+Wire Notes Line
+	7350 3300 7350 1900
+Wire Notes Line
+	7350 3300 11150 3300
+Wire Notes Line
+	7350 1900 11150 1900
+Wire Notes Line
+	8300 600  8300 1850
+Wire Notes Line
+	9600 600  8300 600 
+Wire Notes Line
+	9600 1850 8300 1850
 $EndSCHEMATC

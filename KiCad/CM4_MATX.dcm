@@ -130,6 +130,11 @@ K Jumper SPDT
 F ~
 $ENDCMP
 #
+$CMP M24C04-RMN6TP
+D M24C04-RMN6TP, Serial EEPROM Memory 4kbit, Serial-I2C, 900ns 1.8  5.5 V, 8-Pin SOIC
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00071277.pdf
+$ENDCMP
+#
 $CMP MAX6639ATE+
 D Board Mount Temperature Sensors 2-Channel Temperature Monitor with Dual, Automatic, PWM Fan-Speed Controller
 F https://datasheets.maximintegrated.com/en/ds/MAX6639-MAX6639F.pdf
