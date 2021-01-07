@@ -1549,6 +1549,23 @@ X Pin_9 9 -200 500 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_TestPoint_Small
+#
+DEF Connector_TestPoint_Small TP 0 30 N N 1 F N
+F0 "TP" 0 150 50 H V C CNN
+F1 "Connector_TestPoint_Small" 0 80 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 0 20 0 1 0 N
+X 1 1 0 0 0 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_C_Small
 #
 DEF Device_C_Small C 0 10 N N 1 F N
@@ -1724,6 +1741,32 @@ X NC 6 200 -300 200 L 50 50 1 1 N N
 X NC 7 200 300 200 L 50 50 1 1 N N
 X GND 8 0 -500 200 U 50 50 1 1 P N
 X NC 9 -200 -300 200 R 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
+# _LibLoader_M24C04-RMN6TP
+#
+DEF _LibLoader_M24C04-RMN6TP IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "_LibLoader_M24C04-RMN6TP" 850 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 850 100 50 H I L CNN
+F3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00071277.pdf" 850 0 50 H I L CNN
+F4 "M24C04-RMN6TP, Serial EEPROM Memory 4kbit, Serial-I2C, 900ns 1.8  5.5 V, 8-Pin SOIC" 850 -100 50 H I L CNN "Description"
+F5 "1.75" 850 -200 50 H I L CNN "Height"
+F6 "511-M24C04-RMN6TP" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/M24C04-RMN6TP?qs=%252B9pWl1iD4MWXE3bGQ9MEkw%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "STMicroelectronics" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "M24C04-RMN6TP" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+X NC 1 0 0 200 R 50 50 0 0 N
+X E1 2 0 -100 200 R 50 50 0 0 P
+X E2 3 0 -200 200 R 50 50 0 0 P
+X VSS 4 0 -300 200 R 50 50 0 0 P
+X SDA 5 1000 -300 200 L 50 50 0 0 P
+X SCL 6 1000 -200 200 L 50 50 0 0 P
+X ~WC 7 1000 -100 200 L 50 50 0 0 P
+X VCC 8 1000 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #

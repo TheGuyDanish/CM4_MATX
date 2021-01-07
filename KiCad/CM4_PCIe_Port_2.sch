@@ -619,10 +619,6 @@ PCIE2_SMBUS_CLK
 Text HLabel 4000 3000 2    50   Input ~ 0
 PCIE2_SMBUS_DATA
 Wire Wire Line
-	2250 3700 1450 3700
-Text HLabel 1450 3700 0    50   Input ~ 0
-PCIE2_WAKE#
-Wire Wire Line
 	3750 3150 4000 3150
 Wire Wire Line
 	3750 3250 4000 3250
@@ -642,4 +638,72 @@ Text HLabel 4000 3450 2    50   Input ~ 0
 PCIE2_JTAG_TMS
 Text HLabel 4000 3550 2    50   Input ~ 0
 PCIE2_JTAG_TRST#
+NoConn ~ 7400 2150
+NoConn ~ 7400 2250
+NoConn ~ 7400 2400
+NoConn ~ 7400 2500
+NoConn ~ 7400 2650
+NoConn ~ 7400 2750
+NoConn ~ 8900 2500
+NoConn ~ 9200 1700
+NoConn ~ 9200 1800
+NoConn ~ 9200 1950
+NoConn ~ 9200 2050
+NoConn ~ 9200 2200
+NoConn ~ 9200 2300
+NoConn ~ 9200 2450
+NoConn ~ 9200 2550
+NoConn ~ 9200 2700
+NoConn ~ 9200 2800
+NoConn ~ 9200 2950
+NoConn ~ 9200 3050
+NoConn ~ 9200 3200
+NoConn ~ 9200 3300
+NoConn ~ 9200 3450
+NoConn ~ 9200 3550
+NoConn ~ 9200 3700
+NoConn ~ 9200 3800
+NoConn ~ 9200 3950
+NoConn ~ 9200 4050
+NoConn ~ 7400 4000
+NoConn ~ 7400 3900
+NoConn ~ 7400 3750
+NoConn ~ 7400 3650
+NoConn ~ 7400 3500
+NoConn ~ 7400 3400
+NoConn ~ 7400 3250
+NoConn ~ 7400 3150
+NoConn ~ 7400 3000
+NoConn ~ 7400 2900
+NoConn ~ 7400 4150
+NoConn ~ 7400 4250
+NoConn ~ 7400 4400
+NoConn ~ 7400 4500
+NoConn ~ 7400 4650
+NoConn ~ 7400 4750
+NoConn ~ 7400 4900
+NoConn ~ 7400 5000
+NoConn ~ 7400 5150
+NoConn ~ 7400 5250
+NoConn ~ 7400 5400
+NoConn ~ 7400 5500
+NoConn ~ 9200 5550
+NoConn ~ 9200 5450
+NoConn ~ 9200 5300
+NoConn ~ 9200 5200
+NoConn ~ 9200 5050
+NoConn ~ 9200 4950
+NoConn ~ 9200 4800
+NoConn ~ 9200 4700
+NoConn ~ 9200 4550
+NoConn ~ 9200 4450
+NoConn ~ 9200 4300
+NoConn ~ 9200 4200
+NoConn ~ 10700 2150
+Wire Wire Line
+	3750 2650 3900 2650
+Wire Wire Line
+	3900 2650 3900 3850
+Connection ~ 3900 3850
+NoConn ~ 2250 3700
 $EndSCHEMATC
