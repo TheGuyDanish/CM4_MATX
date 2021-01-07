@@ -459,87 +459,17 @@ Wire Wire Line
 Wire Wire Line
 	1300 1500 1150 1500
 $Comp
-L Connector:Conn_01x22_Female J2
-U 1 1 5FC93FB2
-P 6000 1850
-F 0 "J2" H 5200 2950 50  0000 L CNN
-F 1 "Conn_01x22_Female" H 5750 650 50  0000 L CNN
-F 2 "CM4_MATX:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" H 6000 1850 50  0001 C CNN
-F 3 "~" H 6000 1850 50  0001 C CNN
-	1    6000 1850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x22_Female J3
 U 1 1 5FC97DA8
-P 6000 4300
-F 0 "J3" H 5200 5450 50  0000 L CNN
-F 1 "Conn_01x22_Female" H 5750 3100 50  0000 L CNN
-F 2 "CM4_MATX:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" H 6000 4300 50  0001 C CNN
-F 3 "~" H 6000 4300 50  0001 C CNN
-	1    6000 4300
+P 6250 1900
+F 0 "J3" H 5450 3050 50  0000 L CNN
+F 1 "Conn_01x22_Female" H 6000 700 50  0000 L CNN
+F 2 "CM4_MATX:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" H 6250 1900 50  0001 C CNN
+F 3 "~" H 6250 1900 50  0001 C CNN
+	1    6250 1900
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 5FCA1944
-P 5700 3050
-F 0 "#PWR0103" H 5700 2800 50  0001 C CNN
-F 1 "GND" H 5705 2877 50  0000 C CNN
-F 2 "" H 5700 3050 50  0001 C CNN
-F 3 "" H 5700 3050 50  0001 C CNN
-	1    5700 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 3050 5700 2650
-Wire Wire Line
-	5700 850  5800 850 
-Wire Wire Line
-	5800 1150 5700 1150
-Connection ~ 5700 1150
-Wire Wire Line
-	5700 1150 5700 850 
-Wire Wire Line
-	5800 1450 5700 1450
-Connection ~ 5700 1450
-Wire Wire Line
-	5700 1450 5700 1150
-Wire Wire Line
-	5800 1750 5700 1750
-Connection ~ 5700 1750
-Wire Wire Line
-	5700 1750 5700 1450
-Wire Wire Line
-	5800 2050 5700 2050
-Connection ~ 5700 2050
-Wire Wire Line
-	5700 2050 5700 1750
-Wire Wire Line
-	5700 2350 5800 2350
-Connection ~ 5700 2350
-Wire Wire Line
-	5700 2350 5700 2050
-Wire Wire Line
-	5700 2650 5800 2650
-Connection ~ 5700 2650
-Wire Wire Line
-	5700 2650 5700 2350
-Text Label 5200 950  0    50   ~ 0
-CAM0_D0_N
-Text Label 5200 1050 0    50   ~ 0
-CAM0_D0_P
-Text Label 5200 1250 0    50   ~ 0
-CAM0_D1_N
-Text Label 5200 1350 0    50   ~ 0
-CAM0_D1_P
-Text Label 5200 1550 0    50   ~ 0
-CAM0_C_N
-Text Label 5200 1650 0    50   ~ 0
-CAM0_C_P
-Text Label 5200 2450 0    50   ~ 0
-CAM_GPIO
-Text HLabel 5200 2450 0    50   Input ~ 0
+Text HLabel 5450 2500 0    50   Input ~ 0
 CAM_GPIO
 Text HLabel 1150 1100 0    50   Input ~ 0
 PCIE_CLK_NREQ
@@ -555,373 +485,228 @@ Text HLabel 1150 2100 0    50   Input ~ 0
 PCIE_TX_P
 Text HLabel 1150 2200 0    50   Input ~ 0
 PCIE_TX_N
-Text Label 5200 2750 0    50   ~ 0
-SCL1
-Text Label 5200 2850 0    50   ~ 0
-SDA1
-Text Label 5200 2950 0    50   ~ 0
-+3.3v
 Wire Wire Line
-	5200 2950 5800 2950
+	6050 900  5950 900 
 Wire Wire Line
-	5800 2850 5200 2850
-Wire Wire Line
-	5200 2750 5800 2750
-Wire Wire Line
-	5800 2450 5200 2450
-Wire Wire Line
-	5200 1650 5800 1650
-Wire Wire Line
-	5800 1550 5200 1550
-Wire Wire Line
-	5200 1350 5800 1350
-Wire Wire Line
-	5800 1250 5200 1250
-Wire Wire Line
-	5200 1050 5800 1050
-Wire Wire Line
-	5800 950  5200 950 
-NoConn ~ 5800 1850
-NoConn ~ 5800 1950
-NoConn ~ 5800 2150
-NoConn ~ 5800 2250
-NoConn ~ 5800 2550
-Wire Wire Line
-	5800 3300 5700 3300
-Wire Wire Line
-	5700 3300 5700 3600
+	5950 900  5950 1200
 $Comp
 L power:GND #PWR0104
 U 1 1 5FD6AAE5
-P 5700 5500
-F 0 "#PWR0104" H 5700 5250 50  0001 C CNN
-F 1 "GND" H 5705 5327 50  0000 C CNN
-F 2 "" H 5700 5500 50  0001 C CNN
-F 3 "" H 5700 5500 50  0001 C CNN
-	1    5700 5500
+P 5950 3100
+F 0 "#PWR0104" H 5950 2850 50  0001 C CNN
+F 1 "GND" H 5955 2927 50  0000 C CNN
+F 2 "" H 5950 3100 50  0001 C CNN
+F 3 "" H 5950 3100 50  0001 C CNN
+	1    5950 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 5100 5800 5100
-Connection ~ 5700 5100
+	5950 2700 6050 2700
+Connection ~ 5950 2700
 Wire Wire Line
-	5700 5100 5700 5500
+	5950 2700 5950 3100
 Wire Wire Line
-	5800 4800 5700 4800
-Connection ~ 5700 4800
+	6050 2400 5950 2400
+Connection ~ 5950 2400
 Wire Wire Line
-	5700 4800 5700 5100
+	5950 2400 5950 2700
 Wire Wire Line
-	5700 4500 5800 4500
-Connection ~ 5700 4500
+	5950 2100 6050 2100
+Connection ~ 5950 2100
 Wire Wire Line
-	5700 4500 5700 4800
+	5950 2100 5950 2400
 Wire Wire Line
-	5800 4200 5700 4200
-Connection ~ 5700 4200
+	6050 1800 5950 1800
+Connection ~ 5950 1800
 Wire Wire Line
-	5700 4200 5700 4500
+	5950 1800 5950 2100
 Wire Wire Line
-	5700 3900 5800 3900
-Connection ~ 5700 3900
+	5950 1500 6050 1500
+Connection ~ 5950 1500
 Wire Wire Line
-	5700 3900 5700 4200
+	5950 1500 5950 1800
 Wire Wire Line
-	5800 3600 5700 3600
-Connection ~ 5700 3600
+	6050 1200 5950 1200
+Connection ~ 5950 1200
 Wire Wire Line
-	5700 3600 5700 3900
-Text Label 5200 3400 0    50   ~ 0
+	5950 1200 5950 1500
+Text Label 5450 1000 0    50   ~ 0
 CAM1_D0_N
-Text Label 5200 3500 0    50   ~ 0
+Text Label 5450 1100 0    50   ~ 0
 CAM1_D0_P
-Text Label 5200 3700 0    50   ~ 0
+Text Label 5450 1300 0    50   ~ 0
 CAM1_D1_N
-Text Label 5200 3800 0    50   ~ 0
+Text Label 5450 1400 0    50   ~ 0
 CAM1_D1_P
-Text Label 5200 4000 0    50   ~ 0
+Text Label 5450 1600 0    50   ~ 0
 CAM1_C_N
-Text Label 5200 4100 0    50   ~ 0
+Text Label 5450 1700 0    50   ~ 0
 CAM1_C_P
-Text Label 5200 4300 0    50   ~ 0
+Text Label 5450 1900 0    50   ~ 0
 CAM1_D2_N
-Text Label 5200 4400 0    50   ~ 0
+Text Label 5450 2000 0    50   ~ 0
 CAM1_D2_P
-Text Label 5200 4600 0    50   ~ 0
+Text Label 5450 2200 0    50   ~ 0
 CAM1_D3_N
-Text Label 5200 4700 0    50   ~ 0
+Text Label 5450 2300 0    50   ~ 0
 CAM1_D3_P
-Text Label 5200 4900 0    50   ~ 0
+Text Label 5450 2500 0    50   ~ 0
 CAM_GPIO
-Text Label 5200 5200 0    50   ~ 0
+Text Label 5450 2800 0    50   ~ 0
 SCL0
-Text Label 5200 5300 0    50   ~ 0
+Text Label 5450 2900 0    50   ~ 0
 SDA0
-Text Label 5200 5400 0    50   ~ 0
+Text Label 5450 3000 0    50   ~ 0
 +3.3v
-Text HLabel 5200 5400 0    50   Input ~ 0
+Text HLabel 5450 3000 0    50   Input ~ 0
 +3.3v
-Text HLabel 5200 5300 0    50   Input ~ 0
+Text HLabel 5450 2900 0    50   Input ~ 0
 SDA0
-Text HLabel 5200 5200 0    50   Input ~ 0
+Text HLabel 5450 2800 0    50   Input ~ 0
 SCL0
 Wire Wire Line
-	5200 5200 5800 5200
+	5450 2800 6050 2800
 Wire Wire Line
-	5800 5300 5200 5300
+	6050 2900 5450 2900
 Wire Wire Line
-	5200 5400 5800 5400
+	5450 3000 6050 3000
 Wire Wire Line
-	5800 3400 5200 3400
+	6050 1000 5450 1000
 Wire Wire Line
-	5200 3500 5800 3500
+	5450 1100 6050 1100
 Wire Wire Line
-	5800 3700 5200 3700
+	6050 1300 5450 1300
 Wire Wire Line
-	5200 3800 5800 3800
+	5450 1400 6050 1400
 Wire Wire Line
-	5800 4000 5200 4000
+	6050 1600 5450 1600
 Wire Wire Line
-	5200 4100 5800 4100
+	5450 1700 6050 1700
 Wire Wire Line
-	5800 4300 5200 4300
+	6050 1900 5450 1900
 Wire Wire Line
-	5200 4400 5800 4400
+	5450 2000 6050 2000
 Wire Wire Line
-	5800 4600 5200 4600
+	6050 2200 5450 2200
 Wire Wire Line
-	5200 4700 5800 4700
+	5450 2300 6050 2300
 Wire Wire Line
-	5800 4900 5200 4900
-NoConn ~ 5800 5000
-Wire Notes Line
-	4750 650  6850 650 
-Wire Notes Line
-	6850 650  6850 5750
-Wire Notes Line
-	6850 5750 4750 5750
-Wire Notes Line
-	4750 650  4750 5750
-Text Notes 5450 750  0    50   ~ 0
-Camera Connectors
-$Comp
-L Connector:Conn_01x22_Female J4
-U 1 1 5FE5DC13
-P 8150 1850
-F 0 "J4" H 7350 2950 50  0000 L CNN
-F 1 "Conn_01x22_Female" H 7900 650 50  0000 L CNN
-F 2 "CM4_MATX:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" H 8150 1850 50  0001 C CNN
-F 3 "~" H 8150 1850 50  0001 C CNN
-	1    8150 1850
-	1    0    0    -1  
-$EndComp
+	6050 2500 5450 2500
+NoConn ~ 6050 2600
+Text Notes 5700 800  0    50   ~ 0
+Camera Connector
 $Comp
 L Connector:Conn_01x22_Female J5
 U 1 1 5FE5DC19
-P 8150 4300
-F 0 "J5" H 7350 5450 50  0000 L CNN
-F 1 "Conn_01x22_Female" H 7900 3100 50  0000 L CNN
-F 2 "CM4_MATX:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" H 8150 4300 50  0001 C CNN
-F 3 "~" H 8150 4300 50  0001 C CNN
-	1    8150 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 5FE5DC1F
-P 7850 3050
-F 0 "#PWR0105" H 7850 2800 50  0001 C CNN
-F 1 "GND" H 7855 2877 50  0000 C CNN
-F 2 "" H 7850 3050 50  0001 C CNN
-F 3 "" H 7850 3050 50  0001 C CNN
-	1    7850 3050
+P 8100 1900
+F 0 "J5" H 7300 3050 50  0000 L CNN
+F 1 "Conn_01x22_Female" H 7850 700 50  0000 L CNN
+F 2 "CM4_MATX:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" H 8100 1900 50  0001 C CNN
+F 3 "~" H 8100 1900 50  0001 C CNN
+	1    8100 1900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 3050 7850 2650
+	7900 900  7800 900 
 Wire Wire Line
-	7850 850  7950 850 
-Wire Wire Line
-	7950 1150 7850 1150
-Connection ~ 7850 1150
-Wire Wire Line
-	7850 1150 7850 850 
-Wire Wire Line
-	7950 1450 7850 1450
-Connection ~ 7850 1450
-Wire Wire Line
-	7850 1450 7850 1150
-Wire Wire Line
-	7950 1750 7850 1750
-Connection ~ 7850 1750
-Wire Wire Line
-	7850 1750 7850 1450
-Wire Wire Line
-	7950 2050 7850 2050
-Connection ~ 7850 2050
-Wire Wire Line
-	7850 2050 7850 1750
-Wire Wire Line
-	7850 2350 7950 2350
-Connection ~ 7850 2350
-Wire Wire Line
-	7850 2350 7850 2050
-Wire Wire Line
-	7850 2650 7950 2650
-Connection ~ 7850 2650
-Wire Wire Line
-	7850 2650 7850 2350
-Text Label 7350 950  0    50   ~ 0
-DSI0_D0_N
-Text Label 7350 1050 0    50   ~ 0
-DSI0_D0_P
-Text Label 7350 1250 0    50   ~ 0
-DSI0_D1_N
-Text Label 7350 1350 0    50   ~ 0
-DSI0_D1_P
-Text Label 7350 1550 0    50   ~ 0
-DSI0_C_N
-Text Label 7350 1650 0    50   ~ 0
-DSI0_C_P
-Text Label 7350 2750 0    50   ~ 0
-SCL1
-Text Label 7350 2850 0    50   ~ 0
-SDA1
-Text Label 7350 2950 0    50   ~ 0
-+3.3v
-Wire Wire Line
-	7350 2950 7950 2950
-Wire Wire Line
-	7950 2850 7350 2850
-Wire Wire Line
-	7350 2750 7950 2750
-Wire Wire Line
-	7350 1650 7950 1650
-Wire Wire Line
-	7950 1550 7350 1550
-Wire Wire Line
-	7350 1350 7950 1350
-Wire Wire Line
-	7950 1250 7350 1250
-Wire Wire Line
-	7350 1050 7950 1050
-Wire Wire Line
-	7950 950  7350 950 
-NoConn ~ 7950 1850
-NoConn ~ 7950 1950
-NoConn ~ 7950 2150
-NoConn ~ 7950 2250
-NoConn ~ 7950 2550
-Wire Wire Line
-	7950 3300 7850 3300
-Wire Wire Line
-	7850 3300 7850 3600
+	7800 900  7800 1200
 $Comp
 L power:GND #PWR0106
 U 1 1 5FE5DC55
-P 7850 5500
-F 0 "#PWR0106" H 7850 5250 50  0001 C CNN
-F 1 "GND" H 7855 5327 50  0000 C CNN
-F 2 "" H 7850 5500 50  0001 C CNN
-F 3 "" H 7850 5500 50  0001 C CNN
-	1    7850 5500
+P 7800 3100
+F 0 "#PWR0106" H 7800 2850 50  0001 C CNN
+F 1 "GND" H 7805 2927 50  0000 C CNN
+F 2 "" H 7800 3100 50  0001 C CNN
+F 3 "" H 7800 3100 50  0001 C CNN
+	1    7800 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 5100 7950 5100
-Connection ~ 7850 5100
+	7800 2700 7900 2700
+Connection ~ 7800 2700
 Wire Wire Line
-	7850 5100 7850 5500
+	7800 2700 7800 3100
 Wire Wire Line
-	7950 4800 7850 4800
-Connection ~ 7850 4800
+	7900 2400 7800 2400
+Connection ~ 7800 2400
 Wire Wire Line
-	7850 4800 7850 5100
+	7800 2400 7800 2700
 Wire Wire Line
-	7850 4500 7950 4500
-Connection ~ 7850 4500
+	7800 2100 7900 2100
+Connection ~ 7800 2100
 Wire Wire Line
-	7850 4500 7850 4800
+	7800 2100 7800 2400
 Wire Wire Line
-	7950 4200 7850 4200
-Connection ~ 7850 4200
+	7900 1800 7800 1800
+Connection ~ 7800 1800
 Wire Wire Line
-	7850 4200 7850 4500
+	7800 1800 7800 2100
 Wire Wire Line
-	7850 3900 7950 3900
-Connection ~ 7850 3900
+	7800 1500 7900 1500
+Connection ~ 7800 1500
 Wire Wire Line
-	7850 3900 7850 4200
+	7800 1500 7800 1800
 Wire Wire Line
-	7950 3600 7850 3600
-Connection ~ 7850 3600
+	7900 1200 7800 1200
+Connection ~ 7800 1200
 Wire Wire Line
-	7850 3600 7850 3900
-Text Label 7350 3400 0    50   ~ 0
+	7800 1200 7800 1500
+Text Label 7300 1000 0    50   ~ 0
 DSI1_D0_N
-Text Label 7350 3500 0    50   ~ 0
+Text Label 7300 1100 0    50   ~ 0
 DSI1_D0_P
-Text Label 7350 3700 0    50   ~ 0
+Text Label 7300 1300 0    50   ~ 0
 DSI1_D1_N
-Text Label 7350 3800 0    50   ~ 0
+Text Label 7300 1400 0    50   ~ 0
 DSI1_D1_P
-Text Label 7350 4000 0    50   ~ 0
+Text Label 7300 1600 0    50   ~ 0
 DSI1_C_N
-Text Label 7350 4100 0    50   ~ 0
+Text Label 7300 1700 0    50   ~ 0
 DSI1_C_P
-Text Label 7350 4300 0    50   ~ 0
+Text Label 7300 1900 0    50   ~ 0
 DSI1_D2_N
-Text Label 7350 4400 0    50   ~ 0
+Text Label 7300 2000 0    50   ~ 0
 DSI1_D2_P
-Text Label 7350 4600 0    50   ~ 0
+Text Label 7300 2200 0    50   ~ 0
 DSI1_D3_N
-Text Label 7350 4700 0    50   ~ 0
+Text Label 7300 2300 0    50   ~ 0
 DSI1_D3_P
-Text Label 7350 5200 0    50   ~ 0
+Text Label 7300 2800 0    50   ~ 0
 SCL0
-Text Label 7350 5300 0    50   ~ 0
+Text Label 7300 2900 0    50   ~ 0
 SDA0
-Text Label 7350 5400 0    50   ~ 0
+Text Label 7300 3000 0    50   ~ 0
 +3.3v
 Wire Wire Line
-	7350 5200 7950 5200
+	7300 2800 7900 2800
 Wire Wire Line
-	7950 5300 7350 5300
+	7900 2900 7300 2900
 Wire Wire Line
-	7350 5400 7950 5400
+	7300 3000 7900 3000
 Wire Wire Line
-	7950 3400 7350 3400
+	7900 1000 7300 1000
 Wire Wire Line
-	7350 3500 7950 3500
+	7300 1100 7900 1100
 Wire Wire Line
-	7950 3700 7350 3700
+	7900 1300 7300 1300
 Wire Wire Line
-	7350 3800 7950 3800
+	7300 1400 7900 1400
 Wire Wire Line
-	7950 4000 7350 4000
+	7900 1600 7300 1600
 Wire Wire Line
-	7350 4100 7950 4100
+	7300 1700 7900 1700
 Wire Wire Line
-	7950 4300 7350 4300
+	7900 1900 7300 1900
 Wire Wire Line
-	7350 4400 7950 4400
+	7300 2000 7900 2000
 Wire Wire Line
-	7950 4600 7350 4600
+	7900 2200 7300 2200
 Wire Wire Line
-	7350 4700 7950 4700
-NoConn ~ 7950 5000
-Wire Notes Line
-	6900 650  9000 650 
-Wire Notes Line
-	9000 650  9000 5750
-Wire Notes Line
-	9000 5750 6900 5750
-Wire Notes Line
-	6900 650  6900 5750
-Text Notes 7600 750  0    50   ~ 0
-Display Connectors
-NoConn ~ 7950 2450
-NoConn ~ 7950 4900
+	7300 2300 7900 2300
+NoConn ~ 7900 2600
+Text Notes 7550 800  0    50   ~ 0
+Display Connector
+NoConn ~ 7900 2500
 $Comp
 L CM4_MATX:1888811-1 J6
 U 1 1 5FEABA7A
@@ -1120,82 +905,6 @@ Wire Wire Line
 	9250 1150 10050 1150
 Text Notes 7000 6500 0    50   ~ 0
 TODO:\nBuild HDMI_5v rail (RT9742SNGV used previously, but now out of stock everywhere. TPD12S521 maybe?)\n
-Text HLabel 1550 6750 0    50   Input ~ 0
-GPIO_VREF
-$Comp
-L Device:R_Small R1
-U 1 1 5FD49D55
-P 1950 6900
-F 0 "R1" H 1800 6950 50  0000 L CNN
-F 1 "2.2K 1%" H 1600 6850 50  0000 L CNN
-F 2 "" H 1950 6900 50  0001 C CNN
-F 3 "~" H 1950 6900 50  0001 C CNN
-	1    1950 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R2
-U 1 1 5FD4A3BC
-P 2200 6850
-F 0 "R2" H 2259 6896 50  0000 L CNN
-F 1 "2.2K 1%" H 2259 6805 50  0000 L CNN
-F 2 "" H 2200 6850 50  0001 C CNN
-F 3 "~" H 2200 6850 50  0001 C CNN
-	1    2200 6850
-	1    0    0    -1  
-$EndComp
-Text Label 1950 6750 2    50   ~ 0
-GPIO_VREF
-Connection ~ 1950 6750
-Wire Wire Line
-	1950 6750 2200 6750
-Wire Wire Line
-	1550 6750 1950 6750
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J1
-U 1 1 5FD77353
-P 1450 7100
-F 0 "J1" H 1350 6900 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 1500 6800 50  0000 C CNN
-F 2 "CM4_MATX:PinHeader_2x02_P2.54mm_Vertical" H 1450 7100 50  0001 C CNN
-F 3 "~" H 1450 7100 50  0001 C CNN
-	1    1450 7100
-	1    0    0    -1  
-$EndComp
-Text HLabel 1000 7100 0    50   Input ~ 0
-ID_SC
-Text HLabel 1000 7200 0    50   Input ~ 0
-ID_SD
-Text Label 1000 7100 0    50   ~ 0
-ID_SC
-Text Label 1000 7200 0    50   ~ 0
-ID_SD
-Wire Wire Line
-	1000 7200 1250 7200
-Wire Wire Line
-	1250 7100 1000 7100
-Text Label 2600 7100 2    50   ~ 0
-SCL1
-Text Label 2600 7200 2    50   ~ 0
-SDA1
-Wire Wire Line
-	1750 7100 2200 7100
-Wire Wire Line
-	2200 7100 2200 6950
-Connection ~ 2200 7100
-Wire Wire Line
-	2200 7100 2600 7100
-Text Notes 800  7550 0    50   ~ 0
-Jumpers to be fitted if Camera0 or Display0 are used
-Wire Wire Line
-	1950 6750 1950 6800
-Wire Wire Line
-	1750 7200 1950 7200
-Wire Wire Line
-	1950 7000 1950 7200
-Connection ~ 1950 7200
-Wire Wire Line
-	1950 7200 2600 7200
 $Comp
 L CM4_MATX:AP2822CKETR-G1 U5
 U 1 1 606F7FB7
@@ -1226,7 +935,7 @@ F 3 "~" H 6550 7500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6250 7400 6550 7400
-Text Label 6550 7400 0    50   ~ 0
+Text Label 6850 7400 2    50   ~ 0
 HDMI_5v
 Wire Wire Line
 	6550 7400 6850 7400
@@ -1295,4 +1004,20 @@ Wire Notes Line
 	4600 6850 4600 7750
 Text Notes 4600 7750 0    50   ~ 0
 5v rail for HDMI
+Wire Notes Line
+	5000 700  5000 3350
+Wire Notes Line
+	5000 700  6800 700 
+Wire Notes Line
+	6800 700  6800 3350
+Wire Notes Line
+	6800 3350 5000 3350
+Wire Notes Line
+	6850 700  6850 3350
+Wire Notes Line
+	6850 3350 8650 3350
+Wire Notes Line
+	8650 3350 8650 700 
+Wire Notes Line
+	8650 700  6850 700 
 $EndSCHEMATC
