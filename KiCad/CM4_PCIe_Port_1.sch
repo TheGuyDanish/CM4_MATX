@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 16
+Sheet 12 16
 Title "PCIe x16 - Slot 1"
 Date "2020-12-28"
 Rev "0.1"

@@ -76,6 +76,12 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP C_Small
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
 $CMP ComputeModule4-CM4
 D Raspberry Pi Compute Module 4 with HRS-DF40C-100DS-0.4V(51) Connectors
 $ENDCMP
@@ -166,6 +172,12 @@ $CMP RT9742GGJ5
 F https://www.richtek.com/assets/product_file/RT9742/DS9742-10.pdf
 $ENDCMP
 #
+$CMP R_Small
+D Resistor, small symbol
+K R resistor
+F ~
+$ENDCMP
+#
 $CMP SI-52008-F
 D Magjack 10BASE T POE with LEDS Bel-Stewart RJ Socket Module, STP, Straight
 F https://componentsearchengine.com/Datasheets/1/SI-52008-F.pdf
@@ -179,6 +191,12 @@ $ENDCMP
 $CMP TPS62067DSGR
 D 3MHz, 2A Step-Down Converter in 2x2 SON Package
 F http://www.ti.com/lit/gpn/TPS62067
+$ENDCMP
+#
+$CMP TestPoint_Small
+D test point
+K test point tp
+F ~
 $ENDCMP
 #
 $CMP USB2517-JZX

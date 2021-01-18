@@ -167,10 +167,7 @@ Text Label 1000 5250 0    50   ~ 0
 Text Label 1000 5450 0    50   ~ 0
 +1.8v
 Wire Wire Line
-	1600 5350 1600 5250
-Wire Wire Line
 	1600 5250 1000 5250
-Connection ~ 1600 5250
 Wire Wire Line
 	1000 5150 1600 5150
 Wire Wire Line
@@ -186,10 +183,6 @@ Wire Wire Line
 Connection ~ 1600 5450
 Text Label 1000 5650 0    50   ~ 0
 RUN_PG
-Text Label 1000 5750 0    50   ~ 0
-AIN1
-Text Label 1000 5850 0    50   ~ 0
-AIN0
 Text HLabel 1000 6050 0    50   Input ~ 0
 nEXTRST
 Wire Wire Line
@@ -199,10 +192,6 @@ Wire Wire Line
 Connection ~ 1550 5950
 Wire Wire Line
 	1550 5950 1550 4750
-Wire Wire Line
-	1600 5850 1000 5850
-Wire Wire Line
-	1000 5750 1600 5750
 Wire Wire Line
 	1600 5650 1000 5650
 Wire Wire Line
@@ -1299,4 +1288,9 @@ Wire Notes Line
 	7550 4450 7550 5250
 Wire Notes Line
 	6350 4450 6350 5250
+NoConn ~ 1600 5750
+NoConn ~ 1600 5850
+Connection ~ 1600 5250
+Wire Wire Line
+	1600 5350 1600 5250
 $EndSCHEMATC

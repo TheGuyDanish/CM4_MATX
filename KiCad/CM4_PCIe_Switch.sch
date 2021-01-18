@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 16
+Sheet 16 16
 Title "CM4_MATX: PCIe Switch"
 Date "2020-12-28"
 Rev "0.1"
@@ -1393,7 +1393,7 @@ F 3 "~" H 9850 4800 50  0001 C CNN
 	1    9850 4800
 	1    0    0    -1  
 $EndComp
-Text HLabel 9600 4650 0    50   Input ~ 0
+Text HLabel 9600 4700 0    50   Input ~ 0
 +3.3vSB
 $Comp
 L CM4_MATX:AP7363-10D U?
@@ -1572,10 +1572,6 @@ Wire Wire Line
 	5300 4650 5000 4650
 Text Label 8350 4950 2    50   ~ 0
 +3.3v
-Text Label 9600 4650 0    50   ~ 0
-+3.3vSB
-Wire Wire Line
-	9600 4650 9600 4700
 Wire Wire Line
 	9600 4700 9850 4700
 $Comp
@@ -2551,36 +2547,14 @@ Strap Pins
 Text Notes 5200 7750 0    50   ~ 0
 Strap Pins (Cont.)
 $Comp
-L Connector:TestPoint_Small TP2
-U 1 1 616C0607
-P 5300 4950
-F 0 "TP2" H 5348 4996 50  0000 L CNN
-F 1 "STATUS0" H 5348 4905 50  0000 L CNN
-F 2 "" H 5500 4950 50  0001 C CNN
-F 3 "~" H 5500 4950 50  0001 C CNN
-	1    5300 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_Small TP1
+L CM4_MATX:TestPoint_Small TP1
 U 1 1 616C10C3
 P 5300 4750
 F 0 "TP1" H 5348 4796 50  0000 L CNN
 F 1 "STATUS2" H 5348 4705 50  0000 L CNN
-F 2 "" H 5500 4750 50  0001 C CNN
+F 2 "CM4_MATX:TestPoint_Pad_D1.0mm" H 5500 4750 50  0001 C CNN
 F 3 "~" H 5500 4750 50  0001 C CNN
 	1    5300 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_Small TP3
-U 1 1 616C1BAE
-P 5700 4850
-F 0 "TP3" H 5748 4896 50  0000 L CNN
-F 1 "STATUS1" H 5748 4805 50  0000 L CNN
-F 2 "" H 5900 4850 50  0001 C CNN
-F 3 "~" H 5900 4850 50  0001 C CNN
-	1    5700 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3056,4 +3030,32 @@ Text HLabel 1200 4550 0    50   Input ~ 0
 PCIE_SW_SMBCLK
 Text HLabel 1200 4650 0    50   Input ~ 0
 PCIE_SW_SMBDATA
+Text Label 9600 4700 0    50   ~ 0
++3.3vSB
+Text Label 1500 6450 1    50   ~ 0
+SLOTCLK
+Wire Wire Line
+	1500 6450 1500 6150
+$Comp
+L CM4_MATX:TestPoint_Small TP3
+U 1 1 616C1BAE
+P 5700 4850
+F 0 "TP3" H 5748 4896 50  0000 L CNN
+F 1 "STATUS1" H 5748 4805 50  0000 L CNN
+F 2 "CM4_MATX:TestPoint_Pad_D1.0mm" H 5900 4850 50  0001 C CNN
+F 3 "~" H 5900 4850 50  0001 C CNN
+	1    5700 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CM4_MATX:TestPoint_Small TP2
+U 1 1 616C0607
+P 5300 4950
+F 0 "TP2" H 5348 4996 50  0000 L CNN
+F 1 "STATUS0" H 5348 4905 50  0000 L CNN
+F 2 "CM4_MATX:TestPoint_Pad_D1.0mm" H 5500 4950 50  0001 C CNN
+F 3 "~" H 5500 4950 50  0001 C CNN
+	1    5300 4950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

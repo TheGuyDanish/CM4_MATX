@@ -181,8 +181,6 @@ Wire Wire Line
 Connection ~ 3950 1700
 Wire Wire Line
 	3950 1700 3950 2000
-Wire Wire Line
-	1150 1100 1300 1100
 $Comp
 L CM4_MATX:ComputeModule4-CM4 Module1
 U 2 1 5FB73006
@@ -200,18 +198,6 @@ F 5 "2x DF40C-100DS-0.4V(51)" H 2600 974 50  0000 C CNN "Manufacturer Part Numbe
 $EndComp
 NoConn ~ 1300 1200
 NoConn ~ 1300 1300
-Text Label 750  2400 0    50   ~ 0
-CAM0_D0_N
-Text Label 750  2500 0    50   ~ 0
-CAM0_D0_P
-Text Label 750  2700 0    50   ~ 0
-CAM0_D1_N
-Text Label 750  2800 0    50   ~ 0
-CAM0_D1_P
-Text Label 750  3000 0    50   ~ 0
-CAM0_C_N
-Text Label 750  3100 0    50   ~ 0
-CAM0_C_P
 Text Label 750  3300 0    50   ~ 0
 HDMI1_D2_P
 Text Label 750  3400 0    50   ~ 0
@@ -276,18 +262,6 @@ Text Label 4400 4800 2    50   ~ 0
 DSI1_D0_N
 Text Label 4400 5400 2    50   ~ 0
 DSI1_C_N
-Text Label 4400 4600 2    50   ~ 0
-DSI0_C_P
-Text Label 4400 4500 2    50   ~ 0
-DSI0_C_N
-Text Label 4400 4300 2    50   ~ 0
-DSI0_D1_P
-Text Label 4400 4200 2    50   ~ 0
-DSI0_D1_N
-Text Label 4400 4000 2    50   ~ 0
-DSI0_D0_P
-Text Label 4400 3900 2    50   ~ 0
-DSI0_D0_N
 Text Label 4400 3600 2    50   ~ 0
 HDMI0_CEC
 Text Label 4400 3500 2    50   ~ 0
@@ -318,8 +292,6 @@ Text Label 4400 1900 2    50   ~ 0
 CAM1_D0_P
 Text Label 4400 1800 2    50   ~ 0
 CAM1_D0_N
-Text HLabel 4100 1600 2    50   Input ~ 0
-TV_OUT
 Text HLabel 4100 1500 2    50   Input ~ 0
 PCIE_NRST
 Text HLabel 4100 1300 2    50   Input ~ 0
@@ -336,8 +308,6 @@ Wire Wire Line
 	3900 1300 4100 1300
 Wire Wire Line
 	3900 1500 4100 1500
-Wire Wire Line
-	3900 1600 4100 1600
 Wire Wire Line
 	3900 1800 4400 1800
 Wire Wire Line
@@ -372,18 +342,6 @@ Wire Wire Line
 	4400 3600 3900 3600
 Wire Wire Line
 	4600 3700 3900 3700
-Wire Wire Line
-	4400 3900 3900 3900
-Wire Wire Line
-	3900 4000 4400 4000
-Wire Wire Line
-	4400 4200 3900 4200
-Wire Wire Line
-	3900 4300 4400 4300
-Wire Wire Line
-	4400 4500 3900 4500
-Wire Wire Line
-	3900 4600 4400 4600
 Wire Wire Line
 	4400 4800 3900 4800
 Wire Wire Line
@@ -435,18 +393,6 @@ Wire Wire Line
 Wire Wire Line
 	750  3300 1300 3300
 Wire Wire Line
-	1300 3100 750  3100
-Wire Wire Line
-	750  3000 1300 3000
-Wire Wire Line
-	1300 2800 750  2800
-Wire Wire Line
-	750  2700 1300 2700
-Wire Wire Line
-	1300 2500 750  2500
-Wire Wire Line
-	1300 2400 750  2400
-Wire Wire Line
 	1300 2200 1150 2200
 Wire Wire Line
 	1150 2100 1300 2100
@@ -471,8 +417,6 @@ F 3 "~" H 6250 1900 50  0001 C CNN
 $EndComp
 Text HLabel 5450 2500 0    50   Input ~ 0
 CAM_GPIO
-Text HLabel 1150 1100 0    50   Input ~ 0
-PCIE_CLK_NREQ
 Text HLabel 1150 1500 0    50   Input ~ 0
 PCIE_CLK_P
 Text HLabel 1150 1600 0    50   Input ~ 0
@@ -1020,4 +964,29 @@ Wire Notes Line
 	8650 3350 8650 700 
 Wire Notes Line
 	8650 700  6850 700 
+NoConn ~ 3900 1600
+NoConn ~ 1300 3100
+NoConn ~ 1300 3000
+NoConn ~ 1300 2800
+NoConn ~ 1300 2700
+NoConn ~ 1300 2500
+NoConn ~ 1300 2400
+NoConn ~ 1300 1100
+$Comp
+L power:GND #PWR0232
+U 1 1 6024C813
+P 6550 7600
+F 0 "#PWR0232" H 6550 7350 50  0001 C CNN
+F 1 "GND" H 6650 7500 50  0000 C CNN
+F 2 "" H 6550 7600 50  0001 C CNN
+F 3 "" H 6550 7600 50  0001 C CNN
+	1    6550 7600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3900 4600
+NoConn ~ 3900 4500
+NoConn ~ 3900 4300
+NoConn ~ 3900 4200
+NoConn ~ 3900 4000
+NoConn ~ 3900 3900
 $EndSCHEMATC
