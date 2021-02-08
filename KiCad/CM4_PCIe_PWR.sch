@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 16
+Sheet 5 16
 Title ""
 Date "2021-02-08"
 Rev "0.1"
@@ -56,15 +56,12 @@ Text HLabel 6700 4200 2    50   Input ~ 0
 +3.3V_P
 Text HLabel 6750 2450 2    50   Input ~ 0
 +3.3V_AUX_P
-Wire Wire Line
-	4550 2450 4750 2450
 Text HLabel 4400 2450 0    50   Input ~ 0
 +5V_SB
 Wire Wire Line
 	4400 2450 4550 2450
 Wire Wire Line
 	4550 2450 4550 2350
-Connection ~ 4550 2450
 Wire Wire Line
 	6500 2350 6500 2450
 Wire Wire Line
