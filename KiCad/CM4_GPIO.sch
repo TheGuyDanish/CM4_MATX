@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 16
 Title "GPIO, SDIO, PIn Headers, Ethernet"
-Date "2020-12-28"
+Date "2021-02-08"
 Rev "0.1"
 Comp "Copyright Oliver Møller/@TheGuyDanish 2020, CERN OHL-P v2"
 Comment1 "https://github.com/theguydanish/CM4_MATX"
@@ -13,21 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CM4_MATX:ComputeModule4-CM4 Module1
-U 1 1 5FBC3653
-P 5650 1000
-AR Path="/5FBC3653" Ref="Module1"  Part="1" 
-AR Path="/5FBC336F/5FBC3653" Ref="Module1"  Part="1" 
-F 0 "Module1" H 2800 1100 50  0000 C CNN
-F 1 "ComputeModule4-CM4" H 2800 1000 50  0000 C CNN
-F 2 "CM4_MATX:rpiCM4" H 4050 850 50  0001 C CNN
-F 3 "" H 4050 850 50  0001 C CNN
-F 4 "Hirose" H 2650 1150 50  0001 C CNN "Manufacturer"
-F 5 "2x DF40C-100DS-0.4V(51)" H 2650 1050 50  0001 C CNN "Manufacturer Part Number"
-	1    5650 1000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4000 1150 4050 1150
 Wire Wire Line
@@ -57,22 +42,7 @@ F 3 "" H 4050 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 5450 4000 5350
-Connection ~ 4000 5050
-Wire Wire Line
-	4000 5050 4000 4950
-Connection ~ 4000 5150
-Wire Wire Line
-	4000 5150 4000 5050
-Connection ~ 4000 5250
-Wire Wire Line
-	4000 5250 4000 5150
-Connection ~ 4000 5350
-Wire Wire Line
-	4000 5350 4000 5250
-Wire Wire Line
 	4000 4950 4400 4950
-Connection ~ 4000 4950
 Text Label 4400 4950 2    50   ~ 0
 +5v
 Text HLabel 4400 4950 2    50   Input ~ 0
@@ -180,7 +150,6 @@ Wire Wire Line
 	1000 5450 1600 5450
 Wire Wire Line
 	1600 5450 1600 5550
-Connection ~ 1600 5450
 Text Label 1000 5650 0    50   ~ 0
 RUN_PG
 Text HLabel 1000 6050 0    50   Input ~ 0
@@ -1290,7 +1259,21 @@ Wire Notes Line
 	6350 4450 6350 5250
 NoConn ~ 1600 5750
 NoConn ~ 1600 5850
-Connection ~ 1600 5250
 Wire Wire Line
 	1600 5350 1600 5250
+$Comp
+L CM4_MATX:CM4_A J2
+U 1 1 6027D1CB
+P 1700 1050
+F 0 "J2" H 2800 1215 50  0000 C CNN
+F 1 "CM4_A" H 2800 1124 50  0000 C CNN
+F 2 "CM4_MATX:DF40C100DS04V51" H 1700 1250 50  0001 C CNN
+F 3 "https://datasheets.raspberrypi.org/cm4/cm4-datasheet.pdf" H 1700 1050 50  0001 C CNN
+	1    1700 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5350 4000 5450
+Connection ~ 1600 5250
+Connection ~ 1600 5450
 $EndSCHEMATC

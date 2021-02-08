@@ -76,6 +76,16 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP CM4_A
+D "Low-Speed"/GPIO-side CM4 Connector
+F https://datasheets.raspberrypi.org/cm4/cm4-datasheet.pdf
+$ENDCMP
+#
+$CMP CM4_B
+D "High-Speed"/PCIe/Video-side CM4 Connector
+F https://datasheets.raspberrypi.org/cm4/cm4-datasheet.pdf
+$ENDCMP
+#
 $CMP C_Small
 D Unpolarized capacitor, small symbol
 K capacitor cap

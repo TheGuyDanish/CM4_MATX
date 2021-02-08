@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 16
 Title "CM4_MATX: CM4 High Speed IO"
-Date "2020-12-28"
+Date "2021-02-08"
 Rev "0.1"
 Comp "Copyright Oliver Møller/@TheGuyDanish 2020, CERN OHL-P v2"
 Comment1 "https://github.com/theguydanish/CM4_MATX"
@@ -181,21 +181,6 @@ Wire Wire Line
 Connection ~ 3950 1700
 Wire Wire Line
 	3950 1700 3950 2000
-$Comp
-L CM4_MATX:ComputeModule4-CM4 Module1
-U 2 1 5FB73006
-P 350 950
-AR Path="/5FB73006" Ref="Module1"  Part="2" 
-AR Path="/5FB441BA/5FB73006" Ref="Module1"  Part="2" 
-F 0 "Module1" H 2600 1247 50  0000 C CNN
-F 1 "ComputeModule4-CM4" H 2600 1156 50  0000 C CNN
-F 2 "CM4_MATX:rpiCM4" H -1250 800 50  0001 C CNN
-F 3 "" H -1250 800 50  0001 C CNN
-F 4 "Hirose" H 2600 1065 50  0000 C CNN "Manufacturer"
-F 5 "2x DF40C-100DS-0.4V(51)" H 2600 974 50  0000 C CNN "Manufacturer Part Number"
-	2    350  950 
-	1    0    0    -1  
-$EndComp
 NoConn ~ 1300 1200
 NoConn ~ 1300 1300
 Text Label 750  3300 0    50   ~ 0
@@ -989,4 +974,15 @@ NoConn ~ 3900 4300
 NoConn ~ 3900 4200
 NoConn ~ 3900 4000
 NoConn ~ 3900 3900
+$Comp
+L CM4_MATX:CM4_B J1
+U 1 1 60257464
+P 1500 1000
+F 0 "J1" H 2600 1165 50  0000 C CNN
+F 1 "CM4_B" H 2600 1074 50  0000 C CNN
+F 2 "CM4_MATX:DF40C100DS04V51_B" H 2650 1250 50  0001 C CNN
+F 3 "https://datasheets.raspberrypi.org/cm4/cm4-datasheet.pdf" H 1500 1000 50  0001 C CNN
+	1    1500 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

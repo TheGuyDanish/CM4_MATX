@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 16
 Title "CM4 MATX Root Sheet"
-Date "2020-12-28"
+Date "2021-02-08"
 Rev "0.1"
 Comp "Copyright Oliver Møller/@TheGuyDanish 2020, CERN OHL-P v2"
 Comment1 "https://github.com/theguydanish/CM4_MATX"
@@ -524,4 +524,48 @@ Wire Wire Line
 	6950 2200 7300 2200
 Wire Wire Line
 	6950 2300 7300 2300
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 60295E06
+P 650 6550
+F 0 "H10" H 750 6596 50  0000 L CNN
+F 1 "MountingHole" H 750 6505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 650 6550 50  0001 C CNN
+F 3 "~" H 650 6550 50  0001 C CNN
+	1    650  6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 60295FE4
+P 1350 6550
+F 0 "H11" H 1450 6596 50  0000 L CNN
+F 1 "MountingHole" H 1450 6505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1350 6550 50  0001 C CNN
+F 3 "~" H 1350 6550 50  0001 C CNN
+	1    1350 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 602961DC
+P 2050 6550
+F 0 "H12" H 2150 6596 50  0000 L CNN
+F 1 "MountingHole" H 2150 6505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 2050 6550 50  0001 C CNN
+F 3 "~" H 2050 6550 50  0001 C CNN
+	1    2050 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H13
+U 1 1 60296317
+P 650 6750
+F 0 "H13" H 750 6796 50  0000 L CNN
+F 1 "MountingHole" H 750 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 650 6750 50  0001 C CNN
+F 3 "~" H 650 6750 50  0001 C CNN
+	1    650  6750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

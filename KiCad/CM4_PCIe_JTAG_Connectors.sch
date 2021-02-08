@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 15 16
 Title ""
-Date ""
+Date "2021-02-08"
 Rev ""
 Comp ""
 Comment1 ""
@@ -231,10 +231,10 @@ F 3 "" H 1000 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J2
+L Connector_Generic:Conn_02x05_Odd_Even J24
 U 1 1 61951787
 P 7050 1300
-F 0 "J2" H 7100 1717 50  0000 C CNN
+F 0 "J24" H 7100 1717 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 7100 1626 50  0000 C CNN
 F 2 "" H 7050 1300 50  0001 C CNN
 F 3 "~" H 7050 1300 50  0001 C CNN

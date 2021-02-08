@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 16
 Title "CM4_MATX: USB Hub and Ports"
-Date "2020-12-28"
+Date "2021-02-08"
 Rev "0.1"
 Comp "Copyright Oliver Møller/@TheGuyDanish 2020, CERN OHL-P v2"
 Comment1 "https://github.com/theguydanish/CM4_MATX"
@@ -1241,23 +1241,6 @@ Wire Notes Line
 	11200 6500 7550 6500
 Text Notes 7550 6500 0    50   ~ 0
 USB OTG/Slave connector for eMMC flashing on support CM4s
-$Comp
-L CM4_MATX:72309-8014BLF J1
-U 1 1 626F6425
-P 7850 2250
-F 0 "J1" H 8350 2515 50  0000 C CNN
-F 1 "72309-8014BLF" H 8350 2424 50  0000 C CNN
-F 2 "CM4_MATX:723098014BLF" H 8700 2350 50  0001 L CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/72309.pdf" H 8700 2250 50  0001 L CNN
-F 4 "USB Connectors 8P R/A RECPT" H 8700 2150 50  0001 L CNN "Description"
-F 5 "15" H 8700 2050 50  0001 L CNN "Height"
-F 6 "649-72309-8014BLF" H 8700 1950 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/72309-8014BLF?qs=D%252By4jQJzx8Iuk4xBbyHrOA%3D%3D" H 8700 1850 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Amphenol" H 8700 1750 50  0001 L CNN "Manufacturer_Name"
-F 9 "72309-8014BLF" H 8700 1650 50  0001 L CNN "Manufacturer_Part_Number"
-	1    7850 2250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8850 2450 8850 2550
 Connection ~ 8850 2550
@@ -1332,4 +1315,21 @@ Wire Notes Line
 	9600 600  8300 600 
 Wire Notes Line
 	9600 1850 8300 1850
+$Comp
+L CM4_MATX:72309-8014BLF J4
+U 1 1 626F6425
+P 7850 2250
+F 0 "J4" H 8350 2515 50  0000 C CNN
+F 1 "72309-8014BLF" H 8350 2424 50  0000 C CNN
+F 2 "CM4_MATX:723098014BLF" H 8700 2350 50  0001 L CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/72309.pdf" H 8700 2250 50  0001 L CNN
+F 4 "USB Connectors 8P R/A RECPT" H 8700 2150 50  0001 L CNN "Description"
+F 5 "15" H 8700 2050 50  0001 L CNN "Height"
+F 6 "649-72309-8014BLF" H 8700 1950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/72309-8014BLF?qs=D%252By4jQJzx8Iuk4xBbyHrOA%3D%3D" H 8700 1850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Amphenol" H 8700 1750 50  0001 L CNN "Manufacturer_Name"
+F 9 "72309-8014BLF" H 8700 1650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7850 2250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
