@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 16
+Sheet 12 16
 Title ""
 Date "2021-02-08"
 Rev ""
@@ -14,13 +14,18 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_Expansion:TCA9548ARGER U17
+L CM4_MATX:TCA9548ARGER U17
 U 1 1 6002AC4E
 P 5750 3600
 F 0 "U17" H 5250 4700 50  0000 C CNN
 F 1 "TCA9548ARGER" H 5450 4600 50  0000 C CNN
-F 2 "Package_DFN_QFN:Texas_RGE0024C_EP2.1x2.1mm" H 5750 2600 50  0001 C CNN
+F 2 "CM4_MATX:Texas_RGE0024C_EP2.1x2.1mm" H 5750 2600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 5800 3850 50  0001 C CNN
+F 4 "Texas Instruments" H 5750 3600 50  0001 C CNN "Mfr."
+F 5 "TCA9548ARGER" H 5750 3600 50  0001 C CNN "Mfr. No"
+F 6 "595-TCA9548ARGER" H 5750 3600 50  0001 C CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCA9548ARGER/?qs=2I4pGxj2dxUewY0zSIpfWQ%3D%3D" H 5750 3600 50  0001 C CNN "Mouser Price/Stock"
+F 8 "8-CH I2C Switch w/ Reset" H 5750 3600 50  0001 C CNN "Description"
 	1    5750 3600
 	1    0    0    -1  
 $EndComp
@@ -177,7 +182,7 @@ SMBUS7_CLK
 Text HLabel 7200 4400 2    50   Input ~ 0
 SMBUS7_DATA
 $Comp
-L power:+3.3VP #PWR0212
+L CM4_MATX:+3.3VP #PWR0212
 U 1 1 601F4D03
 P 5750 2150
 F 0 "#PWR0212" H 5900 2100 50  0001 C CNN
@@ -194,9 +199,14 @@ L CM4_MATX:C C68
 U 1 1 601F56C0
 P 6100 2350
 F 0 "C68" H 6215 2396 50  0000 L CNN
-F 1 "0.1uF" H 6215 2305 50  0000 L CNN
-F 2 "" H 6138 2200 50  0001 C CNN
-F 3 "~" H 6100 2350 50  0001 C CNN
+F 1 "100nF" H 6215 2305 50  0000 L CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6138 2200 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 6100 2350 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 6100 2350 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 6100 2350 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 6100 2350 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 6100 2350 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 6100 2350 50  0001 C CNN "Description"
 	1    6100 2350
 	1    0    0    -1  
 $EndComp

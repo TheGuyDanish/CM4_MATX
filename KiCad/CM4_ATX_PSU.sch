@@ -20,13 +20,12 @@ P 5950 3550
 F 0 "J7" H 6450 3815 50  0000 C CNN
 F 1 "39-28-1243" H 6450 3724 50  0000 C CNN
 F 2 "CM4_MATX:SHDR24W125P550X420_2X12_5160X960X1310P" H 6000 4500 50  0001 L CNN
-F 3 "" H 6700 3550 50  0001 L CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/276/0039281243_PCB_HEADERS-228405.pdf" H 6700 3550 50  0001 L CNN
 F 4 "24 way vertical PCB header,Mini-Fit Jr Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 24 Way 2 Row Straight PCB Header, Solder Termination, 6A" H 6000 4300 50  0001 L CNN "Description"
-F 5 "13.1" H 6000 4200 50  0001 L CNN "Height"
-F 6 "538-39-28-1243" H 6000 4100 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Molex/39-28-1243?qs=4XSMV6Twtb0I%2F4%252BTTSJFbg%3D%3D" H 6000 4000 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Molex" H 6000 3900 50  0001 L CNN "Manufacturer_Name"
-F 9 "39-28-1243" H 6000 3800 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "538-39-28-1243" H 6000 4100 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Molex/39-28-1243?qs=4XSMV6Twtb0I%2F4%252BTTSJFbg%3D%3D" H 6000 4000 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Molex" H 5950 3550 50  0001 C CNN "Mfr."
+F 8 "39-28-1243" H 5950 3550 50  0001 C CNN "Mfr. No"
 	1    5950 3550
 	1    0    0    -1  
 $EndComp
@@ -57,7 +56,7 @@ Connection ~ 5900 3750
 Wire Wire Line
 	5900 3750 5900 3850
 $Comp
-L power:GND #PWR0109
+L CM4_MATX:GND #PWR0109
 U 1 1 601F254C
 P 5900 5100
 F 0 "#PWR0109" H 5900 4850 50  0001 C CNN
@@ -86,7 +85,7 @@ Connection ~ 5900 4450
 Wire Wire Line
 	5900 4450 5900 5100
 $Comp
-L power:GND #PWR0110
+L CM4_MATX:GND #PWR0110
 U 1 1 5FF31AD9
 P 7000 5100
 F 0 "#PWR0110" H 7000 4850 50  0001 C CNN
@@ -199,8 +198,13 @@ U 1 1 5FEC8807
 P 5700 5950
 F 0 "U2" H 5700 6215 50  0000 C CNN
 F 1 "AP7363-33D" H 5700 6124 50  0000 C CNN
-F 2 "" H 5700 5950 50  0001 C CNN
+F 2 "CM4_MATX:TO-252-3_TabPin2" H 5700 5950 50  0001 C CNN
 F 3 "https://www.mouser.co.uk/datasheet/2/115/AP7363-247326.pdf" H 5700 5950 50  0001 C CNN
+F 4 "Diodes Inc." H 5700 5950 50  0001 C CNN "Mfr."
+F 5 "AP7363-33D-13" H 5700 5950 50  0001 C CNN "Mfr. No"
+F 6 "621-AP7363-33D-13" H 5700 5950 50  0001 C CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP7363-33D-13/?qs=%2Fha2pyFadugx5jr4Zj5yqo2rf4G2BFwG0SXqAhZYbUZbnjJLR6QP1A%3D%3D" H 5700 5950 50  0001 C CNN "Mouser Price/Stock"
+F 8 "LDO Voltage Regulators 1.5A Fast Transient Ultra-LDO Linear Reg" H 5700 5950 50  0001 C CNN "Description"
 	1    5700 5950
 	1    0    0    -1  
 $EndComp
@@ -230,13 +234,18 @@ Text HLabel 4800 4100 0    50   Input ~ 0
 Wire Wire Line
 	4800 4100 4850 4100
 $Comp
-L CM4_MATX:C_Small C?
+L CM4_MATX:C_Small C78
 U 1 1 602F3F91
 P 5000 6050
-F 0 "C?" H 5092 6096 50  0000 L CNN
+F 0 "C78" H 5092 6096 50  0000 L CNN
 F 1 "10uF" H 5092 6005 50  0000 L CNN
-F 2 "" H 5000 6050 50  0001 C CNN
-F 3 "~" H 5000 6050 50  0001 C CNN
+F 2 "CM4_MATX:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5000 6050 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/585/MLCC-1837944.pdf" H 5000 6050 50  0001 C CNN
+F 4 "187-CL10A106MQ8NNNC" H 5000 6050 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC/?qs=349EhDEZ59qlB6a%2FjjeGAg%3D%3D" H 5000 6050 50  0001 C CNN "Mouser Price/Stock"
+F 6 "Samsung" H 5000 6050 50  0001 C CNN "Mfr."
+F 7 "CL10A106MQ8NNNC" H 5000 6050 50  0001 C CNN "Mfr. No"
+F 8 "6.3V 10uF X5R 0603 20% Tol" H 5000 6050 50  0001 C CNN "Description"
 	1    5000 6050
 	1    0    0    -1  
 $EndComp
@@ -244,10 +253,10 @@ Connection ~ 5000 5950
 Wire Wire Line
 	5000 5950 5350 5950
 $Comp
-L CM4_MATX:GND #PWR?
+L CM4_MATX:GND #PWR01
 U 1 1 602F5A61
 P 5000 6200
-F 0 "#PWR?" H 5000 5950 50  0001 C CNN
+F 0 "#PWR01" H 5000 5950 50  0001 C CNN
 F 1 "GND" H 5005 6027 50  0000 C CNN
 F 2 "" H 5000 6200 50  0001 C CNN
 F 3 "" H 5000 6200 50  0001 C CNN
@@ -257,13 +266,18 @@ $EndComp
 Wire Wire Line
 	5000 6200 5000 6150
 $Comp
-L CM4_MATX:C_Small C?
+L CM4_MATX:C_Small C79
 U 1 1 602F74E7
 P 6100 6050
-F 0 "C?" H 6192 6096 50  0000 L CNN
+F 0 "C79" H 6192 6096 50  0000 L CNN
 F 1 "10uF" H 6192 6005 50  0000 L CNN
-F 2 "" H 6100 6050 50  0001 C CNN
-F 3 "~" H 6100 6050 50  0001 C CNN
+F 2 "CM4_MATX:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6100 6050 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/585/MLCC-1837944.pdf" H 6100 6050 50  0001 C CNN
+F 4 "187-CL10A106MQ8NNNC" H 6100 6050 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC/?qs=349EhDEZ59qlB6a%2FjjeGAg%3D%3D" H 6100 6050 50  0001 C CNN "Mouser Price/Stock"
+F 6 "Samsung" H 6100 6050 50  0001 C CNN "Mfr."
+F 7 "CL10A106MQ8NNNC" H 6100 6050 50  0001 C CNN "Mfr. No"
+F 8 "6.3V 10uF X5R 0603 20% Tol" H 6100 6050 50  0001 C CNN "Description"
 	1    6100 6050
 	1    0    0    -1  
 $EndComp
@@ -271,10 +285,10 @@ Wire Wire Line
 	6100 5950 6050 5950
 Connection ~ 6100 5950
 $Comp
-L CM4_MATX:GND #PWR?
+L CM4_MATX:GND #PWR02
 U 1 1 602F8449
 P 6100 6200
-F 0 "#PWR?" H 6100 5950 50  0001 C CNN
+F 0 "#PWR02" H 6100 5950 50  0001 C CNN
 F 1 "GND" H 6105 6027 50  0000 C CNN
 F 2 "" H 6100 6200 50  0001 C CNN
 F 3 "" H 6100 6200 50  0001 C CNN

@@ -88,11 +88,10 @@ F 1 "FSUSB42MUX" H 8800 5674 50  0000 C CNN
 F 2 "CM4_MATX:SOP50P490X110-10N" H 9200 5600 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/2/FSUSB42MUX.pdf" H 9200 5500 50  0001 L CNN
 F 4 "ON SEMICONDUCTOR - FSUSB42MUX - USB SWITCH, DUAL, DPDT, MSOP-10" H 9200 5400 50  0001 L CNN "Description"
-F 5 "1.1" H 9200 5300 50  0001 L CNN "Height"
-F 6 "512-FSUSB42MUX" H 9200 5200 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FSUSB42MUX?qs=yA6kp8fx8Y59RAD4iJDRWg%3D%3D" H 9200 5100 50  0001 L CNN "Mouser Price/Stock"
-F 8 "ON Semiconductor" H 9200 5000 50  0001 L CNN "Manufacturer_Name"
-F 9 "FSUSB42MUX" H 9200 4900 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "512-FSUSB42MUX" H 9200 5200 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FSUSB42MUX?qs=yA6kp8fx8Y59RAD4iJDRWg%3D%3D" H 9200 5100 50  0001 L CNN "Mouser Price/Stock"
+F 7 "ON Semiconductor" H 8250 5500 50  0001 C CNN "Mfr."
+F 8 "FSUSB42MUX" H 8250 5500 50  0001 C CNN "Mfr. No"
 	1    8250 5500
 	1    0    0    -1  
 $EndComp
@@ -101,7 +100,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 5500 9400 6100
 $Comp
-L power:GND #PWR0111
+L CM4_MATX:GND #PWR0111
 U 1 1 5FB9CC6D
 P 9400 6150
 F 0 "#PWR0111" H 9400 5900 50  0001 C CNN
@@ -139,10 +138,10 @@ Wire Wire Line
 Wire Wire Line
 	8250 5700 7950 5700
 $Comp
-L Device:R_Small R12
+L CM4_MATX:R_Small R12
 U 1 1 5FBA0253
 P 8050 6000
-F 0 "R12" H 7900 6050 50  0000 L CNN
+F 0 "R12" H 7850 6050 50  0000 L CNN
 F 1 "2.2K 1%" H 7700 5950 50  0000 L CNN
 F 2 "" H 8050 6000 50  0001 C CNN
 F 3 "~" H 8050 6000 50  0001 C CNN
@@ -157,7 +156,7 @@ Wire Wire Line
 Wire Wire Line
 	8050 6100 8050 6150
 $Comp
-L power:GND #PWR0112
+L CM4_MATX:GND #PWR0112
 U 1 1 5FBA11C8
 P 8050 6150
 F 0 "#PWR0112" H 8050 5900 50  0001 C CNN
@@ -181,11 +180,10 @@ F 1 "10104110-0001LF" H 11550 4426 50  0000 C CNN
 F 2 "CM4_MATX:101041100001LF" H 11850 5100 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/10104110-0001LF.pdf" H 11850 5000 50  0001 L CNN
 F 4 "Amphenol FCI B 2.0 Micro USB Connector Receptacle, Right Angle" H 11850 4900 50  0001 L CNN "Description"
-F 5 "2.98" H 11850 4800 50  0001 L CNN "Height"
-F 6 "649-10104110-0001LF" H 11850 4700 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10104110-0001LF?qs=3wMSRtz0%252BRoQF1VV4tle7w%3D%3D" H 11850 4600 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Amphenol" H 11850 4500 50  0001 L CNN "Manufacturer_Name"
-F 9 "10104110-0001LF" H 11850 4400 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "649-10104110-0001LF" H 11850 4700 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10104110-0001LF?qs=3wMSRtz0%252BRoQF1VV4tle7w%3D%3D" H 11850 4600 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Amphenol" H 11100 5000 50  0001 C CNN "Mfr."
+F 8 "10104110-0001LF" H 11100 5000 50  0001 C CNN "Mfr. No"
 	1    11100 5000
 	-1   0    0    1   
 $EndComp
@@ -222,7 +220,7 @@ Connection ~ 11100 5000
 Wire Wire Line
 	11100 5000 11100 5150
 $Comp
-L power:GND #PWR0113
+L CM4_MATX:GND #PWR0113
 U 1 1 5FBBEB0D
 P 11100 5250
 F 0 "#PWR0113" H 11100 5000 50  0001 C CNN
@@ -254,7 +252,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 3800 4900 3600
 $Comp
-L Device:R_Small R8
+L CM4_MATX:R_Small R8
 U 1 1 5FBC6024
 P 5400 4400
 F 0 "R8" V 5300 4350 50  0000 L CNN
@@ -265,7 +263,7 @@ F 3 "~" H 5400 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R9
+L CM4_MATX:R_Small R9
 U 1 1 5FBC6467
 P 5700 4400
 F 0 "R9" V 5600 4350 50  0000 L CNN
@@ -276,7 +274,7 @@ F 3 "~" H 5700 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R10
+L CM4_MATX:R_Small R10
 U 1 1 5FBCAE8F
 P 6000 4400
 F 0 "R10" V 5900 4350 50  0000 L CNN
@@ -287,7 +285,7 @@ F 3 "~" H 6000 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R11
+L CM4_MATX:R_Small R11
 U 1 1 5FBCAF65
 P 6300 4400
 F 0 "R11" V 6200 4350 50  0000 L CNN
@@ -314,7 +312,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 3700 4850 3700
 $Comp
-L power:GND #PWR0114
+L CM4_MATX:GND #PWR0114
 U 1 1 5FBD10FC
 P 5400 4550
 F 0 "#PWR0114" H 5400 4300 50  0001 C CNN
@@ -325,7 +323,7 @@ F 3 "" H 5400 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0115
+L CM4_MATX:GND #PWR0115
 U 1 1 5FBD1285
 P 5700 4550
 F 0 "#PWR0115" H 5700 4300 50  0001 C CNN
@@ -336,7 +334,7 @@ F 3 "" H 5700 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0116
+L CM4_MATX:GND #PWR0116
 U 1 1 5FBD1336
 P 6000 4550
 F 0 "#PWR0116" H 6000 4300 50  0001 C CNN
@@ -347,7 +345,7 @@ F 3 "" H 6000 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0117
+L CM4_MATX:GND #PWR0117
 U 1 1 5FBD1413
 P 6300 4550
 F 0 "#PWR0117" H 6300 4300 50  0001 C CNN
@@ -382,7 +380,7 @@ NoConn ~ 3850 2000
 Wire Wire Line
 	2650 6200 2650 6500
 $Comp
-L power:GND #PWR0118
+L CM4_MATX:GND #PWR0118
 U 1 1 5FBF0B26
 P 2600 6550
 F 0 "#PWR0118" H 2600 6300 50  0001 C CNN
@@ -395,7 +393,7 @@ $EndComp
 Wire Wire Line
 	2450 2000 2450 1650
 $Comp
-L power:GND #PWR0119
+L CM4_MATX:GND #PWR0119
 U 1 1 5FBF25B9
 P 2450 1650
 F 0 "#PWR0119" H 2450 1400 50  0001 C CNN
@@ -414,7 +412,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 2000 2850 1650
 $Comp
-L power:GND #PWR0122
+L CM4_MATX:GND #PWR0122
 U 1 1 5FE5E044
 P 11050 1600
 F 0 "#PWR0122" H 11050 1350 50  0001 C CNN
@@ -433,11 +431,10 @@ F 1 "72309-8014BLF" H 10200 2424 50  0000 C CNN
 F 2 "CM4_MATX:723098014BLF" H 10550 2350 50  0001 L CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/72309.pdf" H 10550 2250 50  0001 L CNN
 F 4 "USB Connectors 8P R/A RECPT" H 10550 2150 50  0001 L CNN "Description"
-F 5 "15" H 10550 2050 50  0001 L CNN "Height"
-F 6 "649-72309-8014BLF" H 10550 1950 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/72309-8014BLF?qs=D%252By4jQJzx8Iuk4xBbyHrOA%3D%3D" H 10550 1850 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Amphenol" H 10550 1750 50  0001 L CNN "Manufacturer_Name"
-F 9 "72309-8014BLF" H 10550 1650 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "649-72309-8014BLF" H 10550 1950 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/72309-8014BLF?qs=D%252By4jQJzx8Iuk4xBbyHrOA%3D%3D" H 10550 1850 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Amphenol" H 9700 2250 50  0001 C CNN "Mfr."
+F 8 "72309-8014BLF" H 9700 2250 50  0001 C CNN "Mfr. No"
 	1    9700 2250
 	1    0    0    -1  
 $EndComp
@@ -453,7 +450,7 @@ Connection ~ 10700 2750
 Wire Wire Line
 	10700 2750 10700 2900
 $Comp
-L power:GND #PWR0123
+L CM4_MATX:GND #PWR0123
 U 1 1 5FE6ACB9
 P 10700 2950
 F 0 "#PWR0123" H 10700 2700 50  0001 C CNN
@@ -520,11 +517,10 @@ F 1 "SS-52100-002" H 11500 926 50  0000 C CNN
 F 2 "CM4_MATX:SS52100002" H 11800 1500 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/SS-52100-002.pdf" H 11800 1400 50  0001 L CNN
 F 4 "STEWART CONNECTOR - SS-52100-002 - USB CONN, 2.0 TYPE A, RCPT, 4POS, TH" H 11800 1300 50  0001 L CNN "Description"
-F 5 "15.4" H 11800 1200 50  0001 L CNN "Height"
-F 6 "530-SS-52100-002" H 11800 1100 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Stewart-Connector-Bel/SS-52100-002?qs=0lQeLiL1qyZRqcxxVnUTjw%3D%3D" H 11800 1000 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Stewart Connector" H 11800 900 50  0001 L CNN "Manufacturer_Name"
-F 9 "SS-52100-002" H 11800 800 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "530-SS-52100-002" H 11800 1100 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Stewart-Connector-Bel/SS-52100-002?qs=0lQeLiL1qyZRqcxxVnUTjw%3D%3D" H 11800 1000 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Stewart Connector" H 11050 1400 50  0001 C CNN "Mfr."
+F 8 "SS-52100-002" H 11050 1400 50  0001 C CNN "Mfr. No"
 	1    11050 1400
 	-1   0    0    1   
 $EndComp
@@ -537,13 +533,14 @@ Connection ~ 11050 1400
 Text Notes 9800 1850 0    50   ~ 0
 Internal USB Type A Header
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J9
+L CM4_MATX:Conn_02x05_Odd_Even J9
 U 1 1 5FEAD28E
 P 8900 1100
 F 0 "J9" H 8950 1517 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 8950 1426 50  0000 C CNN
 F 2 "CM4_MATX:PinHeader_2x05_P2.54mm_Vertical" H 8900 1100 50  0001 C CNN
 F 3 "~" H 8900 1100 50  0001 C CNN
+F 4 "Standard 2.54mm (100mil)-separated pins" H 8900 1100 50  0001 C CNN "Description"
 	1    8900 1100
 	1    0    0    -1  
 $EndComp
@@ -566,7 +563,7 @@ Wire Wire Line
 NoConn ~ 9200 1300
 NoConn ~ 8700 1300
 $Comp
-L power:GND #PWR0124
+L CM4_MATX:GND #PWR0124
 U 1 1 5FF0BF3B
 P 8600 1450
 F 0 "#PWR0124" H 8600 1200 50  0001 C CNN
@@ -577,7 +574,7 @@ F 3 "" H 8600 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0125
+L CM4_MATX:GND #PWR0125
 U 1 1 5FF0C2B8
 P 9300 1450
 F 0 "#PWR0125" H 9300 1200 50  0001 C CNN
@@ -605,7 +602,7 @@ Wire Wire Line
 	4900 3600 5200 3600
 Connection ~ 4900 3600
 $Comp
-L Device:R_Small R6
+L CM4_MATX:R_Small R6
 U 1 1 5FF651A9
 P 2950 1200
 F 0 "R6" V 2754 1200 50  0000 C CNN
@@ -616,7 +613,7 @@ F 3 "~" H 2950 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0136
+L CM4_MATX:GND #PWR0136
 U 1 1 5FF65A1C
 P 3150 1250
 F 0 "#PWR0136" H 3150 1000 50  0001 C CNN
@@ -657,24 +654,26 @@ Wire Wire Line
 Wire Wire Line
 	1600 1050 1600 1000
 $Comp
-L Device:C_Small C5
+L CM4_MATX:C_Small C5
 U 1 1 5FE4748F
 P 1600 1450
 F 0 "C5" H 1692 1496 50  0000 L CNN
 F 1 "27pF" H 1692 1405 50  0000 L CNN
 F 2 "" H 1600 1450 50  0001 C CNN
 F 3 "~" H 1600 1450 50  0001 C CNN
+F 4 "Load Capacitors for Y1 Crystal" H 1600 1450 50  0001 C CNN "Description"
 	1    1600 1450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C4
+L CM4_MATX:C_Small C4
 U 1 1 5FE47231
 P 1600 850
 F 0 "C4" H 1692 896 50  0000 L CNN
 F 1 "27pF" H 1692 805 50  0000 L CNN
 F 2 "" H 1600 850 50  0001 C CNN
 F 3 "~" H 1600 850 50  0001 C CNN
+F 4 "Load Capacitors for Y1 Crystal" H 1600 850 50  0001 C CNN "Description"
 	1    1600 850 
 	1    0    0    -1  
 $EndComp
@@ -683,7 +682,7 @@ XTAL2
 Text Label 1800 1000 0    50   ~ 0
 XTAL1
 $Comp
-L Device:R_Small R4
+L CM4_MATX:R_Small R4
 U 1 1 5FE3FBDB
 P 1600 1150
 F 0 "R4" H 1659 1196 50  0000 L CNN
@@ -698,7 +697,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 1150 1100 1150
 $Comp
-L power:GND #PWR0121
+L CM4_MATX:GND #PWR0121
 U 1 1 5FE39E28
 P 1200 1150
 F 0 "#PWR0121" H 1200 900 50  0001 C CNN
@@ -709,7 +708,7 @@ F 3 "" H 1200 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0120
+L CM4_MATX:GND #PWR0120
 U 1 1 5FE39D25
 P 800 1150
 F 0 "#PWR0120" H 800 900 50  0001 C CNN
@@ -720,20 +719,25 @@ F 3 "" H 800 1150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Crystal_GND24_Small Y1
+L CM4_MATX:Crystal_GND24_Small Y1
 U 1 1 5FE3963F
 P 1000 1150
 F 0 "Y1" V 1100 1300 50  0000 R CNN
 F 1 "24MHz" V 900 1450 50  0000 R CNN
-F 2 "" H 1000 1150 50  0001 C CNN
-F 3 "~" H 1000 1150 50  0001 C CNN
+F 2 "CM4_MATX:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" H 1000 1150 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/122/ECS_33B-1649459.pdf" H 1000 1150 50  0001 C CNN
+F 4 "ECS" H 1000 1150 50  0001 C CNN "Mfr."
+F 5 "ECS-240-9-33B-CTP-TR" H 1000 1150 50  0001 C CNN "Mfr. No"
+F 6 "520-ECS240933BCTP-TR" H 1000 1150 50  0001 C CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ECS/ECS-240-9-33B-CTP-TR/?qs=sGAEpiMZZMsBj6bBr9Q9afhLvLCKWQTassSD34crFm9jk87TSrfZ%2Fg%3D%3D" H 1000 1150 50  0001 C CNN "Mouser Price/Stock"
+F 8 "Crystals 24MHZ 9pF +/-10ppm +/-20ppm -40 C 105C" H 1000 1150 50  0001 C CNN "Description"
 	1    1000 1150
 	0    -1   -1   0   
 $EndComp
 Text Notes 500  1850 0    50   ~ 0
 24MHz Crystal for USB2517
 $Comp
-L Device:R_Small R3
+L CM4_MATX:R_Small R3
 U 1 1 6004C860
 P 1300 5050
 F 0 "R3" V 1200 5000 50  0000 L CNN
@@ -748,7 +752,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 4600 1300 4950
 $Comp
-L power:GND #PWR0137
+L CM4_MATX:GND #PWR0137
 U 1 1 600529F1
 P 1300 5200
 F 0 "#PWR0137" H 1300 4950 50  0001 C CNN
@@ -761,12 +765,12 @@ $EndComp
 Wire Wire Line
 	1300 5200 1300 5150
 $Comp
-L Device:R_Small R13
+L CM4_MATX:R_Small R13
 U 1 1 604999DE
 P 8150 5200
-F 0 "R13" H 8000 5250 50  0000 L CNN
+F 0 "R13" H 7950 5250 50  0000 L CNN
 F 1 "2.2K 1%" H 7800 5150 50  0000 L CNN
-F 2 "" H 8150 5200 50  0001 C CNN
+F 2 "CM4_MATX:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8150 5200 50  0001 C CNN
 F 3 "~" H 8150 5200 50  0001 C CNN
 	1    8150 5200
 	1    0    0    -1  
@@ -776,79 +780,114 @@ Text HLabel 2400 600  0    50   Input ~ 0
 Text Label 2400 600  0    50   ~ 0
 +3.3v
 $Comp
-L Device:C_Small C8
+L CM4_MATX:C_Small C8
 U 1 1 6050E469
 P 2650 700
 F 0 "C8" H 2742 746 50  0000 L CNN
 F 1 "10uF" H 2742 655 50  0000 L CNN
-F 2 "" H 2650 700 50  0001 C CNN
-F 3 "~" H 2650 700 50  0001 C CNN
+F 2 "CM4_MATX:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2650 700 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/585/MLCC-1837944.pdf" H 2650 700 50  0001 C CNN
+F 4 "187-CL10A106MQ8NNNC" H 2650 700 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC/?qs=349EhDEZ59qlB6a%2FjjeGAg%3D%3D" H 2650 700 50  0001 C CNN "Mouser Price/Stock"
+F 6 "Samsung" H 2650 700 50  0001 C CNN "Mfr."
+F 7 "CL10A106MQ8NNNC" H 2650 700 50  0001 C CNN "Mfr. No"
+F 8 "6.3V 10uF X5R 0603 20% Tol" H 2650 700 50  0001 C CNN "Description"
 	1    2650 700 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C10
+L CM4_MATX:C_Small C10
 U 1 1 6050E917
 P 3000 700
 F 0 "C10" H 3092 746 50  0000 L CNN
 F 1 "10uF" H 3092 655 50  0000 L CNN
-F 2 "" H 3000 700 50  0001 C CNN
-F 3 "~" H 3000 700 50  0001 C CNN
+F 2 "CM4_MATX:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3000 700 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/585/MLCC-1837944.pdf" H 3000 700 50  0001 C CNN
+F 4 "187-CL10A106MQ8NNNC" H 3000 700 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC/?qs=349EhDEZ59qlB6a%2FjjeGAg%3D%3D" H 3000 700 50  0001 C CNN "Mouser Price/Stock"
+F 6 "Samsung" H 3000 700 50  0001 C CNN "Mfr."
+F 7 "CL10A106MQ8NNNC" H 3000 700 50  0001 C CNN "Mfr. No"
+F 8 "6.3V 10uF X5R 0603 20% Tol" H 3000 700 50  0001 C CNN "Description"
 	1    3000 700 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C12
+L CM4_MATX:C_Small C12
 U 1 1 6050EA14
 P 3350 700
 F 0 "C12" H 3442 746 50  0000 L CNN
 F 1 "100nF" H 3442 655 50  0000 L CNN
-F 2 "" H 3350 700 50  0001 C CNN
-F 3 "~" H 3350 700 50  0001 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 3350 700 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 3350 700 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 3350 700 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 3350 700 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 3350 700 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 3350 700 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 3350 700 50  0001 C CNN "Description"
 	1    3350 700 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C14
+L CM4_MATX:C_Small C14
 U 1 1 6050EB99
 P 3750 700
 F 0 "C14" H 3842 746 50  0000 L CNN
 F 1 "100nF" H 3842 655 50  0000 L CNN
-F 2 "" H 3750 700 50  0001 C CNN
-F 3 "~" H 3750 700 50  0001 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 3750 700 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 3750 700 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 3750 700 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 3750 700 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 3750 700 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 3750 700 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 3750 700 50  0001 C CNN "Description"
 	1    3750 700 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C16
+L CM4_MATX:C_Small C16
 U 1 1 6050ECB7
 P 4150 700
 F 0 "C16" H 4242 746 50  0000 L CNN
 F 1 "100nF" H 4242 655 50  0000 L CNN
-F 2 "" H 4150 700 50  0001 C CNN
-F 3 "~" H 4150 700 50  0001 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4150 700 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 4150 700 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 4150 700 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 4150 700 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 4150 700 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 4150 700 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 4150 700 50  0001 C CNN "Description"
 	1    4150 700 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C19
+L CM4_MATX:C_Small C19
 U 1 1 6050EDD5
 P 4550 700
 F 0 "C19" H 4642 746 50  0000 L CNN
 F 1 "100nF" H 4642 655 50  0000 L CNN
-F 2 "" H 4550 700 50  0001 C CNN
-F 3 "~" H 4550 700 50  0001 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4550 700 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 4550 700 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 4550 700 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 4550 700 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 4550 700 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 4550 700 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 4550 700 50  0001 C CNN "Description"
 	1    4550 700 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C21
+L CM4_MATX:C_Small C21
 U 1 1 6050EEEE
 P 4950 700
 F 0 "C21" H 5042 746 50  0000 L CNN
 F 1 "100nF" H 5042 655 50  0000 L CNN
-F 2 "" H 4950 700 50  0001 C CNN
-F 3 "~" H 4950 700 50  0001 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4950 700 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 4950 700 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 4950 700 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 4950 700 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 4950 700 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 4950 700 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 4950 700 50  0001 C CNN "Description"
 	1    4950 700 
 	1    0    0    -1  
 $EndComp
@@ -890,7 +929,7 @@ Connection ~ 4550 800
 Wire Wire Line
 	4550 800  4150 800 
 $Comp
-L power:GND #PWR0144
+L CM4_MATX:GND #PWR0144
 U 1 1 60521C22
 P 2650 900
 F 0 "#PWR0144" H 2650 650 50  0001 C CNN
@@ -904,13 +943,18 @@ Wire Wire Line
 	2650 900  2650 800 
 Connection ~ 2650 800 
 $Comp
-L Device:C_Small C23
+L CM4_MATX:C_Small C23
 U 1 1 6052C57F
 P 5350 700
 F 0 "C23" H 5442 746 50  0000 L CNN
 F 1 "100nF" H 5442 655 50  0000 L CNN
-F 2 "" H 5350 700 50  0001 C CNN
-F 3 "~" H 5350 700 50  0001 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5350 700 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 5350 700 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 5350 700 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 5350 700 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 5350 700 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 5350 700 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 5350 700 50  0001 C CNN "Description"
 	1    5350 700 
 	1    0    0    -1  
 $EndComp
@@ -955,23 +999,11 @@ F 1 "USB2517-JZX" H 4750 3800 50  0000 L CNN
 F 2 "CM4_MATX:QFN50P900X900X100-65N-D" H 4700 4600 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/2517.pdf" H 4700 4500 50  0001 L CNN
 F 4 "USB 2.0 Hub Controller 7-Port QFN64 USB2517-JZX, USB Controller 7-channel 480Mbit/s USB 2.0, 3.3 V, 64-Pin, QFN" H 4700 4400 50  0001 L CNN "Description"
-F 5 "1" H 4700 4300 50  0001 L CNN "Height"
-F 6 "886-USB2517-JZX" H 4700 4200 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/USB2517-JZX?qs=pA5MXup5wxHMjUYhpIKJWA%3D%3D" H 4700 4100 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Microchip" H 4700 4000 50  0001 L CNN "Manufacturer_Name"
-F 9 "USB2517-JZX" H 4700 3900 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "886-USB2517-JZX" H 4700 4200 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/USB2517-JZX?qs=pA5MXup5wxHMjUYhpIKJWA%3D%3D" H 4700 4100 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Microchip" H 1650 3400 50  0001 C CNN "Mfr."
+F 8 "USB2517-JZX" H 1650 3400 50  0001 C CNN "Mfr. No"
 	1    1650 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0146
-U 1 1 6067C4C1
-P 950 2250
-F 0 "#PWR0146" H 950 2000 50  0001 C CNN
-F 1 "GND" H 955 2077 50  0000 C CNN
-F 2 "" H 950 2250 50  0001 C CNN
-F 3 "" H 950 2250 50  0001 C CNN
-	1    950  2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -979,27 +1011,25 @@ Wire Wire Line
 Wire Wire Line
 	2750 1950 1300 1950
 $Comp
-L Device:C_Small C2
+L CM4_MATX:C_Small C2
 U 1 1 6069B52C
 P 1300 2100
 F 0 "C2" H 1392 2146 50  0000 L CNN
 F 1 "100nF" H 1392 2055 50  0000 L CNN
-F 2 "" H 1300 2100 50  0001 C CNN
-F 3 "~" H 1300 2100 50  0001 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1300 2100 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 1300 2100 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 1300 2100 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 1300 2100 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 1300 2100 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 1300 2100 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 1300 2100 50  0001 C CNN "Description"
 	1    1300 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  2000 950  1950
-Wire Wire Line
 	1300 2000 1300 1950
-Connection ~ 1300 1950
-Wire Wire Line
-	1300 1950 950  1950
-Wire Wire Line
-	950  2250 950  2200
 $Comp
-L power:GND #PWR0147
+L CM4_MATX:GND #PWR0147
 U 1 1 606C513A
 P 1300 2250
 F 0 "#PWR0147" H 1300 2000 50  0001 C CNN
@@ -1011,54 +1041,30 @@ F 3 "" H 1300 2250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1300 2250 1300 2200
-$Comp
-L Device:C_Small C1
-U 1 1 606D3741
-P 950 2100
-F 0 "C1" H 1042 2146 50  0000 L CNN
-F 1 "1uF" H 1042 2055 50  0000 L CNN
-F 2 "" H 950 2100 50  0001 C CNN
-F 3 "~" H 950 2100 50  0001 C CNN
-F 4 "LMK105BJ105MVHF" H 950 2100 50  0001 C CNN "Mfgr_Pn"
-	1    950  2100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3250 6200 3250 6250
 $Comp
-L Device:C_Small C6
+L CM4_MATX:C_Small C6
 U 1 1 606F064B
 P 1900 6400
 F 0 "C6" H 1992 6446 50  0000 L CNN
 F 1 "100nF" H 1992 6355 50  0000 L CNN
-F 2 "" H 1900 6400 50  0001 C CNN
-F 3 "~" H 1900 6400 50  0001 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1900 6400 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 1900 6400 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 1900 6400 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 1900 6400 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 1900 6400 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 1900 6400 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 1900 6400 50  0001 C CNN "Description"
 	1    1900 6400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C3
-U 1 1 606F0C57
-P 1550 6400
-F 0 "C3" H 1642 6446 50  0000 L CNN
-F 1 "1uF" H 1642 6355 50  0000 L CNN
-F 2 "" H 1550 6400 50  0001 C CNN
-F 3 "~" H 1550 6400 50  0001 C CNN
-F 4 "LMK105BJ105MVHF" H 1550 6400 50  0001 C CNN "Mfgr_Pn"
-	1    1550 6400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1550 6250 1550 6300
-Wire Wire Line
-	1550 6250 1900 6250
 Wire Wire Line
 	1900 6300 1900 6250
-Connection ~ 1900 6250
 Wire Wire Line
 	1900 6250 3250 6250
 $Comp
-L power:GND #PWR0148
+L CM4_MATX:GND #PWR0148
 U 1 1 6070E499
 P 1900 6550
 F 0 "#PWR0148" H 1900 6300 50  0001 C CNN
@@ -1068,19 +1074,6 @@ F 3 "" H 1900 6550 50  0001 C CNN
 	1    1900 6550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0149
-U 1 1 6070E93E
-P 1550 6550
-F 0 "#PWR0149" H 1550 6300 50  0001 C CNN
-F 1 "GND" H 1555 6377 50  0000 C CNN
-F 2 "" H 1550 6550 50  0001 C CNN
-F 3 "" H 1550 6550 50  0001 C CNN
-	1    1550 6550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1550 6550 1550 6500
 Wire Wire Line
 	1900 6550 1900 6500
 Text HLabel 4850 4700 2    50   Input ~ 0
@@ -1164,13 +1157,18 @@ Wire Wire Line
 Wire Wire Line
 	9600 2250 9700 2250
 $Comp
-L Device:C_Small C7
+L CM4_MATX:C_Small C7
 U 1 1 5FCA3246
 P 5750 700
 F 0 "C7" H 5842 746 50  0000 L CNN
 F 1 "100nF" H 5842 655 50  0000 L CNN
-F 2 "" H 5750 700 50  0001 C CNN
-F 3 "~" H 5750 700 50  0001 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5750 700 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 5750 700 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 5750 700 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 5750 700 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 5750 700 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 5750 700 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 5750 700 50  0001 C CNN "Description"
 	1    5750 700 
 	1    0    0    -1  
 $EndComp
@@ -1181,13 +1179,18 @@ Wire Wire Line
 	5750 800  5350 800 
 Connection ~ 5350 800 
 $Comp
-L Device:C_Small C9
+L CM4_MATX:C_Small C9
 U 1 1 5FCC6E0E
 P 6150 700
 F 0 "C9" H 6242 746 50  0000 L CNN
 F 1 "100nF" H 6242 655 50  0000 L CNN
-F 2 "" H 6150 700 50  0001 C CNN
-F 3 "~" H 6150 700 50  0001 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6150 700 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 6150 700 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 6150 700 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 6150 700 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 6150 700 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 6150 700 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 6150 700 50  0001 C CNN "Description"
 	1    6150 700 
 	1    0    0    -1  
 $EndComp
@@ -1198,7 +1201,7 @@ Wire Wire Line
 	5750 800  6150 800 
 Connection ~ 5750 800 
 $Comp
-L power:GND #PWR0133
+L CM4_MATX:GND #PWR0133
 U 1 1 5FCE87B8
 P 1600 1600
 F 0 "#PWR0133" H 1600 1350 50  0001 C CNN
@@ -1211,7 +1214,7 @@ $EndComp
 Wire Wire Line
 	1600 1550 1600 1600
 $Comp
-L power:GND #PWR0134
+L CM4_MATX:GND #PWR0134
 U 1 1 5FCF3652
 P 1600 700
 F 0 "#PWR0134" H 1600 450 50  0001 C CNN
@@ -1253,7 +1256,7 @@ Connection ~ 8850 2750
 Wire Wire Line
 	8850 2750 8850 2900
 $Comp
-L power:GND #PWR0103
+L CM4_MATX:GND #PWR0103
 U 1 1 626F6432
 P 8850 2950
 F 0 "#PWR0103" H 8850 2700 50  0001 C CNN
@@ -1324,11 +1327,10 @@ F 1 "72309-8014BLF" H 8350 2424 50  0000 C CNN
 F 2 "CM4_MATX:723098014BLF" H 8700 2350 50  0001 L CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/72309.pdf" H 8700 2250 50  0001 L CNN
 F 4 "USB Connectors 8P R/A RECPT" H 8700 2150 50  0001 L CNN "Description"
-F 5 "15" H 8700 2050 50  0001 L CNN "Height"
-F 6 "649-72309-8014BLF" H 8700 1950 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/72309-8014BLF?qs=D%252By4jQJzx8Iuk4xBbyHrOA%3D%3D" H 8700 1850 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Amphenol" H 8700 1750 50  0001 L CNN "Manufacturer_Name"
-F 9 "72309-8014BLF" H 8700 1650 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "649-72309-8014BLF" H 8700 1950 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/72309-8014BLF?qs=D%252By4jQJzx8Iuk4xBbyHrOA%3D%3D" H 8700 1850 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Amphenol" H 7850 2250 50  0001 C CNN "Mfr."
+F 8 "72309-8014BLF" H 7850 2250 50  0001 C CNN "Mfr. No"
 	1    7850 2250
 	1    0    0    -1  
 $EndComp

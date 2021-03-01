@@ -20,7 +20,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 1150 1600 1150
 $Comp
-L power:GND #PWR0154
+L CM4_MATX:GND #PWR0154
 U 1 1 5FBDF547
 P 1550 6450
 F 0 "#PWR0154" H 1550 6200 50  0001 C CNN
@@ -31,7 +31,7 @@ F 3 "" H 1550 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0155
+L CM4_MATX:GND #PWR0155
 U 1 1 5FBDF723
 P 4050 6450
 F 0 "#PWR0155" H 4050 6200 50  0001 C CNN
@@ -314,7 +314,7 @@ WL_nDis
 Text Label 9950 850  0    50   ~ 0
 BT_nDis
 $Comp
-L power:GND #PWR0156
+L CM4_MATX:GND #PWR0156
 U 1 1 5FC3C044
 P 11000 1150
 F 0 "#PWR0156" H 11000 900 50  0001 C CNN
@@ -325,13 +325,14 @@ F 3 "" H 11000 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even J20
+L CM4_MATX:Conn_02x04_Odd_Even J20
 U 1 1 5FC3C7F9
 P 10700 850
 F 0 "J20" H 10750 1167 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 10750 1076 50  0000 C CNN
 F 2 "CM4_MATX:PinHeader_2x04_P2.54mm_Vertical" H 10700 850 50  0001 C CNN
 F 3 "~" H 10700 850 50  0001 C CNN
+F 4 "Standard 2.54mm (100mil)-separated pins" H 10700 850 50  0001 C CNN "Description"
 	1    10700 850 
 	1    0    0    -1  
 $EndComp
@@ -467,13 +468,14 @@ GPIO3
 Text Label 8450 1050 0    50   ~ 0
 GPIO4
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J19
+L CM4_MATX:Conn_02x20_Odd_Even J19
 U 1 1 5FCCCB1D
 P 9050 1650
 F 0 "J19" H 9100 2767 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 9100 2676 50  0000 C CNN
 F 2 "CM4_MATX:PinHeader_2x20_P2.54mm_Vertical" H 9050 1650 50  0001 C CNN
 F 3 "~" H 9050 1650 50  0001 C CNN
+F 4 "Standard 2.54mm (100mil)-separated pins" H 9050 1650 50  0001 C CNN "Description"
 	1    9050 1650
 	1    0    0    -1  
 $EndComp
@@ -568,7 +570,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 950  9400 1350
 $Comp
-L power:GND #PWR0157
+L CM4_MATX:GND #PWR0157
 U 1 1 5FD6485E
 P 9400 2700
 F 0 "#PWR0157" H 9400 2450 50  0001 C CNN
@@ -579,7 +581,7 @@ F 3 "" H 9400 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0158
+L CM4_MATX:GND #PWR0158
 U 1 1 5FD64BC0
 P 8800 2700
 F 0 "#PWR0158" H 8800 2450 50  0001 C CNN
@@ -672,24 +674,34 @@ Wire Notes Line
 Text Notes 9850 1600 0    50   ~ 0
 Jumper Headers
 $Comp
-L Power_Protection:TPD4EUSB30 U7
+L CM4_MATX:TPD4EUSB30 U7
 U 1 1 5FE15F2C
 P 8650 3600
 F 0 "U7" H 8650 4081 50  0000 C CNN
 F 1 "TPD4EUSB30" H 8650 3990 50  0000 C CNN
 F 2 "CM4_MATX:USON-10_2.5x1.0mm_P0.5mm" H 7700 3200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf" H 8650 3600 50  0001 C CNN
+F 4 "Texas Instruments" H 8650 3600 50  0001 C CNN "Mfr."
+F 5 "TPD4EUSB30DQAR" H 8650 3600 50  0001 C CNN "Mfr. No"
+F 6 "595-TPD4EUSB30DQAR" H 8650 3600 50  0001 C CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD4EUSB30DQAR/?qs=%2Fha2pyFadug70pixMCJKQA0qdZ2cdbYQ%252B8Gb4LQWsCOwWAY%252B3FKvUQ%3D%3D" H 8650 3600 50  0001 C CNN "Mouser Price/Stock"
+F 8 "ESD Suppressors / TVS Diodes 4Ch ESD SOLUTION" H 8650 3600 50  0001 C CNN "Description"
 	1    8650 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_Protection:TPD4EUSB30 U9
+L CM4_MATX:TPD4EUSB30 U9
 U 1 1 5FE1A0E2
 P 10300 3600
 F 0 "U9" H 10300 4081 50  0000 C CNN
 F 1 "TPD4EUSB30" H 10300 3990 50  0000 C CNN
 F 2 "CM4_MATX:USON-10_2.5x1.0mm_P0.5mm" H 9350 3200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf" H 10300 3600 50  0001 C CNN
+F 4 "Texas Instruments" H 10300 3600 50  0001 C CNN "Mfr."
+F 5 "TPD4EUSB30DQAR" H 10300 3600 50  0001 C CNN "Mfr. No"
+F 6 "595-TPD4EUSB30DQAR" H 10300 3600 50  0001 C CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD4EUSB30DQAR/?qs=%2Fha2pyFadug70pixMCJKQA0qdZ2cdbYQ%252B8Gb4LQWsCOwWAY%252B3FKvUQ%3D%3D" H 10300 3600 50  0001 C CNN "Mouser Price/Stock"
+F 8 "ESD Suppressors / TVS Diodes 4Ch ESD SOLUTION" H 10300 3600 50  0001 C CNN "Description"
 	1    10300 3600
 	1    0    0    -1  
 $EndComp
@@ -710,7 +722,7 @@ TRD2_P
 Wire Wire Line
 	11100 3700 10800 3700
 $Comp
-L power:GND #PWR0159
+L CM4_MATX:GND #PWR0159
 U 1 1 5FE636FC
 P 10300 4100
 F 0 "#PWR0159" H 10300 3850 50  0001 C CNN
@@ -737,7 +749,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 3500 8150 3500
 $Comp
-L power:GND #PWR0160
+L CM4_MATX:GND #PWR0160
 U 1 1 5FEADA78
 P 8650 4100
 F 0 "#PWR0160" H 8650 3850 50  0001 C CNN
@@ -764,18 +776,23 @@ TRD1_N
 Text Label 8550 5100 0    50   ~ 0
 TRD1_P
 $Comp
-L Device:C_Small C17
+L CM4_MATX:C_Small C17
 U 1 1 5FF96245
 P 8350 5550
 F 0 "C17" H 8050 5600 50  0000 L CNN
 F 1 "100nF" H 8050 5500 50  0000 L CNN
-F 2 "" H 8350 5550 50  0001 C CNN
-F 3 "~" H 8350 5550 50  0001 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8350 5550 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 8350 5550 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 8350 5550 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 8350 5550 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 8350 5550 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 8350 5550 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 8350 5550 50  0001 C CNN "Description"
 	1    8350 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0161
+L CM4_MATX:GND #PWR0161
 U 1 1 5FFAE3C1
 P 8350 5700
 F 0 "#PWR0161" H 8350 5450 50  0001 C CNN
@@ -786,7 +803,7 @@ F 3 "" H 8350 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R20
+L CM4_MATX:R_Small R20
 U 1 1 60020F1A
 P 10450 5200
 F 0 "R20" V 10400 5050 50  0000 C CNN
@@ -801,7 +818,7 @@ ETH_LEDG
 Wire Wire Line
 	10950 5200 10550 5200
 $Comp
-L Device:R_Small R21
+L CM4_MATX:R_Small R21
 U 1 1 60063275
 P 10450 5400
 F 0 "R21" V 10400 5250 50  0000 C CNN
@@ -820,7 +837,7 @@ Wire Wire Line
 Text Label 10300 5100 2    50   ~ 0
 +3.3v
 $Comp
-L power:GND #PWR0162
+L CM4_MATX:GND #PWR0162
 U 1 1 600BCD87
 P 10050 5850
 F 0 "#PWR0162" H 10050 5600 50  0001 C CNN
@@ -839,11 +856,10 @@ F 1 "GSD090012SEU" H 7250 974 50  0000 C CNN
 F 2 "CM4_MATX:GSD090012SEU" H 7750 900 50  0001 L CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/gsd09001xseu.pdf" H 7750 800 50  0001 L CNN
 F 4 "Memory Card Connectors SD CARD CONNECTOR 9 POS, SMT" H 7750 700 50  0001 L CNN "Description"
-F 5 "3.15" H 7750 600 50  0001 L CNN "Height"
-F 6 "523-GSD090012SEU" H 7750 500 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Amphenol-Commercial-Products/GSD090012SEU?qs=tRxQeHRxj%252BXvWoySYux1gA%3D%3D" H 7750 400 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Amphenol" H 7750 300 50  0001 L CNN "Manufacturer_Name"
-F 9 "GSD090012SEU" H 7750 200 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "523-GSD090012SEU" H 7750 500 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Amphenol-Commercial-Products/GSD090012SEU?qs=tRxQeHRxj%252BXvWoySYux1gA%3D%3D" H 7750 400 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Amphenol" H 6600 800 50  0001 C CNN "Mfr."
+F 8 "GSD090012SEU" H 6600 800 50  0001 C CNN "Mfr. No"
 	1    6600 800 
 	1    0    0    -1  
 $EndComp
@@ -867,7 +883,7 @@ SD_PWR
 Text Label 11050 2000 2    50   ~ 0
 +3.3v
 $Comp
-L Device:R_Small R22
+L CM4_MATX:R_Small R22
 U 1 1 6014DF99
 P 11050 2350
 F 0 "R22" H 11050 2200 50  0000 L CNN
@@ -884,7 +900,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 2050 10150 2200
 $Comp
-L power:GND #PWR0163
+L CM4_MATX:GND #PWR0163
 U 1 1 601CB73E
 P 10150 2200
 F 0 "#PWR0163" H 10150 1950 50  0001 C CNN
@@ -926,13 +942,18 @@ Wire Wire Line
 Wire Wire Line
 	6200 900  6600 900 
 $Comp
-L Device:C_Small C15
+L CM4_MATX:C_Small C15
 U 1 1 602958C6
 P 5800 950
 F 0 "C15" H 5892 996 50  0000 L CNN
 F 1 "10uF" H 5892 905 50  0000 L CNN
-F 2 "" H 5800 950 50  0001 C CNN
-F 3 "~" H 5800 950 50  0001 C CNN
+F 2 "CM4_MATX:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5800 950 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/585/MLCC-1837944.pdf" H 5800 950 50  0001 C CNN
+F 4 "187-CL10A106MQ8NNNC" H 5800 950 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC/?qs=349EhDEZ59qlB6a%2FjjeGAg%3D%3D" H 5800 950 50  0001 C CNN "Mouser Price/Stock"
+F 6 "Samsung" H 5800 950 50  0001 C CNN "Mfr."
+F 7 "CL10A106MQ8NNNC" H 5800 950 50  0001 C CNN "Mfr. No"
+F 8 "6.3V 10uF X5R 0603 20% Tol" H 5800 950 50  0001 C CNN "Description"
 	1    5800 950 
 	1    0    0    -1  
 $EndComp
@@ -947,7 +968,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 1100 5800 1050
 $Comp
-L power:GND #PWR0164
+L CM4_MATX:GND #PWR0164
 U 1 1 602C2957
 P 5800 1100
 F 0 "#PWR0164" H 5800 850 50  0001 C CNN
@@ -979,7 +1000,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 1300 6550 1650
 $Comp
-L power:GND #PWR0165
+L CM4_MATX:GND #PWR0165
 U 1 1 603220D6
 P 6550 1650
 F 0 "#PWR0165" H 6550 1400 50  0001 C CNN
@@ -1007,7 +1028,7 @@ Connection ~ 7900 1400
 Wire Wire Line
 	7900 1400 7900 1650
 $Comp
-L power:GND #PWR0166
+L CM4_MATX:GND #PWR0166
 U 1 1 60363EE2
 P 7900 1650
 F 0 "#PWR0166" H 7900 1400 50  0001 C CNN
@@ -1054,11 +1075,10 @@ F 1 "74LVC1G07GW" H 7450 2474 50  0000 C CNN
 F 2 "CM4_MATX:SOT65P212X110-5N" H 8000 2400 50  0001 L CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC1G07.pdf" H 8000 2300 50  0001 L CNN
 F 4 "74LVC1G07 - Buffer with open-drain output@en-us" H 8000 2200 50  0001 L CNN "Description"
-F 5 "1.1" H 8000 2100 50  0001 L CNN "Height"
-F 6 "771-74LVC1G07GW-G" H 8000 2000 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC1G07GW125?qs=me8TqzrmIYW763Mg%2FG86Uw%3D%3D" H 8000 1900 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Nexperia" H 8000 1800 50  0001 L CNN "Manufacturer_Name"
-F 9 "74LVC1G07GW,125" H 8000 1700 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "771-74LVC1G07GW-G" H 8000 2000 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC1G07GW125?qs=me8TqzrmIYW763Mg%2FG86Uw%3D%3D" H 8000 1900 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Nexperia" H 7050 2300 50  0001 C CNN "Mfr."
+F 8 "74LVC1G07GW,125" H 7050 2300 50  0001 C CNN "Mfr. No"
 	1    7050 2300
 	1    0    0    -1  
 $EndComp
@@ -1071,7 +1091,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 2500 7000 2650
 $Comp
-L power:GND #PWR0167
+L CM4_MATX:GND #PWR0167
 U 1 1 604CA609
 P 7000 2650
 F 0 "#PWR0167" H 7000 2400 50  0001 C CNN
@@ -1108,7 +1128,7 @@ PI_nLED_ACT
 Text Label 6450 3150 0    50   ~ 0
 FP_PLED
 $Comp
-L power:GND #PWR0168
+L CM4_MATX:GND #PWR0168
 U 1 1 6054E589
 P 7600 3750
 F 0 "#PWR0168" H 7600 3500 50  0001 C CNN
@@ -1130,20 +1150,21 @@ Connection ~ 7600 3450
 Wire Wire Line
 	7600 3350 7600 3450
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even J17
+L CM4_MATX:Conn_02x04_Odd_Even J17
 U 1 1 6053B153
 P 7300 3450
 F 0 "J17" H 7350 3767 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 7350 3676 50  0000 C CNN
 F 2 "CM4_MATX:PinHeader_2x04_P2.54mm_Vertical" H 7300 3450 50  0001 C CNN
 F 3 "~" H 7300 3450 50  0001 C CNN
+F 4 "Standard 2.54mm (100mil)-separated pins" H 7300 3450 50  0001 C CNN "Description"
 	1    7300 3450
 	1    0    0    -1  
 $EndComp
 Text Notes 6400 4400 0    50   ~ 0
 Front Panel Connectors\n1: Power LED + 2: Power LED -\n3: H.D.D. LED + 4: H.D.D. LED -\n5: POWER_SW+ 6: POWER_SW -\n7: RESET_SW+ 8: RESET_SW-
 $Comp
-L Device:R_Small R19
+L CM4_MATX:R_Small R19
 U 1 1 605FF8F2
 P 6800 3250
 F 0 "R19" H 6900 3350 50  0000 C CNN
@@ -1180,13 +1201,12 @@ P 8850 4900
 F 0 "J18" H 9450 5165 50  0000 C CNN
 F 1 "ARJM11C7-502-AB-ER2-T" H 9450 5074 50  0000 C CNN
 F 2 "CM4_MATX:ARJM11C7502ABER2T" H 9900 5000 50  0001 L CNN
-F 3 "" H 9900 4900 50  0001 L CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/3/ARJM11-1775072.pdf" H 9900 4900 50  0001 L CNN
 F 4 "Modular Connectors / Ethernet Connectors RJ45 JACK W/MAG 1000Base-T" H 9900 4800 50  0001 L CNN "Description"
-F 5 "13.8" H 9900 4700 50  0001 L CNN "Height"
-F 6 "815-RJM11C7502ABER2T" H 9900 4600 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/ABRACON/ARJM11C7-502-AB-ER2-T?qs=YCa%2FAAYMW01Li4L1TO4qtw%3D%3D" H 9900 4500 50  0001 L CNN "Mouser Price/Stock"
-F 8 "ABRACON" H 9900 4400 50  0001 L CNN "Manufacturer_Name"
-F 9 "ARJM11C7-502-AB-ER2-T" H 9900 4300 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "815-RJM11C7502ABER2T" H 9900 4600 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/ABRACON/ARJM11C7-502-AB-ER2-T?qs=YCa%2FAAYMW01Li4L1TO4qtw%3D%3D" H 9900 4500 50  0001 L CNN "Mouser Price/Stock"
+F 7 "ABRACON" H 8850 4900 50  0001 C CNN "Mfr."
+F 8 "ARJM11C7-502-AB-ER2-T" H 8850 4900 50  0001 C CNN "Mfr. No"
 	1    8850 4900
 	1    0    0    -1  
 $EndComp
@@ -1232,6 +1252,7 @@ F 0 "JP3" H 6950 5074 50  0000 C CNN
 F 1 "Jumper_3_Open" H 6950 4983 50  0000 C CNN
 F 2 "CM4_MATX:PinHeader_1x03_P2.54mm_Vertical" H 6950 4850 50  0001 C CNN
 F 3 "~" H 6950 4850 50  0001 C CNN
+F 4 "Standard 2.54mm (100mil)-separated pins" H 6950 4850 50  0001 C CNN "Description"
 	1    6950 4850
 	1    0    0    -1  
 $EndComp
@@ -1268,7 +1289,12 @@ P 1700 1050
 F 0 "J2" H 2800 1215 50  0000 C CNN
 F 1 "CM4_A" H 2800 1124 50  0000 C CNN
 F 2 "CM4_MATX:DF40C100DS04V51" H 1700 1250 50  0001 C CNN
-F 3 "https://datasheets.raspberrypi.org/cm4/cm4-datasheet.pdf" H 1700 1050 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/185/DF40_CL0594_5437_8_00_2d-1613363.pdf" H 1700 1050 50  0001 C CNN
+F 4 "Board to Board & Mezzanine Connectors 100P SMT RECEPTACLE" H 1700 1050 50  0001 C CNN "Description"
+F 5 "798-DF40C100DS0.4V51" H 1700 1050 50  0001 C CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF40C-100DS-04V51/?qs=%2Fha2pyFaduhua33KPUmffOE69uPP%252BFk%252BSSih4D%2F8M7MuevhoT8oIcK7tIX40NaD%252B" H 1700 1050 50  0001 C CNN "Mouser Price/Stock"
+F 7 "Hirose" H 1700 1050 50  0001 C CNN "Mfr."
+F 8 "DF40C-100DS-0.4V(51)" H 1700 1050 50  0001 C CNN "Mfr. No"
 	1    1700 1050
 	1    0    0    -1  
 $EndComp

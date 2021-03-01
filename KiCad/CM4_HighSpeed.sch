@@ -18,7 +18,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 1400 1250 1700
 $Comp
-L power:GND #PWR0101
+L CM4_MATX:GND #PWR0101
 U 1 1 5FB85B54
 P 1250 6300
 F 0 "#PWR0101" H 1250 6050 50  0001 C CNN
@@ -108,7 +108,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 1400 3950 1700
 $Comp
-L power:GND #PWR0102
+L CM4_MATX:GND #PWR0102
 U 1 1 5FB8BA74
 P 3950 6300
 F 0 "#PWR0102" H 3950 6050 50  0001 C CNN
@@ -390,13 +390,18 @@ Wire Wire Line
 Wire Wire Line
 	1300 1500 1150 1500
 $Comp
-L Connector:Conn_01x22_Female J3
+L CM4_MATX:Conn_01x22_Female J3
 U 1 1 5FC97DA8
 P 6250 1900
 F 0 "J3" H 5450 3050 50  0000 L CNN
 F 1 "Conn_01x22_Female" H 6000 700 50  0000 L CNN
 F 2 "CM4_MATX:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" H 6250 1900 50  0001 C CNN
-F 3 "~" H 6250 1900 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/185/FH12_CL0586_0532_7_55_2d-1614790.pdf" H 6250 1900 50  0001 C CNN
+F 4 "FFC & FPC Connectors 0.5MM 22 POS" H 6250 1900 50  0001 C CNN "Description"
+F 5 "798-FH12-22S-0.5SH55" H 6250 1900 50  0001 C CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH12-22S-05SH55/?qs=%2Fha2pyFaduhJMUe5OpeVpwQWwF7H1LO6SrVVguvqnkHcH14F%2F%252BSAeK4mYonMDxFh" H 6250 1900 50  0001 C CNN "Mouser Price/Stock"
+F 7 "Hirose" H 6250 1900 50  0001 C CNN "Mfr."
+F 8 "FH12-22S-0.5SH(55)" H 6250 1900 50  0001 C CNN "Mfr. No"
 	1    6250 1900
 	1    0    0    -1  
 $EndComp
@@ -419,7 +424,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 900  5950 1200
 $Comp
-L power:GND #PWR0104
+L CM4_MATX:GND #PWR0104
 U 1 1 5FD6AAE5
 P 5950 3100
 F 0 "#PWR0104" H 5950 2850 50  0001 C CNN
@@ -525,13 +530,18 @@ NoConn ~ 6050 2600
 Text Notes 5700 800  0    50   ~ 0
 Camera Connector
 $Comp
-L Connector:Conn_01x22_Female J5
+L CM4_MATX:Conn_01x22_Female J5
 U 1 1 5FE5DC19
 P 8100 1900
 F 0 "J5" H 7300 3050 50  0000 L CNN
 F 1 "Conn_01x22_Female" H 7850 700 50  0000 L CNN
 F 2 "CM4_MATX:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" H 8100 1900 50  0001 C CNN
-F 3 "~" H 8100 1900 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/185/FH12_CL0586_0532_7_55_2d-1614790.pdf" H 8100 1900 50  0001 C CNN
+F 4 "FFC & FPC Connectors 0.5MM 22 POS" H 8100 1900 50  0001 C CNN "Description"
+F 5 "798-FH12-22S-0.5SH55" H 8100 1900 50  0001 C CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH12-22S-05SH55/?qs=%2Fha2pyFaduhJMUe5OpeVpwQWwF7H1LO6SrVVguvqnkHcH14F%2F%252BSAeK4mYonMDxFh" H 8100 1900 50  0001 C CNN "Mouser Price/Stock"
+F 7 "Hirose" H 8100 1900 50  0001 C CNN "Mfr."
+F 8 "FH12-22S-0.5SH(55)" H 8100 1900 50  0001 C CNN "Mfr. No"
 	1    8100 1900
 	1    0    0    -1  
 $EndComp
@@ -540,7 +550,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 900  7800 1200
 $Comp
-L power:GND #PWR0106
+L CM4_MATX:GND #PWR0106
 U 1 1 5FE5DC55
 P 7800 3100
 F 0 "#PWR0106" H 7800 2850 50  0001 C CNN
@@ -643,11 +653,12 @@ P 10450 3050
 F 0 "J6" H 10350 700 50  0000 R CNN
 F 1 "1888811-1" H 10350 800 50  0000 R CNN
 F 2 "CM4_MATX:TE_1888811-1" H 10450 3050 50  0001 L BNN
-F 3 "" H 10450 3050 50  0001 L BNN
-F 4 "TE CONNECTIVITY" H 10450 3050 50  0001 L BNN "MANUFACTURER"
-F 5 "A1" H 10450 3050 50  0001 L BNN "PARTREV"
-F 6 "Manufacturer Recommendations" H 10450 3050 50  0001 L BNN "STANDARD"
-F 7 "TE Connectivity" H 10450 3050 50  0001 C CNN "Manufacturer"
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1888811&DocType=Customer+Drawing&DocLang=English&PartCntxt=1888811-1&DocFormat=pdf" H 10450 3050 50  0001 L BNN
+F 4 "571-1888811-1" H 10450 3050 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1888811-1/?qs=%2Fha2pyFadui%252BSAEgNeNH8dys%2F0xZuTyB8LiLObyhc84%3D" H 10450 3050 50  0001 C CNN "Mouser Price/Stock"
+F 6 "Dual-stacked HDMI Header" H 10450 3050 50  0001 C CNN "Description"
+F 7 "TE Connectivity" H 10450 3050 50  0001 C CNN "Mfr."
+F 8 "1888811-1" H 10450 3050 50  0001 C CNN "Mfr. No"
 	1    10450 3050
 	-1   0    0    1   
 $EndComp
@@ -656,7 +667,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 2850 9900 2550
 $Comp
-L power:GND #PWR0107
+L CM4_MATX:GND #PWR0107
 U 1 1 5FEBFD17
 P 9900 850
 F 0 "#PWR0107" H 9900 600 50  0001 C CNN
@@ -782,7 +793,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 3350 9900 3950
 $Comp
-L power:GND #PWR0108
+L CM4_MATX:GND #PWR0108
 U 1 1 6008E7C2
 P 9900 5150
 F 0 "#PWR0108" H 9900 4900 50  0001 C CNN
@@ -843,22 +854,26 @@ F 1 "AP2822CKETR-G1" H 6675 7026 50  0000 C CNN
 F 2 "CM4_MATX:SOT95P282X145-5N" H 7200 7500 50  0001 L CNN
 F 3 "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2822.pdf" H 7200 7400 50  0001 L CNN
 F 4 "Power Switch/Driver 1:1 N-Channel 1A SOT-23-5" H 7200 7300 50  0001 L CNN "Description"
-F 5 "1.45" H 7200 7200 50  0001 L CNN "Height"
-F 6 "621-AP2822CKETR-G1" H 7200 7100 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2822CKETR-G1?qs=5V6w%252Be2aIqZGZGFGIHi7bg%3D%3D" H 7200 7000 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Diodes Inc." H 7200 6900 50  0001 L CNN "Manufacturer_Name"
-F 9 "AP2822CKETR-G1" H 7200 6800 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "621-AP2822CKETR-G1" H 7200 7100 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2822CKETR-G1?qs=5V6w%252Be2aIqZGZGFGIHi7bg%3D%3D" H 7200 7000 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Diodes Inc." H 6250 7400 50  0001 C CNN "Mfr."
+F 8 "AP2822CKETR-G1" H 6250 7400 50  0001 C CNN "Mfr. No"
 	1    6250 7400
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C13
+L CM4_MATX:C_Small C13
 U 1 1 607440BA
 P 6550 7500
 F 0 "C13" H 6642 7546 50  0000 L CNN
 F 1 "100nF" H 6642 7455 50  0000 L CNN
-F 2 "" H 6550 7500 50  0001 C CNN
-F 3 "~" H 6550 7500 50  0001 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6550 7500 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 6550 7500 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 6550 7500 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 6550 7500 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 6550 7500 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 6550 7500 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 6550 7500 50  0001 C CNN "Description"
 	1    6550 7500
 	1    0    0    -1  
 $EndComp
@@ -874,7 +889,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 7300 6300 7500
 $Comp
-L power:GND #PWR0138
+L CM4_MATX:GND #PWR0138
 U 1 1 6078E634
 P 6300 7500
 F 0 "#PWR0138" H 6300 7250 50  0001 C CNN
@@ -888,13 +903,18 @@ NoConn ~ 6250 7200
 Text HLabel 4850 7200 0    50   Input ~ 0
 +5v
 $Comp
-L Device:C_Small C11
+L CM4_MATX:C_Small C11
 U 1 1 607D8C18
 P 5000 7300
 F 0 "C11" H 5092 7346 50  0000 L CNN
 F 1 "100nF" H 5092 7255 50  0000 L CNN
-F 2 "" H 5000 7300 50  0001 C CNN
-F 3 "~" H 5000 7300 50  0001 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5000 7300 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 5000 7300 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 5000 7300 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 5000 7300 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 5000 7300 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 5000 7300 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 5000 7300 50  0001 C CNN "Description"
 	1    5000 7300
 	1    0    0    -1  
 $EndComp
@@ -904,7 +924,7 @@ Wire Wire Line
 	5000 7200 5350 7200
 Connection ~ 5000 7200
 $Comp
-L power:GND #PWR0153
+L CM4_MATX:GND #PWR0153
 U 1 1 6080BEE5
 P 5000 7450
 F 0 "#PWR0153" H 5000 7200 50  0001 C CNN
@@ -958,7 +978,7 @@ NoConn ~ 1300 2500
 NoConn ~ 1300 2400
 NoConn ~ 1300 1100
 $Comp
-L power:GND #PWR0232
+L CM4_MATX:GND #PWR0232
 U 1 1 6024C813
 P 6550 7600
 F 0 "#PWR0232" H 6550 7350 50  0001 C CNN
@@ -981,7 +1001,12 @@ P 1500 1000
 F 0 "J1" H 2600 1165 50  0000 C CNN
 F 1 "CM4_B" H 2600 1074 50  0000 C CNN
 F 2 "CM4_MATX:DF40C100DS04V51_B" H 2650 1250 50  0001 C CNN
-F 3 "https://datasheets.raspberrypi.org/cm4/cm4-datasheet.pdf" H 1500 1000 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/185/DF40_CL0594_5437_8_00_2d-1613363.pdf" H 1500 1000 50  0001 C CNN
+F 4 "Board to Board & Mezzanine Connectors 100P SMT RECEPTACLE" H 1500 1000 50  0001 C CNN "Description"
+F 5 "798-DF40C100DS0.4V51" H 1500 1000 50  0001 C CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF40C-100DS-04V51/?qs=%2Fha2pyFaduhua33KPUmffOE69uPP%252BFk%252BSSih4D%2F8M7MuevhoT8oIcK7tIX40NaD%252B" H 1500 1000 50  0001 C CNN "Mouser Price/Stock"
+F 7 "Hirose" H 1500 1000 50  0001 C CNN "Mfr."
+F 8 "DF40C-100DS-0.4V(51)" H 1500 1000 50  0001 C CNN "Mfr. No"
 	1    1500 1000
 	1    0    0    -1  
 $EndComp

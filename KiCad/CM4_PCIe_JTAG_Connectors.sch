@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 16
+Sheet 11 16
 Title ""
 Date "2021-02-08"
 Rev ""
@@ -14,13 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J21
+L CM4_MATX:Conn_02x05_Odd_Even J21
 U 1 1 5FEFA9C8
 P 1450 1300
 F 0 "J21" H 1500 1717 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 1500 1626 50  0000 C CNN
-F 2 "" H 1450 1300 50  0001 C CNN
+F 2 "CM4_MATX:PinHeader_2x05_P2.54mm_Vertical" H 1450 1300 50  0001 C CNN
 F 3 "~" H 1450 1300 50  0001 C CNN
+F 4 "Standard 2.54mm (100mil)-separated pins" H 1450 1300 50  0001 C CNN "Description"
 	1    1450 1300
 	1    0    0    -1  
 $EndComp
@@ -45,13 +46,14 @@ JTAG1_TDI
 Text HLabel 1950 1500 2    50   Input ~ 0
 JTAG1_RESET
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J22
+L CM4_MATX:Conn_02x05_Odd_Even J22
 U 1 1 5FF01F75
 P 3350 1300
 F 0 "J22" H 3400 1717 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 3400 1626 50  0000 C CNN
-F 2 "" H 3350 1300 50  0001 C CNN
+F 2 "CM4_MATX:PinHeader_2x05_P2.54mm_Vertical" H 3350 1300 50  0001 C CNN
 F 3 "~" H 3350 1300 50  0001 C CNN
+F 4 "Standard 2.54mm (100mil)-separated pins" H 3350 1300 50  0001 C CNN "Description"
 	1    3350 1300
 	1    0    0    -1  
 $EndComp
@@ -78,13 +80,14 @@ JTAG2_TDI
 Text HLabel 3850 1500 2    50   Input ~ 0
 JTAG2_RESET
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J23
+L CM4_MATX:Conn_02x05_Odd_Even J23
 U 1 1 5FF02E31
 P 5200 1300
 F 0 "J23" H 5250 1717 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 5250 1626 50  0000 C CNN
-F 2 "" H 5200 1300 50  0001 C CNN
+F 2 "CM4_MATX:PinHeader_2x05_P2.54mm_Vertical" H 5200 1300 50  0001 C CNN
 F 3 "~" H 5200 1300 50  0001 C CNN
+F 4 "Standard 2.54mm (100mil)-separated pins" H 5200 1300 50  0001 C CNN "Description"
 	1    5200 1300
 	1    0    0    -1  
 $EndComp
@@ -198,7 +201,7 @@ F 3 "" H 1000 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VP #PWR0217
+L CM4_MATX:+3.3VP #PWR0217
 U 1 1 5FF11C6C
 P 4750 900
 F 0 "#PWR0217" H 4900 850 50  0001 C CNN
@@ -209,7 +212,7 @@ F 3 "" H 4750 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VP #PWR0218
+L CM4_MATX:+3.3VP #PWR0218
 U 1 1 5FF12037
 P 2900 900
 F 0 "#PWR0218" H 3050 850 50  0001 C CNN
@@ -220,7 +223,7 @@ F 3 "" H 2900 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VP #PWR0219
+L CM4_MATX:+3.3VP #PWR0219
 U 1 1 5FF122A9
 P 1000 900
 F 0 "#PWR0219" H 1150 850 50  0001 C CNN
@@ -231,13 +234,14 @@ F 3 "" H 1000 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J24
+L CM4_MATX:Conn_02x05_Odd_Even J24
 U 1 1 61951787
 P 7050 1300
 F 0 "J24" H 7100 1717 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 7100 1626 50  0000 C CNN
-F 2 "" H 7050 1300 50  0001 C CNN
+F 2 "CM4_MATX:PinHeader_2x05_P2.54mm_Vertical" H 7050 1300 50  0001 C CNN
 F 3 "~" H 7050 1300 50  0001 C CNN
+F 4 "Standard 2.54mm (100mil)-separated pins" H 7050 1300 50  0001 C CNN "Description"
 	1    7050 1300
 	1    0    0    -1  
 $EndComp
@@ -262,7 +266,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 1500 7550 1500
 $Comp
-L power:+3.3VP #PWR0230
+L CM4_MATX:+3.3VP #PWR0230
 U 1 1 6195736D
 P 6600 900
 F 0 "#PWR0230" H 6750 850 50  0001 C CNN

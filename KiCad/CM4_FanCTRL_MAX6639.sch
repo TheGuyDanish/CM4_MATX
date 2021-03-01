@@ -244,9 +244,11 @@ F 0 "U1" H 4900 5415 50  0000 C CNN
 F 1 "MAX6639ATE+" H 4900 5324 50  0000 C CNN
 F 2 "CM4_MATX:TQFN-16-1EP_5x5mm_P0.8mm_EP3.1x3.1mm" H 4950 5800 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX6639-MAX6639F.pdf" H 4900 5500 50  0001 C CNN
-F 4 "700-MAX6639ATE" H 4900 5700 50  0001 C CNN "Mouser No."
-F 5 "Maxim Integrated" H 4900 5700 50  0001 C CNN "Mfr."
-F 6 "MAX6639ATE+" H 4900 5350 50  0001 C CNN "Mfr. No."
+F 4 "Maxim Integrated" H 4900 5700 50  0001 C CNN "Mfr."
+F 5 "MAX6639ATE+" H 4900 4450 50  0001 C CNN "Mfr. No"
+F 6 "700-MAX6639ATE" H 4900 4450 50  0001 C CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX6639ATE%2b/?qs=7H2Jq%252ByxpJLsoVNJxdDPow%3D%3D" H 4900 4450 50  0001 C CNN "Mouser Price/Stock"
+F 8 "2-Channel Temperature Monitor with Dual, Automatic, PWM Fan-Speed Controller" H 4900 4450 50  0001 C CNN "Description"
 	1    4900 4450
 	1    0    0    -1  
 $EndComp
@@ -366,9 +368,14 @@ L CM4_MATX:C C39
 U 1 1 5FE5258E
 P 2300 4000
 F 0 "C39" H 2415 4046 50  0000 L CNN
-F 1 "0.1uF" H 2415 3955 50  0000 L CNN
-F 2 "CM4_MATX:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2338 3850 50  0001 C CNN
-F 3 "~" H 2300 4000 50  0001 C CNN
+F 1 "100nF" H 2415 3955 50  0000 L CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2338 3850 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 2300 4000 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 2300 4000 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 2300 4000 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 2300 4000 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 2300 4000 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 2300 4000 50  0001 C CNN "Description"
 	1    2300 4000
 	1    0    0    -1  
 $EndComp
@@ -380,6 +387,7 @@ F 0 "JP1" V 3396 4087 50  0000 L CNN
 F 1 "Jumper_3_Open" V 3305 4087 50  0000 L CNN
 F 2 "CM4_MATX:PinHeader_1x03_P2.54mm_Vertical" H 3350 4000 50  0001 C CNN
 F 3 "~" H 3350 4000 50  0001 C CNN
+F 4 "Standard 2.54mm (100mil)-separated pins" H 3350 4000 50  0001 C CNN "Description"
 	1    3350 4000
 	0    -1   -1   0   
 $EndComp
@@ -427,6 +435,7 @@ F 0 "JP2" H 8700 2074 50  0000 C CNN
 F 1 "Jumper_3_Open" H 8700 1983 50  0000 C CNN
 F 2 "CM4_MATX:PinHeader_1x03_P2.54mm_Vertical" H 8700 1850 50  0001 C CNN
 F 3 "~" H 8700 1850 50  0001 C CNN
+F 4 "Standard 2.54mm (100mil)-separated pins" H 8700 1850 50  0001 C CNN "Description"
 	1    8700 1850
 	1    0    0    -1  
 $EndComp

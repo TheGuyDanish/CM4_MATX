@@ -49,101 +49,110 @@ F8 "PWR_OK" I L 10000 4750 50
 F9 "+3.3vSB" I L 10000 5400 50 
 $EndSheet
 $Comp
-L Mechanical:MountingHole H1
+L CM4_MATX:MountingHole H1
 U 1 1 5FB6444A
 P 650 7200
 F 0 "H1" H 750 7246 50  0000 L CNN
 F 1 "MountingHole" H 750 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 650 7200 50  0001 C CNN
-F 3 "~" H 650 7200 50  0001 C CNN
+F 2 "CM4_MATX:MountingHole_3.2mm_M3_Pad_Via" H 650 7200 50  0001 C CNN
+F 3 "https://doc.xdevs.com/doc/_PC_HW/Form_factors/matxspe1.2.pdf" H 650 7200 50  0001 C CNN
+F 4 "mATX Mounting Holes" H 650 7200 50  0001 C CNN "Description"
 	1    650  7200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L CM4_MATX:MountingHole H2
 U 1 1 5FB649F9
 P 1350 7200
 F 0 "H2" H 1450 7246 50  0000 L CNN
 F 1 "MountingHole" H 1450 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1350 7200 50  0001 C CNN
-F 3 "~" H 1350 7200 50  0001 C CNN
+F 2 "CM4_MATX:MountingHole_3.2mm_M3_Pad_Via" H 1350 7200 50  0001 C CNN
+F 3 "https://doc.xdevs.com/doc/_PC_HW/Form_factors/matxspe1.2.pdf" H 1350 7200 50  0001 C CNN
+F 4 "mATX Mounting Holes" H 1350 7200 50  0001 C CNN "Description"
 	1    1350 7200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L CM4_MATX:MountingHole H3
 U 1 1 5FB64C61
 P 2050 7200
 F 0 "H3" H 2150 7246 50  0000 L CNN
 F 1 "MountingHole" H 2150 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2050 7200 50  0001 C CNN
-F 3 "~" H 2050 7200 50  0001 C CNN
+F 2 "CM4_MATX:MountingHole_3.2mm_M3_Pad_Via" H 2050 7200 50  0001 C CNN
+F 3 "https://doc.xdevs.com/doc/_PC_HW/Form_factors/matxspe1.2.pdf" H 2050 7200 50  0001 C CNN
+F 4 "mATX Mounting Holes" H 2050 7200 50  0001 C CNN "Description"
 	1    2050 7200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L CM4_MATX:MountingHole H4
 U 1 1 5FB658C2
 P 650 7400
 F 0 "H4" H 750 7446 50  0000 L CNN
 F 1 "MountingHole" H 750 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 650 7400 50  0001 C CNN
-F 3 "~" H 650 7400 50  0001 C CNN
+F 2 "CM4_MATX:MountingHole_3.2mm_M3_Pad_Via" H 650 7400 50  0001 C CNN
+F 3 "https://doc.xdevs.com/doc/_PC_HW/Form_factors/matxspe1.2.pdf" H 650 7400 50  0001 C CNN
+F 4 "mATX Mounting Holes" H 650 7400 50  0001 C CNN "Description"
 	1    650  7400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H5
+L CM4_MATX:MountingHole H5
 U 1 1 5FB65A47
 P 650 7600
 F 0 "H5" H 750 7646 50  0000 L CNN
 F 1 "MountingHole" H 750 7555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 650 7600 50  0001 C CNN
-F 3 "~" H 650 7600 50  0001 C CNN
+F 2 "CM4_MATX:MountingHole_3.2mm_M3_Pad_Via" H 650 7600 50  0001 C CNN
+F 3 "https://doc.xdevs.com/doc/_PC_HW/Form_factors/matxspe1.2.pdf" H 650 7600 50  0001 C CNN
+F 4 "mATX Mounting Holes" H 650 7600 50  0001 C CNN "Description"
 	1    650  7600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H6
+L CM4_MATX:MountingHole H6
 U 1 1 5FB65B17
 P 1350 7400
 F 0 "H6" H 1450 7446 50  0000 L CNN
 F 1 "MountingHole" H 1450 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1350 7400 50  0001 C CNN
-F 3 "~" H 1350 7400 50  0001 C CNN
+F 2 "CM4_MATX:MountingHole_3.2mm_M3_Pad_Via" H 1350 7400 50  0001 C CNN
+F 3 "https://doc.xdevs.com/doc/_PC_HW/Form_factors/matxspe1.2.pdf" H 1350 7400 50  0001 C CNN
+F 4 "mATX Mounting Holes" H 1350 7400 50  0001 C CNN "Description"
 	1    1350 7400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H7
+L CM4_MATX:MountingHole H7
 U 1 1 5FB65D40
 P 2050 7400
 F 0 "H7" H 2150 7446 50  0000 L CNN
 F 1 "MountingHole" H 2150 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2050 7400 50  0001 C CNN
-F 3 "~" H 2050 7400 50  0001 C CNN
+F 2 "CM4_MATX:MountingHole_3.2mm_M3_Pad_Via" H 2050 7400 50  0001 C CNN
+F 3 "https://doc.xdevs.com/doc/_PC_HW/Form_factors/matxspe1.2.pdf" H 2050 7400 50  0001 C CNN
+F 4 "mATX Mounting Holes" H 2050 7400 50  0001 C CNN "Description"
 	1    2050 7400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H9
+L CM4_MATX:MountingHole H9
 U 1 1 5FB65FD3
 P 2050 7600
 F 0 "H9" H 2150 7646 50  0000 L CNN
 F 1 "MountingHole" H 2150 7555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2050 7600 50  0001 C CNN
-F 3 "~" H 2050 7600 50  0001 C CNN
+F 2 "CM4_MATX:MountingHole_3.2mm_M3_Pad_Via" H 2050 7600 50  0001 C CNN
+F 3 "https://doc.xdevs.com/doc/_PC_HW/Form_factors/matxspe1.2.pdf" H 2050 7600 50  0001 C CNN
+F 4 "mATX Mounting Holes" H 2050 7600 50  0001 C CNN "Description"
 	1    2050 7600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H8
+L CM4_MATX:MountingHole H8
 U 1 1 5FB66182
 P 1350 7600
 F 0 "H8" H 1450 7646 50  0000 L CNN
 F 1 "MountingHole" H 1450 7555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1350 7600 50  0001 C CNN
-F 3 "~" H 1350 7600 50  0001 C CNN
+F 2 "CM4_MATX:MountingHole_3.2mm_M3_Pad_Via" H 1350 7600 50  0001 C CNN
+F 3 "https://doc.xdevs.com/doc/_PC_HW/Form_factors/matxspe1.2.pdf" H 1350 7600 50  0001 C CNN
+F 4 "mATX Mounting Holes" H 1350 7600 50  0001 C CNN "Description"
 	1    1350 7600
 	1    0    0    -1  
 $EndComp
@@ -525,46 +534,50 @@ Wire Wire Line
 Wire Wire Line
 	6950 2300 7300 2300
 $Comp
-L Mechanical:MountingHole H10
+L CM4_MATX:MountingHole H10
 U 1 1 60295E06
 P 650 6550
 F 0 "H10" H 750 6596 50  0000 L CNN
 F 1 "MountingHole" H 750 6505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 650 6550 50  0001 C CNN
-F 3 "~" H 650 6550 50  0001 C CNN
+F 2 "CM4_MATX:MountingHole_2.7mm_M2.5" H 650 6550 50  0001 C CNN
+F 3 "https://datasheets.raspberrypi.org/cm4/cm4-datasheet.pdf" H 650 6550 50  0001 C CNN
+F 4 "Pi CM4 Mounting Holes" H 650 6550 50  0001 C CNN "Description"
 	1    650  6550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H11
+L CM4_MATX:MountingHole H11
 U 1 1 60295FE4
 P 1350 6550
 F 0 "H11" H 1450 6596 50  0000 L CNN
 F 1 "MountingHole" H 1450 6505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1350 6550 50  0001 C CNN
-F 3 "~" H 1350 6550 50  0001 C CNN
+F 2 "CM4_MATX:MountingHole_2.7mm_M2.5" H 1350 6550 50  0001 C CNN
+F 3 "https://datasheets.raspberrypi.org/cm4/cm4-datasheet.pdf" H 1350 6550 50  0001 C CNN
+F 4 "Pi CM4 Mounting Holes" H 1350 6550 50  0001 C CNN "Description"
 	1    1350 6550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H12
+L CM4_MATX:MountingHole H12
 U 1 1 602961DC
 P 2050 6550
 F 0 "H12" H 2150 6596 50  0000 L CNN
 F 1 "MountingHole" H 2150 6505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 2050 6550 50  0001 C CNN
-F 3 "~" H 2050 6550 50  0001 C CNN
+F 2 "CM4_MATX:MountingHole_2.7mm_M2.5" H 2050 6550 50  0001 C CNN
+F 3 "https://datasheets.raspberrypi.org/cm4/cm4-datasheet.pdf" H 2050 6550 50  0001 C CNN
+F 4 "Pi CM4 Mounting Holes" H 2050 6550 50  0001 C CNN "Description"
 	1    2050 6550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H13
+L CM4_MATX:MountingHole H13
 U 1 1 60296317
 P 650 6750
 F 0 "H13" H 750 6796 50  0000 L CNN
 F 1 "MountingHole" H 750 6705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 650 6750 50  0001 C CNN
-F 3 "~" H 650 6750 50  0001 C CNN
+F 2 "CM4_MATX:MountingHole_2.7mm_M2.5" H 650 6750 50  0001 C CNN
+F 3 "https://datasheets.raspberrypi.org/cm4/cm4-datasheet.pdf" H 650 6750 50  0001 C CNN
+F 4 "Pi CM4 Mounting Holes" H 650 6750 50  0001 C CNN "Description"
 	1    650  6750
 	1    0    0    -1  
 $EndComp

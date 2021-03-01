@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 16
+Sheet 15 16
 Title "PCIe x16 - Slot 1"
 Date "2021-02-08"
 Rev "0.1"
@@ -26,7 +26,7 @@ PCIE1_RX_N
 Text HLabel 1850 4750 0    50   Input ~ 0
 PCIE1_RX_P
 $Comp
-L power:GND #PWR0142
+L CM4_MATX:GND #PWR0142
 U 1 1 5FE8F6A6
 P 4300 4950
 AR Path="/5FCA7683/5FE8F6A6" Ref="#PWR0142"  Part="1" 
@@ -107,7 +107,7 @@ PCIe_1_RX_P
 Text Label 1950 4750 0    50   ~ 0
 PCIe_1_RX_N
 $Comp
-L power:+12P #PWR0143
+L CM4_MATX:+12P #PWR0143
 U 1 1 5FE94417
 P 2550 2750
 AR Path="/5FCA7683/5FE94417" Ref="#PWR0143"  Part="1" 
@@ -141,7 +141,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 2850 2550 2850
 $Comp
-L power:+3.3VP #PWR0145
+L CM4_MATX:+3.3VP #PWR0145
 U 1 1 5FE971A3
 P 2200 2750
 AR Path="/5FCA7683/5FE971A3" Ref="#PWR0145"  Part="1" 
@@ -165,7 +165,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 3400 2200 3400
 $Comp
-L power:+3.3VA #PWR0184
+L CM4_MATX:+3.3VA #PWR0184
 U 1 1 5FE9A251
 P 1800 2750
 AR Path="/5FCA7683/5FE9A251" Ref="#PWR0184"  Part="1" 
@@ -192,7 +192,12 @@ AR Path="/5FFBC089/5FFBFF2A/5FED16BC" Ref="J14"  Part="2"
 F 0 "J14" H 8300 6065 50  0000 C CNN
 F 1 "PCIe_x16" H 8300 5974 50  0000 C CNN
 F 2 "CM4_MATX:10018783-10113TLF" H 6500 8450 50  0001 C CNN
-F 3 "" H 6500 8450 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_gen3.pdf" H 6500 8450 50  0001 C CNN
+F 4 "Amphenol FCI PCI-e x16 Connector 164 POS" H 8300 4050 50  0001 C CNN "Description"
+F 5 "649-18783-10113TLF" H 8300 4050 50  0001 C CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10018783-10113TLF/?qs=%2Fha2pyFadugRWVTwF3IyzEudyJIuC5mu1uxWW1BR%252B5VORiWMhxM3Zw%3D%3D" H 8300 4050 50  0001 C CNN "Mouser Price/Stock"
+F 7 "Amphenol" H 8300 4050 50  0001 C CNN "Mfr."
+F 8 "10018783-10113TLF" H 8300 4050 50  0001 C CNN "Mfr. No"
 	2    8300 4050
 	1    0    0    -1  
 $EndComp
@@ -495,7 +500,7 @@ Connection ~ 11000 2550
 Wire Wire Line
 	11000 2550 11000 2650
 $Comp
-L power:GND #PWR0191
+L CM4_MATX:GND #PWR0191
 U 1 1 6000497C
 P 9200 5750
 AR Path="/5FCA7683/6000497C" Ref="#PWR0191"  Part="1" 
@@ -508,7 +513,7 @@ F 3 "" H 9200 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0192
+L CM4_MATX:GND #PWR0192
 U 1 1 60004C75
 P 11000 5550
 AR Path="/5FCA7683/60004C75" Ref="#PWR0192"  Part="1" 
@@ -535,9 +540,14 @@ P 1900 6250
 AR Path="/5FCA7683/5FEEAFF2" Ref="C?"  Part="1" 
 AR Path="/5FFBC089/5FFBFF2A/5FEEAFF2" Ref="C65"  Part="1" 
 F 0 "C65" V 1850 6350 50  0000 C CNN
-F 1 "0.1uF" V 1850 6100 50  0000 C CNN
-F 2 "" H 1938 6100 50  0001 C CNN
-F 3 "~" H 1900 6250 50  0001 C CNN
+F 1 "100nF" V 1850 6100 50  0000 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1938 6100 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 1900 6250 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 1900 6250 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 1900 6250 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 1900 6250 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 1900 6250 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 1900 6250 50  0001 C CNN "Description"
 	1    1900 6250
 	0    1    1    0   
 $EndComp
@@ -548,9 +558,14 @@ P 1900 6050
 AR Path="/5FCA7683/5FEEB402" Ref="C?"  Part="1" 
 AR Path="/5FFBC089/5FFBFF2A/5FEEB402" Ref="C64"  Part="1" 
 F 0 "C64" V 1950 5950 50  0000 C CNN
-F 1 "0.1uF" V 1950 6200 50  0000 C CNN
-F 2 "" H 1938 5900 50  0001 C CNN
-F 3 "~" H 1900 6050 50  0001 C CNN
+F 1 "100nF" V 1950 6200 50  0000 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1938 5900 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 1900 6050 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 1900 6050 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 1900 6050 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 1900 6050 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 1900 6050 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 1900 6050 50  0001 C CNN "Description"
 	1    1900 6050
 	0    -1   -1   0   
 $EndComp
@@ -650,7 +665,12 @@ AR Path="/5FFBC089/5FFBFF2A/5FED4A83" Ref="J14"  Part="3"
 F 0 "J14" H 10150 5565 50  0000 C CNN
 F 1 "PCIe_x16" H 10150 5474 50  0000 C CNN
 F 2 "CM4_MATX:10018783-10113TLF" H 8350 7950 50  0001 C CNN
-F 3 "" H 8350 7950 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_gen3.pdf" H 8350 7950 50  0001 C CNN
+F 4 "Amphenol FCI PCI-e x16 Connector 164 POS" H 10150 3550 50  0001 C CNN "Description"
+F 5 "649-18783-10113TLF" H 10150 3550 50  0001 C CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10018783-10113TLF/?qs=%2Fha2pyFadugRWVTwF3IyzEudyJIuC5mu1uxWW1BR%252B5VORiWMhxM3Zw%3D%3D" H 10150 3550 50  0001 C CNN "Mouser Price/Stock"
+F 7 "Amphenol" H 10150 3550 50  0001 C CNN "Mfr."
+F 8 "10018783-10113TLF" H 10150 3550 50  0001 C CNN "Mfr. No"
 	3    10150 3550
 	1    0    0    -1  
 $EndComp
@@ -692,7 +712,12 @@ AR Path="/5FFBC089/5FFBFF2A/5FECC3A6" Ref="J14"  Part="1"
 F 0 "J14" H 3400 6615 50  0000 C CNN
 F 1 "PCIe_x16" H 3400 6524 50  0000 C CNN
 F 2 "CM4_MATX:10018783-10113TLF" H 1650 9000 50  0001 C CNN
-F 3 "" H 1650 9000 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_gen3.pdf" H 1650 9000 50  0001 C CNN
+F 4 "Amphenol FCI PCI-e x16 Connector 164 POS" H 3450 4600 50  0001 C CNN "Description"
+F 5 "649-18783-10113TLF" H 3450 4600 50  0001 C CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10018783-10113TLF/?qs=%2Fha2pyFadugRWVTwF3IyzEudyJIuC5mu1uxWW1BR%252B5VORiWMhxM3Zw%3D%3D" H 3450 4600 50  0001 C CNN "Mouser Price/Stock"
+F 7 "Amphenol" H 3450 4600 50  0001 C CNN "Mfr."
+F 8 "10018783-10113TLF" H 3450 4600 50  0001 C CNN "Mfr. No"
 	1    3450 4600
 	1    0    0    -1  
 $EndComp

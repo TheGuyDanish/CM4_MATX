@@ -26,7 +26,7 @@ PCIE3_RX_N
 Text HLabel 1300 4450 0    50   Input ~ 0
 PCIE3_RX_P
 $Comp
-L power:GND #PWR?
+L CM4_MATX:GND #PWR?
 U 1 1 5FEB60E6
 P 3750 4750
 AR Path="/5FCA7683/5FEB60E6" Ref="#PWR?"  Part="1" 
@@ -108,7 +108,7 @@ PCIe_3_RX_P
 Text Label 1400 4550 0    50   ~ 0
 PCIe_3_RX_N
 $Comp
-L power:+12P #PWR?
+L CM4_MATX:+12P #PWR?
 U 1 1 5FEB6112
 P 2000 2550
 AR Path="/5FCA7683/5FEB6112" Ref="#PWR?"  Part="1" 
@@ -146,7 +146,7 @@ Connection ~ 2000 2650
 Wire Wire Line
 	2000 2650 2000 2550
 $Comp
-L power:+3.3VP #PWR?
+L CM4_MATX:+3.3VP #PWR?
 U 1 1 5FEB6126
 P 1650 2550
 AR Path="/5FCA7683/5FEB6126" Ref="#PWR?"  Part="1" 
@@ -174,7 +174,7 @@ Connection ~ 1650 3200
 Wire Wire Line
 	1650 3200 1650 2550
 $Comp
-L power:+3.3VA #PWR?
+L CM4_MATX:+3.3VA #PWR?
 U 1 1 5FEB6134
 P 1250 2550
 AR Path="/5FCA7683/5FEB6134" Ref="#PWR?"  Part="1" 
@@ -204,7 +204,12 @@ AR Path="/5FFBC089/5FFBFF34/5FEE686E" Ref="J15"  Part="1"
 F 0 "J15" H 2850 6415 50  0000 C CNN
 F 1 "PCIe_x16" H 2850 6324 50  0000 C CNN
 F 2 "CM4_MATX:10018783-10113TLF" H 1100 8800 50  0001 C CNN
-F 3 "" H 1100 8800 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_gen3.pdf" H 1100 8800 50  0001 C CNN
+F 4 "Amphenol FCI PCI-e x16 Connector 164 POS" H 2900 4400 50  0001 C CNN "Description"
+F 5 "649-18783-10113TLF" H 2900 4400 50  0001 C CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10018783-10113TLF/?qs=%2Fha2pyFadugRWVTwF3IyzEudyJIuC5mu1uxWW1BR%252B5VORiWMhxM3Zw%3D%3D" H 2900 4400 50  0001 C CNN "Mouser Price/Stock"
+F 7 "Amphenol" H 2900 4400 50  0001 C CNN "Mfr."
+F 8 "10018783-10113TLF" H 2900 4400 50  0001 C CNN "Mfr. No"
 	1    2900 4400
 	1    0    0    -1  
 $EndComp
@@ -217,7 +222,12 @@ AR Path="/5FFBC089/5FFBFF34/5FEE9FE9" Ref="J15"  Part="2"
 F 0 "J15" H 8250 5915 50  0000 C CNN
 F 1 "PCIe_x16" H 8250 5824 50  0000 C CNN
 F 2 "CM4_MATX:10018783-10113TLF" H 6450 8300 50  0001 C CNN
-F 3 "" H 6450 8300 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_gen3.pdf" H 6450 8300 50  0001 C CNN
+F 4 "Amphenol FCI PCI-e x16 Connector 164 POS" H 8250 3900 50  0001 C CNN "Description"
+F 5 "649-18783-10113TLF" H 8250 3900 50  0001 C CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10018783-10113TLF/?qs=%2Fha2pyFadugRWVTwF3IyzEudyJIuC5mu1uxWW1BR%252B5VORiWMhxM3Zw%3D%3D" H 8250 3900 50  0001 C CNN "Mouser Price/Stock"
+F 7 "Amphenol" H 8250 3900 50  0001 C CNN "Mfr."
+F 8 "10018783-10113TLF" H 8250 3900 50  0001 C CNN "Mfr. No"
 	2    8250 3900
 	1    0    0    -1  
 $EndComp
@@ -230,7 +240,12 @@ AR Path="/5FFBC089/5FFBFF34/5FEECB70" Ref="J15"  Part="3"
 F 0 "J15" H 10100 5415 50  0000 C CNN
 F 1 "PCIe_x16" H 10100 5324 50  0000 C CNN
 F 2 "CM4_MATX:10018783-10113TLF" H 8300 7800 50  0001 C CNN
-F 3 "" H 8300 7800 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_gen3.pdf" H 8300 7800 50  0001 C CNN
+F 4 "Amphenol FCI PCI-e x16 Connector 164 POS" H 10100 3400 50  0001 C CNN "Description"
+F 5 "649-18783-10113TLF" H 10100 3400 50  0001 C CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10018783-10113TLF/?qs=%2Fha2pyFadugRWVTwF3IyzEudyJIuC5mu1uxWW1BR%252B5VORiWMhxM3Zw%3D%3D" H 10100 3400 50  0001 C CNN "Mouser Price/Stock"
+F 7 "Amphenol" H 10100 3400 50  0001 C CNN "Mfr."
+F 8 "10018783-10113TLF" H 10100 3400 50  0001 C CNN "Mfr. No"
 	3    10100 3400
 	1    0    0    -1  
 $EndComp
@@ -533,7 +548,7 @@ Connection ~ 10950 5300
 Wire Wire Line
 	10950 5300 10950 5400
 $Comp
-L power:GND #PWR0193
+L CM4_MATX:GND #PWR0193
 U 1 1 601661E8
 P 10950 5400
 AR Path="/5FD6762E/601661E8" Ref="#PWR0193"  Part="1" 
@@ -546,7 +561,7 @@ F 3 "" H 10950 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0194
+L CM4_MATX:GND #PWR0194
 U 1 1 60166A1C
 P 9100 5550
 AR Path="/5FD6762E/60166A1C" Ref="#PWR0194"  Part="1" 
@@ -569,9 +584,14 @@ P 1700 5450
 AR Path="/5FCA7683/5FF316D6" Ref="C?"  Part="1" 
 AR Path="/5FFBC089/5FFBFF34/5FF316D6" Ref="C67"  Part="1" 
 F 0 "C67" V 1650 5550 50  0000 C CNN
-F 1 "0.1uF" V 1650 5300 50  0000 C CNN
-F 2 "" H 1738 5300 50  0001 C CNN
-F 3 "~" H 1700 5450 50  0001 C CNN
+F 1 "100nF" V 1650 5300 50  0000 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1738 5300 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 1700 5450 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 1700 5450 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 1700 5450 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 1700 5450 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 1700 5450 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 1700 5450 50  0001 C CNN "Description"
 	1    1700 5450
 	0    1    1    0   
 $EndComp
@@ -582,9 +602,14 @@ P 1700 5250
 AR Path="/5FCA7683/5FF316DC" Ref="C?"  Part="1" 
 AR Path="/5FFBC089/5FFBFF34/5FF316DC" Ref="C66"  Part="1" 
 F 0 "C66" V 1750 5150 50  0000 C CNN
-F 1 "0.1uF" V 1750 5400 50  0000 C CNN
-F 2 "" H 1738 5100 50  0001 C CNN
-F 3 "~" H 1700 5250 50  0001 C CNN
+F 1 "100nF" V 1750 5400 50  0000 C CNN
+F 2 "CM4_MATX:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1738 5100 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/40/cx5r-776519.pdf" H 1700 5250 50  0001 C CNN
+F 4 "581-0402ZD104MAT4A" H 1700 5250 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD104MAT4A/?qs=sGAEpiMZZMvsSlwiRhF8qud6rLLpfNdE%2FYSoyEGdkn4%3D" H 1700 5250 50  0001 C CNN "Mouser Price/Stock"
+F 6 "AVX" H 1700 5250 50  0001 C CNN "Mfr."
+F 7 "0402ZD104MAT4A" H 1700 5250 50  0001 C CNN "Mfr. No"
+F 8 "10V 0.1uF X5R 0402 20% Tol" H 1700 5250 50  0001 C CNN "Description"
 	1    1700 5250
 	0    -1   -1   0   
 $EndComp

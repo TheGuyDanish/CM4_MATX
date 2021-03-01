@@ -16,18 +16,23 @@ $EndDescr
 Text HLabel 1050 750  0    50   Input ~ 0
 +5v
 $Comp
-L Device:C_Small C18
+L CM4_MATX:C_Small C18
 U 1 1 60A4E0DC
 P 1150 850
 F 0 "C18" H 1242 896 50  0000 L CNN
 F 1 "100uF" H 1242 805 50  0000 L CNN
-F 2 "" H 1150 850 50  0001 C CNN
-F 3 "~" H 1150 850 50  0001 C CNN
+F 2 "CM4_MATX:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1150 850 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/585/MLCC-1837944.pdf" H 1150 850 50  0001 C CNN
+F 4 "187-CL31A107MQHNNWE" H 1150 850 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31A107MQHNNWE/?qs=sGAEpiMZZMvsSlwiRhF8qtsGU%2FCnaNeQ5whSJj8w5P7gcMRGH3vY2w%3D%3D" H 1150 850 50  0001 C CNN "Mouser Price/Stock"
+F 6 "Samsung" H 1150 850 50  0001 C CNN "Mfr."
+F 7 "CL31A107MQHNNWE" H 1150 850 50  0001 C CNN "Mfr. No"
+F 8 "6.3V 100uF X5R 1206 20% Tol" H 1150 850 50  0001 C CNN "Description"
 	1    1150 850 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0169
+L CM4_MATX:GND #PWR0169
 U 1 1 60A4E27E
 P 1150 1050
 F 0 "#PWR0169" H 1150 800 50  0001 C CNN
@@ -42,79 +47,114 @@ Wire Wire Line
 Wire Wire Line
 	1150 750  1050 750 
 $Comp
-L Device:C_Small C20
+L CM4_MATX:C_Small C20
 U 1 1 60A5AB4E
 P 1600 850
 F 0 "C20" H 1692 896 50  0000 L CNN
 F 1 "10uF" H 1692 805 50  0000 L CNN
-F 2 "" H 1600 850 50  0001 C CNN
-F 3 "~" H 1600 850 50  0001 C CNN
+F 2 "CM4_MATX:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1600 850 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/585/MLCC-1837944.pdf" H 1600 850 50  0001 C CNN
+F 4 "187-CL10A106MQ8NNNC" H 1600 850 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC/?qs=349EhDEZ59qlB6a%2FjjeGAg%3D%3D" H 1600 850 50  0001 C CNN "Mouser Price/Stock"
+F 6 "Samsung" H 1600 850 50  0001 C CNN "Mfr."
+F 7 "CL10A106MQ8NNNC" H 1600 850 50  0001 C CNN "Mfr. No"
+F 8 "6.3V 10uF X5R 0603 20% Tol" H 1600 850 50  0001 C CNN "Description"
 	1    1600 850 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C22
+L CM4_MATX:C_Small C22
 U 1 1 60A5AE52
 P 2000 850
 F 0 "C22" H 2092 896 50  0000 L CNN
 F 1 "10uF" H 2092 805 50  0000 L CNN
-F 2 "" H 2000 850 50  0001 C CNN
-F 3 "~" H 2000 850 50  0001 C CNN
+F 2 "CM4_MATX:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2000 850 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/585/MLCC-1837944.pdf" H 2000 850 50  0001 C CNN
+F 4 "187-CL10A106MQ8NNNC" H 2000 850 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC/?qs=349EhDEZ59qlB6a%2FjjeGAg%3D%3D" H 2000 850 50  0001 C CNN "Mouser Price/Stock"
+F 6 "Samsung" H 2000 850 50  0001 C CNN "Mfr."
+F 7 "CL10A106MQ8NNNC" H 2000 850 50  0001 C CNN "Mfr. No"
+F 8 "6.3V 10uF X5R 0603 20% Tol" H 2000 850 50  0001 C CNN "Description"
 	1    2000 850 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C24
+L CM4_MATX:C_Small C24
 U 1 1 60A5AF70
 P 2400 850
 F 0 "C24" H 2492 896 50  0000 L CNN
 F 1 "10uF" H 2492 805 50  0000 L CNN
-F 2 "" H 2400 850 50  0001 C CNN
-F 3 "~" H 2400 850 50  0001 C CNN
+F 2 "CM4_MATX:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2400 850 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/585/MLCC-1837944.pdf" H 2400 850 50  0001 C CNN
+F 4 "187-CL10A106MQ8NNNC" H 2400 850 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC/?qs=349EhDEZ59qlB6a%2FjjeGAg%3D%3D" H 2400 850 50  0001 C CNN "Mouser Price/Stock"
+F 6 "Samsung" H 2400 850 50  0001 C CNN "Mfr."
+F 7 "CL10A106MQ8NNNC" H 2400 850 50  0001 C CNN "Mfr. No"
+F 8 "6.3V 10uF X5R 0603 20% Tol" H 2400 850 50  0001 C CNN "Description"
 	1    2400 850 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C35
+L CM4_MATX:C_Small C35
 U 1 1 60A5B089
 P 2800 850
 F 0 "C35" H 2892 896 50  0000 L CNN
 F 1 "10uF" H 2892 805 50  0000 L CNN
-F 2 "" H 2800 850 50  0001 C CNN
-F 3 "~" H 2800 850 50  0001 C CNN
+F 2 "CM4_MATX:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2800 850 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/585/MLCC-1837944.pdf" H 2800 850 50  0001 C CNN
+F 4 "187-CL10A106MQ8NNNC" H 2800 850 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC/?qs=349EhDEZ59qlB6a%2FjjeGAg%3D%3D" H 2800 850 50  0001 C CNN "Mouser Price/Stock"
+F 6 "Samsung" H 2800 850 50  0001 C CNN "Mfr."
+F 7 "CL10A106MQ8NNNC" H 2800 850 50  0001 C CNN "Mfr. No"
+F 8 "6.3V 10uF X5R 0603 20% Tol" H 2800 850 50  0001 C CNN "Description"
 	1    2800 850 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C36
+L CM4_MATX:C_Small C36
 U 1 1 60A5B212
 P 3200 850
 F 0 "C36" H 3292 896 50  0000 L CNN
 F 1 "10uF" H 3292 805 50  0000 L CNN
-F 2 "" H 3200 850 50  0001 C CNN
-F 3 "~" H 3200 850 50  0001 C CNN
+F 2 "CM4_MATX:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3200 850 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/585/MLCC-1837944.pdf" H 3200 850 50  0001 C CNN
+F 4 "187-CL10A106MQ8NNNC" H 3200 850 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC/?qs=349EhDEZ59qlB6a%2FjjeGAg%3D%3D" H 3200 850 50  0001 C CNN "Mouser Price/Stock"
+F 6 "Samsung" H 3200 850 50  0001 C CNN "Mfr."
+F 7 "CL10A106MQ8NNNC" H 3200 850 50  0001 C CNN "Mfr. No"
+F 8 "6.3V 10uF X5R 0603 20% Tol" H 3200 850 50  0001 C CNN "Description"
 	1    3200 850 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C37
+L CM4_MATX:C_Small C37
 U 1 1 60A5B32B
 P 3600 850
 F 0 "C37" H 3692 896 50  0000 L CNN
 F 1 "10uF" H 3692 805 50  0000 L CNN
-F 2 "" H 3600 850 50  0001 C CNN
-F 3 "~" H 3600 850 50  0001 C CNN
+F 2 "CM4_MATX:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3600 850 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/585/MLCC-1837944.pdf" H 3600 850 50  0001 C CNN
+F 4 "187-CL10A106MQ8NNNC" H 3600 850 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC/?qs=349EhDEZ59qlB6a%2FjjeGAg%3D%3D" H 3600 850 50  0001 C CNN "Mouser Price/Stock"
+F 6 "Samsung" H 3600 850 50  0001 C CNN "Mfr."
+F 7 "CL10A106MQ8NNNC" H 3600 850 50  0001 C CNN "Mfr. No"
+F 8 "6.3V 10uF X5R 0603 20% Tol" H 3600 850 50  0001 C CNN "Description"
 	1    3600 850 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C38
+L CM4_MATX:C_Small C38
 U 1 1 60A5B444
 P 4000 850
 F 0 "C38" H 4092 896 50  0000 L CNN
 F 1 "10uF" H 4092 805 50  0000 L CNN
-F 2 "" H 4000 850 50  0001 C CNN
-F 3 "~" H 4000 850 50  0001 C CNN
+F 2 "CM4_MATX:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4000 850 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/585/MLCC-1837944.pdf" H 4000 850 50  0001 C CNN
+F 4 "187-CL10A106MQ8NNNC" H 4000 850 50  0001 C CNN "Mouser Part Number"
+F 5 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC/?qs=349EhDEZ59qlB6a%2FjjeGAg%3D%3D" H 4000 850 50  0001 C CNN "Mouser Price/Stock"
+F 6 "Samsung" H 4000 850 50  0001 C CNN "Mfr."
+F 7 "CL10A106MQ8NNNC" H 4000 850 50  0001 C CNN "Mfr. No"
+F 8 "6.3V 10uF X5R 0603 20% Tol" H 4000 850 50  0001 C CNN "Description"
 	1    4000 850 
 	1    0    0    -1  
 $EndComp
@@ -169,11 +209,10 @@ F 1 "MIC2019YM6-TR" H 1800 2274 50  0000 C CNN
 F 2 "CM4_MATX:SOT95P280X145-6N" H 2400 2200 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic20xx.pdf" H 2400 2100 50  0001 L CNN
 F 4 "MICROCHIP - MIC2019YM6-TR - LOAD SWITCH, HS, 5.5V, 0.2 - 2A, 6SOT23" H 2400 2000 50  0001 L CNN "Description"
-F 5 "1.45" H 2400 1900 50  0001 L CNN "Height"
-F 6 "998-MIC2019YM6TR" H 2400 1800 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2019YM6-TR?qs=Y3Q3JoKAO1ReVaN%2FoNfqqA%3D%3D" H 2400 1700 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Microchip" H 2400 1600 50  0001 L CNN "Manufacturer_Name"
-F 9 "MIC2019YM6-TR" H 2400 1500 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "998-MIC2019YM6TR" H 2400 1800 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2019YM6-TR?qs=Y3Q3JoKAO1ReVaN%2FoNfqqA%3D%3D" H 2400 1700 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Microchip" H 1350 2100 50  0001 C CNN "Mfr."
+F 8 "MIC2019YM6-TR" H 1350 2100 50  0001 C CNN "Mfr. No"
 	1    1350 2100
 	1    0    0    -1  
 $EndComp
@@ -190,7 +229,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 2200 1300 2450
 $Comp
-L power:GND #PWR0170
+L CM4_MATX:GND #PWR0170
 U 1 1 60A5DFCE
 P 1300 2450
 F 0 "#PWR0170" H 1300 2200 50  0001 C CNN
@@ -205,7 +244,7 @@ nOCS1
 Wire Wire Line
 	2350 2300 2250 2300
 $Comp
-L Device:R_Small R23
+L CM4_MATX:R_Small R23
 U 1 1 60A5E923
 P 2300 2550
 F 0 "R23" H 2359 2596 50  0000 L CNN
@@ -222,7 +261,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 2650 2300 2700
 $Comp
-L power:GND #PWR0171
+L CM4_MATX:GND #PWR0171
 U 1 1 60A5F2FA
 P 2300 2700
 F 0 "#PWR0171" H 2300 2450 50  0001 C CNN
@@ -245,11 +284,10 @@ F 1 "MIC2019YM6-TR" H 1800 3274 50  0000 C CNN
 F 2 "CM4_MATX:SOT95P280X145-6N" H 2400 3200 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic20xx.pdf" H 2400 3100 50  0001 L CNN
 F 4 "MICROCHIP - MIC2019YM6-TR - LOAD SWITCH, HS, 5.5V, 0.2 - 2A, 6SOT23" H 2400 3000 50  0001 L CNN "Description"
-F 5 "1.45" H 2400 2900 50  0001 L CNN "Height"
-F 6 "998-MIC2019YM6TR" H 2400 2800 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2019YM6-TR?qs=Y3Q3JoKAO1ReVaN%2FoNfqqA%3D%3D" H 2400 2700 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Microchip" H 2400 2600 50  0001 L CNN "Manufacturer_Name"
-F 9 "MIC2019YM6-TR" H 2400 2500 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "998-MIC2019YM6TR" H 2400 2800 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2019YM6-TR?qs=Y3Q3JoKAO1ReVaN%2FoNfqqA%3D%3D" H 2400 2700 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Microchip" H 1350 3100 50  0001 C CNN "Mfr."
+F 8 "MIC2019YM6-TR" H 1350 3100 50  0001 C CNN "Mfr. No"
 	1    1350 3100
 	1    0    0    -1  
 $EndComp
@@ -260,7 +298,7 @@ Text Label 1150 3100 0    50   ~ 0
 Wire Wire Line
 	1350 3200 1300 3200
 $Comp
-L power:GND #PWR0172
+L CM4_MATX:GND #PWR0172
 U 1 1 60A69949
 P 1300 3500
 F 0 "#PWR0172" H 1300 3250 50  0001 C CNN
@@ -283,7 +321,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 3200 2300 3450
 $Comp
-L Device:R_Small R24
+L CM4_MATX:R_Small R24
 U 1 1 60A6B15C
 P 2300 3550
 F 0 "R24" H 2359 3596 50  0000 L CNN
@@ -294,7 +332,7 @@ F 3 "~" H 2300 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0173
+L CM4_MATX:GND #PWR0173
 U 1 1 60A6B64E
 P 2300 3700
 F 0 "#PWR0173" H 2300 3450 50  0001 C CNN
@@ -319,11 +357,10 @@ F 1 "MIC2019YM6-TR" H 3750 2274 50  0000 C CNN
 F 2 "CM4_MATX:SOT95P280X145-6N" H 4350 2200 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic20xx.pdf" H 4350 2100 50  0001 L CNN
 F 4 "MICROCHIP - MIC2019YM6-TR - LOAD SWITCH, HS, 5.5V, 0.2 - 2A, 6SOT23" H 4350 2000 50  0001 L CNN "Description"
-F 5 "1.45" H 4350 1900 50  0001 L CNN "Height"
-F 6 "998-MIC2019YM6TR" H 4350 1800 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2019YM6-TR?qs=Y3Q3JoKAO1ReVaN%2FoNfqqA%3D%3D" H 4350 1700 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Microchip" H 4350 1600 50  0001 L CNN "Manufacturer_Name"
-F 9 "MIC2019YM6-TR" H 4350 1500 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "998-MIC2019YM6TR" H 4350 1800 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2019YM6-TR?qs=Y3Q3JoKAO1ReVaN%2FoNfqqA%3D%3D" H 4350 1700 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Microchip" H 3300 2100 50  0001 C CNN "Mfr."
+F 8 "MIC2019YM6-TR" H 3300 2100 50  0001 C CNN "Mfr. No"
 	1    3300 2100
 	1    0    0    -1  
 $EndComp
@@ -348,7 +385,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 2200 3250 2450
 $Comp
-L power:GND #PWR0174
+L CM4_MATX:GND #PWR0174
 U 1 1 60A75895
 P 3250 2450
 F 0 "#PWR0174" H 3250 2200 50  0001 C CNN
@@ -363,7 +400,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 2200 4250 2450
 $Comp
-L Device:R_Small R25
+L CM4_MATX:R_Small R25
 U 1 1 60A765B9
 P 4250 2550
 F 0 "R25" H 4309 2596 50  0000 L CNN
@@ -374,7 +411,7 @@ F 3 "~" H 4250 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0175
+L CM4_MATX:GND #PWR0175
 U 1 1 60A76AA3
 P 4250 2700
 F 0 "#PWR0175" H 4250 2450 50  0001 C CNN
@@ -395,11 +432,10 @@ F 1 "MIC2019YM6-TR" H 3750 3274 50  0000 C CNN
 F 2 "CM4_MATX:SOT95P280X145-6N" H 4350 3200 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic20xx.pdf" H 4350 3100 50  0001 L CNN
 F 4 "MICROCHIP - MIC2019YM6-TR - LOAD SWITCH, HS, 5.5V, 0.2 - 2A, 6SOT23" H 4350 3000 50  0001 L CNN "Description"
-F 5 "1.45" H 4350 2900 50  0001 L CNN "Height"
-F 6 "998-MIC2019YM6TR" H 4350 2800 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2019YM6-TR?qs=Y3Q3JoKAO1ReVaN%2FoNfqqA%3D%3D" H 4350 2700 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Microchip" H 4350 2600 50  0001 L CNN "Manufacturer_Name"
-F 9 "MIC2019YM6-TR" H 4350 2500 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "998-MIC2019YM6TR" H 4350 2800 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2019YM6-TR?qs=Y3Q3JoKAO1ReVaN%2FoNfqqA%3D%3D" H 4350 2700 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Microchip" H 3300 3100 50  0001 C CNN "Mfr."
+F 8 "MIC2019YM6-TR" H 3300 3100 50  0001 C CNN "Mfr. No"
 	1    3300 3100
 	1    0    0    -1  
 $EndComp
@@ -414,7 +450,7 @@ USB4_PWR
 Wire Wire Line
 	3300 3200 3250 3200
 $Comp
-L power:GND #PWR0176
+L CM4_MATX:GND #PWR0176
 U 1 1 60A7AC5B
 P 3250 3500
 F 0 "#PWR0176" H 3250 3250 50  0001 C CNN
@@ -437,7 +473,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 3200 4250 3450
 $Comp
-L Device:R_Small R26
+L CM4_MATX:R_Small R26
 U 1 1 60A7DE02
 P 4250 3550
 F 0 "R26" H 4309 3596 50  0000 L CNN
@@ -450,7 +486,7 @@ $EndComp
 Wire Wire Line
 	4250 3650 4250 3700
 $Comp
-L power:GND #PWR0177
+L CM4_MATX:GND #PWR0177
 U 1 1 60A7F2AF
 P 4250 3700
 F 0 "#PWR0177" H 4250 3450 50  0001 C CNN
@@ -469,11 +505,10 @@ F 1 "MIC2019YM6-TR" H 5700 2274 50  0000 C CNN
 F 2 "CM4_MATX:SOT95P280X145-6N" H 6300 2200 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic20xx.pdf" H 6300 2100 50  0001 L CNN
 F 4 "MICROCHIP - MIC2019YM6-TR - LOAD SWITCH, HS, 5.5V, 0.2 - 2A, 6SOT23" H 6300 2000 50  0001 L CNN "Description"
-F 5 "1.45" H 6300 1900 50  0001 L CNN "Height"
-F 6 "998-MIC2019YM6TR" H 6300 1800 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2019YM6-TR?qs=Y3Q3JoKAO1ReVaN%2FoNfqqA%3D%3D" H 6300 1700 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Microchip" H 6300 1600 50  0001 L CNN "Manufacturer_Name"
-F 9 "MIC2019YM6-TR" H 6300 1500 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "998-MIC2019YM6TR" H 6300 1800 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2019YM6-TR?qs=Y3Q3JoKAO1ReVaN%2FoNfqqA%3D%3D" H 6300 1700 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Microchip" H 5250 2100 50  0001 C CNN "Mfr."
+F 8 "MIC2019YM6-TR" H 5250 2100 50  0001 C CNN "Mfr. No"
 	1    5250 2100
 	1    0    0    -1  
 $EndComp
@@ -488,7 +523,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 2200 5200 2500
 $Comp
-L power:GND #PWR0178
+L CM4_MATX:GND #PWR0178
 U 1 1 60A836AB
 P 5200 2500
 F 0 "#PWR0178" H 5200 2250 50  0001 C CNN
@@ -499,7 +534,7 @@ F 3 "" H 5200 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R27
+L CM4_MATX:R_Small R27
 U 1 1 60A8389D
 P 6200 2550
 F 0 "R27" H 6259 2596 50  0000 L CNN
@@ -530,11 +565,10 @@ F 1 "MIC2019YM6-TR" H 5700 3274 50  0000 C CNN
 F 2 "CM4_MATX:SOT95P280X145-6N" H 6300 3200 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic20xx.pdf" H 6300 3100 50  0001 L CNN
 F 4 "MICROCHIP - MIC2019YM6-TR - LOAD SWITCH, HS, 5.5V, 0.2 - 2A, 6SOT23" H 6300 3000 50  0001 L CNN "Description"
-F 5 "1.45" H 6300 2900 50  0001 L CNN "Height"
-F 6 "998-MIC2019YM6TR" H 6300 2800 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2019YM6-TR?qs=Y3Q3JoKAO1ReVaN%2FoNfqqA%3D%3D" H 6300 2700 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Microchip" H 6300 2600 50  0001 L CNN "Manufacturer_Name"
-F 9 "MIC2019YM6-TR" H 6300 2500 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "998-MIC2019YM6TR" H 6300 2800 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2019YM6-TR?qs=Y3Q3JoKAO1ReVaN%2FoNfqqA%3D%3D" H 6300 2700 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Microchip" H 5250 3100 50  0001 C CNN "Mfr."
+F 8 "MIC2019YM6-TR" H 5250 3100 50  0001 C CNN "Mfr. No"
 	1    5250 3100
 	1    0    0    -1  
 $EndComp
@@ -551,7 +585,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 3200 5200 3500
 $Comp
-L power:GND #PWR0179
+L CM4_MATX:GND #PWR0179
 U 1 1 60AA2383
 P 5200 3500
 F 0 "#PWR0179" H 5200 3250 50  0001 C CNN
@@ -574,7 +608,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 3300 6250 3300
 $Comp
-L power:GND #PWR0180
+L CM4_MATX:GND #PWR0180
 U 1 1 60AA7C47
 P 6200 2700
 F 0 "#PWR0180" H 6200 2450 50  0001 C CNN
@@ -597,11 +631,10 @@ F 1 "MIC2019YM6-TR" H 7650 2274 50  0000 C CNN
 F 2 "CM4_MATX:SOT95P280X145-6N" H 8250 2200 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic20xx.pdf" H 8250 2100 50  0001 L CNN
 F 4 "MICROCHIP - MIC2019YM6-TR - LOAD SWITCH, HS, 5.5V, 0.2 - 2A, 6SOT23" H 8250 2000 50  0001 L CNN "Description"
-F 5 "1.45" H 8250 1900 50  0001 L CNN "Height"
-F 6 "998-MIC2019YM6TR" H 8250 1800 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2019YM6-TR?qs=Y3Q3JoKAO1ReVaN%2FoNfqqA%3D%3D" H 8250 1700 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Microchip" H 8250 1600 50  0001 L CNN "Manufacturer_Name"
-F 9 "MIC2019YM6-TR" H 8250 1500 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "998-MIC2019YM6TR" H 8250 1800 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2019YM6-TR?qs=Y3Q3JoKAO1ReVaN%2FoNfqqA%3D%3D" H 8250 1700 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Microchip" H 7200 2100 50  0001 C CNN "Mfr."
+F 8 "MIC2019YM6-TR" H 7200 2100 50  0001 C CNN "Mfr. No"
 	1    7200 2100
 	1    0    0    -1  
 $EndComp
@@ -618,7 +651,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 2200 7150 2500
 $Comp
-L power:GND #PWR0181
+L CM4_MATX:GND #PWR0181
 U 1 1 60AB332A
 P 7150 2500
 F 0 "#PWR0181" H 7150 2250 50  0001 C CNN
@@ -629,7 +662,7 @@ F 3 "" H 7150 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0182
+L CM4_MATX:GND #PWR0182
 U 1 1 60AB35FE
 P 8150 2700
 F 0 "#PWR0182" H 8150 2450 50  0001 C CNN
@@ -640,7 +673,7 @@ F 3 "" H 8150 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R29
+L CM4_MATX:R_Small R29
 U 1 1 60AB385B
 P 8150 2550
 F 0 "R29" H 8209 2596 50  0000 L CNN
@@ -669,7 +702,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 3200 6200 3450
 $Comp
-L Device:R_Small R28
+L CM4_MATX:R_Small R28
 U 1 1 60AC1A09
 P 6200 3550
 F 0 "R28" H 6259 3596 50  0000 L CNN
@@ -680,7 +713,7 @@ F 3 "~" H 6200 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0183
+L CM4_MATX:GND #PWR0183
 U 1 1 60AC1D23
 P 6200 3700
 F 0 "#PWR0183" H 6200 3450 50  0001 C CNN

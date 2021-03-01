@@ -1,5 +1,35 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +12P
+D Power symbol creates a global label with name "+12P"
+K power-flag
+$ENDCMP
+#
+$CMP +12V
+D Power symbol creates a global label with name "+12V"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3VA
+D Power symbol creates a global label with name "+3.3VA"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3VP
+D Power symbol creates a global label with name "+3.3VP"
+K power-flag
+$ENDCMP
+#
+$CMP +5VA
+D Power symbol creates a global label with name "+5VA"
+K power-flag
+$ENDCMP
+#
 $CMP 10018783-10102TLF
 D PCI Express / PCI Connectors x8 98 POS
 F https://componentsearchengine.com/Datasheets/1/10018783-10102TLF.pdf
@@ -96,8 +126,38 @@ $CMP ComputeModule4-CM4
 D Raspberry Pi Compute Module 4 with HRS-DF40C-100DS-0.4V(51) Connectors
 $ENDCMP
 #
+$CMP Conn_01x22_Female
+D Generic connector, single row, 01x22, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x04_Odd_Even
+D Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x05_Odd_Even
+D Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x20_Odd_Even
+D Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Crystal
 D Two pin crystal
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP Crystal_GND24_Small
+D Four pin crystal, GND on pins 2 and 4, small symbol
 K quartz ceramic resonator oscillator
 F ~
 $ENDCMP
@@ -161,6 +221,18 @@ D MICROCHIP - MIC2019YM6-TR - LOAD SWITCH, HS, 5.5V, 0.2 - 2A, 6SOT23
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic20xx.pdf
 $ENDCMP
 #
+$CMP MountingHole
+D Mounting Hole without connection
+K mounting hole
+F ~
+$ENDCMP
+#
+$CMP PCA9548ARGE
+D Low voltage 8-channel I2C switch with reset, VQFN-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
+$ENDCMP
+#
 $CMP PCF85263AT
 D Tiny Real-Time Clock/calendar with alarm function, battery switch-over, time stamp input, I2C bus, SO-8
 K RTC battery I2C
@@ -196,6 +268,18 @@ $ENDCMP
 $CMP SS-52100-002
 D STEWART CONNECTOR - SS-52100-002 - USB CONN, 2.0 TYPE A, RCPT, 4POS, TH
 F https://componentsearchengine.com/Datasheets/1/SS-52100-002.pdf
+$ENDCMP
+#
+$CMP TCA9548ARGER
+D Low voltage 8-channel I2C switch with reset, QFN-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+$ENDCMP
+#
+$CMP TPD4EUSB30
+D 4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10
+K ESD protection USB 3.0
+F http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf
 $ENDCMP
 #
 $CMP TPS62067DSGR
