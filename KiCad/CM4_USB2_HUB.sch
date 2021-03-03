@@ -639,8 +639,6 @@ Wire Wire Line
 	1000 1000 1000 1050
 Wire Wire Line
 	1600 1000 1000 1000
-Wire Wire Line
-	1600 1300 1600 1250
 Connection ~ 1600 1300
 Wire Wire Line
 	1600 1300 1800 1300
@@ -651,8 +649,6 @@ Wire Wire Line
 Connection ~ 1600 1000
 Wire Wire Line
 	1600 1000 1800 1000
-Wire Wire Line
-	1600 1050 1600 1000
 $Comp
 L CM4_MATX:C_Small C5
 U 1 1 5FE4748F
@@ -689,17 +685,6 @@ Text Label 1800 1300 0    50   ~ 0
 XTAL2
 Text Label 1800 1000 0    50   ~ 0
 XTAL1
-$Comp
-L CM4_MATX:R_Small R4
-U 1 1 5FE3FBDB
-P 1600 1150
-F 0 "R4" H 1659 1196 50  0000 L CNN
-F 1 "1M 1%" H 1659 1105 50  0000 L CNN
-F 2 "" H 1600 1150 50  0001 C CNN
-F 3 "~" H 1600 1150 50  0001 C CNN
-	1    1600 1150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	900  1150 800  1150
 Wire Wire Line
