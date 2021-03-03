@@ -42,8 +42,13 @@ U 1 1 5FE3BFBD
 P 5750 5350
 F 0 "R7" H 5820 5396 50  0000 L CNN
 F 1 "4.7K" H 5820 5305 50  0000 L CNN
-F 2 "CM4_MATX:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5680 5350 50  0001 C CNN
-F 3 "~" H 5750 5350 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 5680 5350 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 5750 5350 50  0001 C CNN
+F 4 "0402 1/16W 4.7KOhm 1%" H 5750 5350 50  0001 C CNN "Description"
+F 5 "Yageo" H 5750 5350 50  0001 C CNN "Mfr."
+F 6 "RC0402FR-074K7L" H 5750 5350 50  0001 C CNN "Mfr. No"
+F 7 "603-RC0402FR-074K7L" H 5750 5350 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-074K7L/?qs=sGAEpiMZZMvdGkrng054t8Tx25L%252BvTaRRFeij8HQtRc%3D" H 5750 5350 50  0001 C CNN "Mouser Price/Stock"
 	1    5750 5350
 	1    0    0    -1  
 $EndComp
@@ -53,8 +58,13 @@ U 1 1 5FE3C88F
 P 6400 5350
 F 0 "R32" H 6470 5396 50  0000 L CNN
 F 1 "4.7K" H 6470 5305 50  0000 L CNN
-F 2 "CM4_MATX:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6330 5350 50  0001 C CNN
-F 3 "~" H 6400 5350 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 6330 5350 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 6400 5350 50  0001 C CNN
+F 4 "0402 1/16W 4.7KOhm 1%" H 6400 5350 50  0001 C CNN "Description"
+F 5 "Yageo" H 6400 5350 50  0001 C CNN "Mfr."
+F 6 "RC0402FR-074K7L" H 6400 5350 50  0001 C CNN "Mfr. No"
+F 7 "603-RC0402FR-074K7L" H 6400 5350 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-074K7L/?qs=sGAEpiMZZMvdGkrng054t8Tx25L%252BvTaRRFeij8HQtRc%3D" H 6400 5350 50  0001 C CNN "Mouser Price/Stock"
 	1    6400 5350
 	1    0    0    -1  
 $EndComp
@@ -64,8 +74,13 @@ U 1 1 5FE3CE10
 P 7050 5350
 F 0 "R34" H 7120 5396 50  0000 L CNN
 F 1 "4.7K" H 7120 5305 50  0000 L CNN
-F 2 "CM4_MATX:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6980 5350 50  0001 C CNN
-F 3 "~" H 7050 5350 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 6980 5350 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 7050 5350 50  0001 C CNN
+F 4 "0402 1/16W 4.7KOhm 1%" H 7050 5350 50  0001 C CNN "Description"
+F 5 "Yageo" H 7050 5350 50  0001 C CNN "Mfr."
+F 6 "RC0402FR-074K7L" H 7050 5350 50  0001 C CNN "Mfr. No"
+F 7 "603-RC0402FR-074K7L" H 7050 5350 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-074K7L/?qs=sGAEpiMZZMvdGkrng054t8Tx25L%252BvTaRRFeij8HQtRc%3D" H 7050 5350 50  0001 C CNN "Mouser Price/Stock"
 	1    7050 5350
 	1    0    0    -1  
 $EndComp
@@ -75,8 +90,13 @@ U 1 1 5FE3D2DA
 P 7700 5350
 F 0 "R35" H 7770 5396 50  0000 L CNN
 F 1 "4.7K" H 7770 5305 50  0000 L CNN
-F 2 "CM4_MATX:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7630 5350 50  0001 C CNN
-F 3 "~" H 7700 5350 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 7630 5350 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 7700 5350 50  0001 C CNN
+F 4 "0402 1/16W 4.7KOhm 1%" H 7700 5350 50  0001 C CNN "Description"
+F 5 "Yageo" H 7700 5350 50  0001 C CNN "Mfr."
+F 6 "RC0402FR-074K7L" H 7700 5350 50  0001 C CNN "Mfr. No"
+F 7 "603-RC0402FR-074K7L" H 7700 5350 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-074K7L/?qs=sGAEpiMZZMvdGkrng054t8Tx25L%252BvTaRRFeij8HQtRc%3D" H 7700 5350 50  0001 C CNN "Mouser Price/Stock"
 	1    7700 5350
 	1    0    0    -1  
 $EndComp
@@ -167,8 +187,13 @@ U 1 1 5FE864CC
 P 6300 3300
 F 0 "R31" H 6370 3346 50  0000 L CNN
 F 1 "4.7K" H 6370 3255 50  0000 L CNN
-F 2 "CM4_MATX:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6230 3300 50  0001 C CNN
-F 3 "~" H 6300 3300 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 6230 3300 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 6300 3300 50  0001 C CNN
+F 4 "0402 1/16W 4.7KOhm 1%" H 6300 3300 50  0001 C CNN "Description"
+F 5 "Yageo" H 6300 3300 50  0001 C CNN "Mfr."
+F 6 "RC0402FR-074K7L" H 6300 3300 50  0001 C CNN "Mfr. No"
+F 7 "603-RC0402FR-074K7L" H 6300 3300 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-074K7L/?qs=sGAEpiMZZMvdGkrng054t8Tx25L%252BvTaRRFeij8HQtRc%3D" H 6300 3300 50  0001 C CNN "Mouser Price/Stock"
 	1    6300 3300
 	1    0    0    -1  
 $EndComp
@@ -178,8 +203,13 @@ U 1 1 5FE86C3D
 P 6650 3300
 F 0 "R33" H 6720 3346 50  0000 L CNN
 F 1 "4.7K" H 6720 3255 50  0000 L CNN
-F 2 "CM4_MATX:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6580 3300 50  0001 C CNN
-F 3 "~" H 6650 3300 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 6580 3300 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 6650 3300 50  0001 C CNN
+F 4 "0402 1/16W 4.7KOhm 1%" H 6650 3300 50  0001 C CNN "Description"
+F 5 "Yageo" H 6650 3300 50  0001 C CNN "Mfr."
+F 6 "RC0402FR-074K7L" H 6650 3300 50  0001 C CNN "Mfr. No"
+F 7 "603-RC0402FR-074K7L" H 6650 3300 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-074K7L/?qs=sGAEpiMZZMvdGkrng054t8Tx25L%252BvTaRRFeij8HQtRc%3D" H 6650 3300 50  0001 C CNN "Mouser Price/Stock"
 	1    6650 3300
 	1    0    0    -1  
 $EndComp
@@ -189,8 +219,13 @@ U 1 1 5FE87870
 P 5600 3300
 F 0 "R5" H 5670 3346 50  0000 L CNN
 F 1 "4.7K" H 5670 3255 50  0000 L CNN
-F 2 "CM4_MATX:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5530 3300 50  0001 C CNN
-F 3 "~" H 5600 3300 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 5530 3300 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 5600 3300 50  0001 C CNN
+F 4 "0402 1/16W 4.7KOhm 1%" H 5600 3300 50  0001 C CNN "Description"
+F 5 "Yageo" H 5600 3300 50  0001 C CNN "Mfr."
+F 6 "RC0402FR-074K7L" H 5600 3300 50  0001 C CNN "Mfr. No"
+F 7 "603-RC0402FR-074K7L" H 5600 3300 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-074K7L/?qs=sGAEpiMZZMvdGkrng054t8Tx25L%252BvTaRRFeij8HQtRc%3D" H 5600 3300 50  0001 C CNN "Mouser Price/Stock"
 	1    5600 3300
 	1    0    0    -1  
 $EndComp
@@ -200,8 +235,13 @@ U 1 1 5FE88084
 P 5950 3300
 F 0 "R30" H 6020 3346 50  0000 L CNN
 F 1 "4.7K" H 6020 3255 50  0000 L CNN
-F 2 "CM4_MATX:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5880 3300 50  0001 C CNN
-F 3 "~" H 5950 3300 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 5880 3300 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 5950 3300 50  0001 C CNN
+F 4 "0402 1/16W 4.7KOhm 1%" H 5950 3300 50  0001 C CNN "Description"
+F 5 "Yageo" H 5950 3300 50  0001 C CNN "Mfr."
+F 6 "RC0402FR-074K7L" H 5950 3300 50  0001 C CNN "Mfr. No"
+F 7 "603-RC0402FR-074K7L" H 5950 3300 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-074K7L/?qs=sGAEpiMZZMvdGkrng054t8Tx25L%252BvTaRRFeij8HQtRc%3D" H 5950 3300 50  0001 C CNN "Mouser Price/Stock"
 	1    5950 3300
 	1    0    0    -1  
 $EndComp
@@ -222,6 +262,11 @@ F 0 "M1" H 8058 3096 50  0000 L CNN
 F 1 "Fan_CPU_4pin" H 8058 3005 50  0000 L CNN
 F 2 "CM4_MATX:FanPinHeader_1x04_P2.54mm_Vertical" H 7950 2460 50  0001 C CNN
 F 3 "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf" H 7900 3010 50  0001 C CNN
+F 4 "Standard PC 4-pin fan header (Molex 47053-100)" H 7900 3000 50  0001 C CNN "Description"
+F 5 "Molex" H 7900 3000 50  0001 C CNN "Mfr."
+F 6 "47053-1000" H 7900 3000 50  0001 C CNN "Mfr. No"
+F 7 "538-47053-1000" H 7900 3000 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Molex/47053-1000/?qs=ph4zPCVRuvqoDX7hrEhxNA%3D%3D" H 7900 3000 50  0001 C CNN "Mouser Price/Stock"
 	1    7900 3000
 	1    0    0    -1  
 $EndComp
@@ -233,6 +278,11 @@ F 0 "M2" H 8858 3646 50  0000 L CNN
 F 1 "Fan_CPU_4pin" H 8858 3555 50  0000 L CNN
 F 2 "CM4_MATX:FanPinHeader_1x04_P2.54mm_Vertical" H 8750 3010 50  0001 C CNN
 F 3 "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf" H 8700 3560 50  0001 C CNN
+F 4 "Standard PC 4-pin fan header (Molex 47053-100)" H 8700 3550 50  0001 C CNN "Description"
+F 5 "Molex" H 8700 3550 50  0001 C CNN "Mfr."
+F 6 "47053-1000" H 8700 3550 50  0001 C CNN "Mfr. No"
+F 7 "538-47053-1000" H 8700 3550 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Molex/47053-1000/?qs=ph4zPCVRuvqoDX7hrEhxNA%3D%3D" H 8700 3550 50  0001 C CNN "Mouser Price/Stock"
 	1    8700 3550
 	1    0    0    -1  
 $EndComp

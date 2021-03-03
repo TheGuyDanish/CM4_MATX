@@ -861,8 +861,12 @@ AR Path="/5FFBC089/5FFBFEFE/60341D8A" Ref="R15"  Part="1"
 F 0 "R15" V 6250 650 50  0000 C CNN
 F 1 "1.43k 1%" V 6250 950 50  0000 C CNN
 F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 6350 750 50  0001 C CNN
-F 3 "~" H 6350 750 50  0001 C CNN
-F 4 "0402 1.43KOhm 1%" H 6350 750 50  0001 C CNN "Description"
+F 3 "https://www.mouser.co.uk/datasheet/2/315/AOA0000C304-1149620.pdf" H 6350 750 50  0001 C CNN
+F 4 "0402 1/10W 1.43KOhm 1%" H 6350 750 50  0001 C CNN "Description"
+F 5 "Panasonic" H 6350 750 50  0001 C CNN "Mfr."
+F 6 "ERJ-2RKF1431X" H 6350 750 50  0001 C CNN "Mfr. No"
+F 7 "667-ERJ-2RKF1431X" H 6350 750 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF1431X/?qs=sGAEpiMZZMvdGkrng054tx7%2F6%252BNA3LAJhXTctTsGqcc%3D" H 6350 750 50  0001 C CNN "Mouser Price/Stock"
 	1    6350 750 
 	0    1    1    0   
 $EndComp
@@ -1867,8 +1871,13 @@ U 1 1 60494B89
 P 8700 5800
 F 0 "R92" H 8759 5846 50  0000 L CNN
 F 1 "5.1k" H 8759 5755 50  0000 L CNN
-F 2 "" H 8700 5800 50  0001 C CNN
-F 3 "~" H 8700 5800 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 8700 5800 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/315/AOA0000C304-1149620.pdf" H 8700 5800 50  0001 C CNN
+F 4 "0402 1/10W 5.1KOhm 1%" H 8700 5800 50  0001 C CNN "Description"
+F 5 "Panasonic" H 8700 5800 50  0001 C CNN "Mfr."
+F 6 "ERJ-2RKF5101X" H 8700 5800 50  0001 C CNN "Mfr. No"
+F 7 "667-ERJ-2RKF5101X" H 8700 5800 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF5101X/?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xIXmurKOGv8o%3D" H 8700 5800 50  0001 C CNN "Mouser Price/Stock"
 	1    8700 5800
 	1    0    0    -1  
 $EndComp
@@ -1878,8 +1887,13 @@ U 1 1 604A65E5
 P 8450 5600
 F 0 "R91" H 8509 5646 50  0000 L CNN
 F 1 "5.1k" H 8509 5555 50  0000 L CNN
-F 2 "" H 8450 5600 50  0001 C CNN
-F 3 "~" H 8450 5600 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 8450 5600 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/315/AOA0000C304-1149620.pdf" H 8450 5600 50  0001 C CNN
+F 4 "0402 1/10W 5.1KOhm 1%" H 8450 5600 50  0001 C CNN "Description"
+F 5 "Panasonic" H 8450 5600 50  0001 C CNN "Mfr."
+F 6 "ERJ-2RKF5101X" H 8450 5600 50  0001 C CNN "Mfr. No"
+F 7 "667-ERJ-2RKF5101X" H 8450 5600 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF5101X/?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xIXmurKOGv8o%3D" H 8450 5600 50  0001 C CNN "Mouser Price/Stock"
 	1    8450 5600
 	1    0    0    -1  
 $EndComp
@@ -1960,8 +1974,13 @@ U 1 1 60D58CB2
 P 2550 7050
 F 0 "R41" V 2500 6900 50  0000 C CNN
 F 1 "5.1k" V 2500 7200 50  0000 C CNN
-F 2 "" H 2550 7050 50  0001 C CNN
-F 3 "~" H 2550 7050 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 2550 7050 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/315/AOA0000C304-1149620.pdf" H 2550 7050 50  0001 C CNN
+F 4 "0402 1/10W 5.1KOhm 1%" H 2550 7050 50  0001 C CNN "Description"
+F 5 "Panasonic" H 2550 7050 50  0001 C CNN "Mfr."
+F 6 "ERJ-2RKF5101X" H 2550 7050 50  0001 C CNN "Mfr. No"
+F 7 "667-ERJ-2RKF5101X" H 2550 7050 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF5101X/?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xIXmurKOGv8o%3D" H 2550 7050 50  0001 C CNN "Mouser Price/Stock"
 	1    2550 7050
 	0    1    1    0   
 $EndComp
@@ -1971,8 +1990,13 @@ U 1 1 60D58CB8
 P 2550 7150
 F 0 "R42" V 2500 7000 50  0000 C CNN
 F 1 "5.1k" V 2500 7300 50  0000 C CNN
-F 2 "" H 2550 7150 50  0001 C CNN
-F 3 "~" H 2550 7150 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 2550 7150 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/315/AOA0000C304-1149620.pdf" H 2550 7150 50  0001 C CNN
+F 4 "0402 1/10W 5.1KOhm 1%" H 2550 7150 50  0001 C CNN "Description"
+F 5 "Panasonic" H 2550 7150 50  0001 C CNN "Mfr."
+F 6 "ERJ-2RKF5101X" H 2550 7150 50  0001 C CNN "Mfr. No"
+F 7 "667-ERJ-2RKF5101X" H 2550 7150 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF5101X/?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xIXmurKOGv8o%3D" H 2550 7150 50  0001 C CNN "Mouser Price/Stock"
 	1    2550 7150
 	0    1    1    0   
 $EndComp
@@ -1982,8 +2006,13 @@ U 1 1 60D58CBE
 P 2550 7250
 F 0 "R43" V 2500 7100 50  0000 C CNN
 F 1 "5.1k" V 2500 7400 50  0000 C CNN
-F 2 "" H 2550 7250 50  0001 C CNN
-F 3 "~" H 2550 7250 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 2550 7250 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/315/AOA0000C304-1149620.pdf" H 2550 7250 50  0001 C CNN
+F 4 "0402 1/10W 5.1KOhm 1%" H 2550 7250 50  0001 C CNN "Description"
+F 5 "Panasonic" H 2550 7250 50  0001 C CNN "Mfr."
+F 6 "ERJ-2RKF5101X" H 2550 7250 50  0001 C CNN "Mfr. No"
+F 7 "667-ERJ-2RKF5101X" H 2550 7250 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF5101X/?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xIXmurKOGv8o%3D" H 2550 7250 50  0001 C CNN "Mouser Price/Stock"
 	1    2550 7250
 	0    1    1    0   
 $EndComp
@@ -1993,8 +2022,13 @@ U 1 1 60D58CC4
 P 2550 7350
 F 0 "R44" V 2500 7200 50  0000 C CNN
 F 1 "5.1k" V 2500 7500 50  0000 C CNN
-F 2 "" H 2550 7350 50  0001 C CNN
-F 3 "~" H 2550 7350 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 2550 7350 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/315/AOA0000C304-1149620.pdf" H 2550 7350 50  0001 C CNN
+F 4 "0402 1/10W 5.1KOhm 1%" H 2550 7350 50  0001 C CNN "Description"
+F 5 "Panasonic" H 2550 7350 50  0001 C CNN "Mfr."
+F 6 "ERJ-2RKF5101X" H 2550 7350 50  0001 C CNN "Mfr. No"
+F 7 "667-ERJ-2RKF5101X" H 2550 7350 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF5101X/?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xIXmurKOGv8o%3D" H 2550 7350 50  0001 C CNN "Mouser Price/Stock"
 	1    2550 7350
 	0    1    1    0   
 $EndComp
@@ -2047,8 +2081,13 @@ U 1 1 6118A41D
 P 2550 7550
 F 0 "R67" V 2500 7400 50  0000 C CNN
 F 1 "5.1k" V 2500 7700 50  0000 C CNN
-F 2 "" H 2550 7550 50  0001 C CNN
-F 3 "~" H 2550 7550 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 2550 7550 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/315/AOA0000C304-1149620.pdf" H 2550 7550 50  0001 C CNN
+F 4 "0402 1/10W 5.1KOhm 1%" H 2550 7550 50  0001 C CNN "Description"
+F 5 "Panasonic" H 2550 7550 50  0001 C CNN "Mfr."
+F 6 "ERJ-2RKF5101X" H 2550 7550 50  0001 C CNN "Mfr. No"
+F 7 "667-ERJ-2RKF5101X" H 2550 7550 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF5101X/?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xIXmurKOGv8o%3D" H 2550 7550 50  0001 C CNN "Mouser Price/Stock"
 	1    2550 7550
 	0    1    1    0   
 $EndComp
@@ -2270,8 +2309,13 @@ U 1 1 612146B3
 P 2550 7450
 F 0 "R45" V 2500 7300 50  0000 C CNN
 F 1 "5.1k" V 2500 7600 50  0000 C CNN
-F 2 "" H 2550 7450 50  0001 C CNN
-F 3 "~" H 2550 7450 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 2550 7450 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/315/AOA0000C304-1149620.pdf" H 2550 7450 50  0001 C CNN
+F 4 "0402 1/10W 5.1KOhm 1%" H 2550 7450 50  0001 C CNN "Description"
+F 5 "Panasonic" H 2550 7450 50  0001 C CNN "Mfr."
+F 6 "ERJ-2RKF5101X" H 2550 7450 50  0001 C CNN "Mfr. No"
+F 7 "667-ERJ-2RKF5101X" H 2550 7450 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF5101X/?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xIXmurKOGv8o%3D" H 2550 7450 50  0001 C CNN "Mouser Price/Stock"
 	1    2550 7450
 	0    1    1    0   
 $EndComp
@@ -2556,8 +2600,13 @@ U 1 1 61E27926
 P 7600 1350
 F 0 "R90" V 7550 1200 50  0000 C CNN
 F 1 "49.9" V 7550 1500 50  0000 C CNN
-F 2 "" H 7600 1350 50  0001 C CNN
-F 3 "~" H 7600 1350 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 7600 1350 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 7600 1350 50  0001 C CNN
+F 4 "0402 1/16W 49.9Ohm 1%" H 7600 1350 50  0001 C CNN "Description"
+F 5 "Yageo" H 7600 1350 50  0001 C CNN "Mfr."
+F 6 "RC0402FR-0749R9L" H 7600 1350 50  0001 C CNN "Mfr. No"
+F 7 "603-RC0402FR-0749R9L" H 7600 1350 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-0749R9L/?qs=sGAEpiMZZMvdGkrng054tzB9oPOc3T13PaD8moc68CQ%3D" H 7600 1350 50  0001 C CNN "Mouser Price/Stock"
 	1    7600 1350
 	0    1    1    0   
 $EndComp
@@ -2567,8 +2616,13 @@ U 1 1 61E2792C
 P 7600 1250
 F 0 "R89" V 7550 1100 50  0000 C CNN
 F 1 "49.9" V 7550 1400 50  0000 C CNN
-F 2 "" H 7600 1250 50  0001 C CNN
-F 3 "~" H 7600 1250 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 7600 1250 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 7600 1250 50  0001 C CNN
+F 4 "0402 1/16W 49.9Ohm 1%" H 7600 1250 50  0001 C CNN "Description"
+F 5 "Yageo" H 7600 1250 50  0001 C CNN "Mfr."
+F 6 "RC0402FR-0749R9L" H 7600 1250 50  0001 C CNN "Mfr. No"
+F 7 "603-RC0402FR-0749R9L" H 7600 1250 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-0749R9L/?qs=sGAEpiMZZMvdGkrng054tzB9oPOc3T13PaD8moc68CQ%3D" H 7600 1250 50  0001 C CNN "Mouser Price/Stock"
 	1    7600 1250
 	0    1    1    0   
 $EndComp
@@ -2578,8 +2632,13 @@ U 1 1 61E27932
 P 7600 1150
 F 0 "R88" V 7550 1000 50  0000 C CNN
 F 1 "49.9" V 7550 1300 50  0000 C CNN
-F 2 "" H 7600 1150 50  0001 C CNN
-F 3 "~" H 7600 1150 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 7600 1150 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 7600 1150 50  0001 C CNN
+F 4 "0402 1/16W 49.9Ohm 1%" H 7600 1150 50  0001 C CNN "Description"
+F 5 "Yageo" H 7600 1150 50  0001 C CNN "Mfr."
+F 6 "RC0402FR-0749R9L" H 7600 1150 50  0001 C CNN "Mfr. No"
+F 7 "603-RC0402FR-0749R9L" H 7600 1150 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-0749R9L/?qs=sGAEpiMZZMvdGkrng054tzB9oPOc3T13PaD8moc68CQ%3D" H 7600 1150 50  0001 C CNN "Mouser Price/Stock"
 	1    7600 1150
 	0    1    1    0   
 $EndComp
@@ -2610,8 +2669,13 @@ U 1 1 61E27970
 P 7600 1050
 F 0 "R87" V 7550 900 50  0000 C CNN
 F 1 "49.9" V 7550 1200 50  0000 C CNN
-F 2 "" H 7600 1050 50  0001 C CNN
-F 3 "~" H 7600 1050 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 7600 1050 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 7600 1050 50  0001 C CNN
+F 4 "0402 1/16W 49.9Ohm 1%" H 7600 1050 50  0001 C CNN "Description"
+F 5 "Yageo" H 7600 1050 50  0001 C CNN "Mfr."
+F 6 "RC0402FR-0749R9L" H 7600 1050 50  0001 C CNN "Mfr. No"
+F 7 "603-RC0402FR-0749R9L" H 7600 1050 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-0749R9L/?qs=sGAEpiMZZMvdGkrng054tzB9oPOc3T13PaD8moc68CQ%3D" H 7600 1050 50  0001 C CNN "Mouser Price/Stock"
 	1    7600 1050
 	0    1    1    0   
 $EndComp
@@ -2621,8 +2685,13 @@ U 1 1 61E27976
 P 7600 950
 F 0 "R86" V 7550 800 50  0000 C CNN
 F 1 "49.9" V 7550 1100 50  0000 C CNN
-F 2 "" H 7600 950 50  0001 C CNN
-F 3 "~" H 7600 950 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 7600 950 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 7600 950 50  0001 C CNN
+F 4 "0402 1/16W 49.9Ohm 1%" H 7600 950 50  0001 C CNN "Description"
+F 5 "Yageo" H 7600 950 50  0001 C CNN "Mfr."
+F 6 "RC0402FR-0749R9L" H 7600 950 50  0001 C CNN "Mfr. No"
+F 7 "603-RC0402FR-0749R9L" H 7600 950 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-0749R9L/?qs=sGAEpiMZZMvdGkrng054tzB9oPOc3T13PaD8moc68CQ%3D" H 7600 950 50  0001 C CNN "Mouser Price/Stock"
 	1    7600 950 
 	0    1    1    0   
 $EndComp
@@ -2632,8 +2701,13 @@ U 1 1 61E2797C
 P 7600 850
 F 0 "R85" V 7550 700 50  0000 C CNN
 F 1 "49.9" V 7550 1000 50  0000 C CNN
-F 2 "" H 7600 850 50  0001 C CNN
-F 3 "~" H 7600 850 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 7600 850 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 7600 850 50  0001 C CNN
+F 4 "0402 1/16W 49.9Ohm 1%" H 7600 850 50  0001 C CNN "Description"
+F 5 "Yageo" H 7600 850 50  0001 C CNN "Mfr."
+F 6 "RC0402FR-0749R9L" H 7600 850 50  0001 C CNN "Mfr. No"
+F 7 "603-RC0402FR-0749R9L" H 7600 850 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-0749R9L/?qs=sGAEpiMZZMvdGkrng054tzB9oPOc3T13PaD8moc68CQ%3D" H 7600 850 50  0001 C CNN "Mouser Price/Stock"
 	1    7600 850 
 	0    1    1    0   
 $EndComp
@@ -2643,8 +2717,13 @@ U 1 1 61E27982
 P 7600 750
 F 0 "R84" V 7550 600 50  0000 C CNN
 F 1 "49.9" V 7550 900 50  0000 C CNN
-F 2 "" H 7600 750 50  0001 C CNN
-F 3 "~" H 7600 750 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 7600 750 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 7600 750 50  0001 C CNN
+F 4 "0402 1/16W 49.9Ohm 1%" H 7600 750 50  0001 C CNN "Description"
+F 5 "Yageo" H 7600 750 50  0001 C CNN "Mfr."
+F 6 "RC0402FR-0749R9L" H 7600 750 50  0001 C CNN "Mfr. No"
+F 7 "603-RC0402FR-0749R9L" H 7600 750 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-0749R9L/?qs=sGAEpiMZZMvdGkrng054tzB9oPOc3T13PaD8moc68CQ%3D" H 7600 750 50  0001 C CNN "Mouser Price/Stock"
 	1    7600 750 
 	0    1    1    0   
 $EndComp
@@ -2654,8 +2733,13 @@ U 1 1 61E27988
 P 7600 650
 F 0 "R83" V 7550 500 50  0000 C CNN
 F 1 "49.9" V 7550 800 50  0000 C CNN
-F 2 "" H 7600 650 50  0001 C CNN
-F 3 "~" H 7600 650 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 7600 650 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 7600 650 50  0001 C CNN
+F 4 "0402 1/16W 49.9Ohm 1%" H 7600 650 50  0001 C CNN "Description"
+F 5 "Yageo" H 7600 650 50  0001 C CNN "Mfr."
+F 6 "RC0402FR-0749R9L" H 7600 650 50  0001 C CNN "Mfr. No"
+F 7 "603-RC0402FR-0749R9L" H 7600 650 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-0749R9L/?qs=sGAEpiMZZMvdGkrng054tzB9oPOc3T13PaD8moc68CQ%3D" H 7600 650 50  0001 C CNN "Mouser Price/Stock"
 	1    7600 650 
 	0    1    1    0   
 $EndComp
@@ -2750,8 +2834,13 @@ U 1 1 622D6F75
 P 4350 7100
 F 0 "R51" V 4300 6950 50  0000 C CNN
 F 1 "5.1k" V 4300 7250 50  0000 C CNN
-F 2 "" H 4350 7100 50  0001 C CNN
-F 3 "~" H 4350 7100 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 4350 7100 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/315/AOA0000C304-1149620.pdf" H 4350 7100 50  0001 C CNN
+F 4 "0402 1/10W 5.1KOhm 1%" H 4350 7100 50  0001 C CNN "Description"
+F 5 "Panasonic" H 4350 7100 50  0001 C CNN "Mfr."
+F 6 "ERJ-2RKF5101X" H 4350 7100 50  0001 C CNN "Mfr. No"
+F 7 "667-ERJ-2RKF5101X" H 4350 7100 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF5101X/?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xIXmurKOGv8o%3D" H 4350 7100 50  0001 C CNN "Mouser Price/Stock"
 	1    4350 7100
 	1    0    0    -1  
 $EndComp
@@ -2761,8 +2850,13 @@ U 1 1 6230503F
 P 4450 7100
 F 0 "R52" V 4400 6950 50  0000 C CNN
 F 1 "5.1k" V 4400 7250 50  0000 C CNN
-F 2 "" H 4450 7100 50  0001 C CNN
-F 3 "~" H 4450 7100 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 4450 7100 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/315/AOA0000C304-1149620.pdf" H 4450 7100 50  0001 C CNN
+F 4 "0402 1/10W 5.1KOhm 1%" H 4450 7100 50  0001 C CNN "Description"
+F 5 "Panasonic" H 4450 7100 50  0001 C CNN "Mfr."
+F 6 "ERJ-2RKF5101X" H 4450 7100 50  0001 C CNN "Mfr. No"
+F 7 "667-ERJ-2RKF5101X" H 4450 7100 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF5101X/?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xIXmurKOGv8o%3D" H 4450 7100 50  0001 C CNN "Mouser Price/Stock"
 	1    4450 7100
 	1    0    0    -1  
 $EndComp
@@ -2772,8 +2866,13 @@ U 1 1 623051CA
 P 4550 7100
 F 0 "R53" V 4500 6950 50  0000 C CNN
 F 1 "5.1k" V 4500 7250 50  0000 C CNN
-F 2 "" H 4550 7100 50  0001 C CNN
-F 3 "~" H 4550 7100 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 4550 7100 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/315/AOA0000C304-1149620.pdf" H 4550 7100 50  0001 C CNN
+F 4 "0402 1/10W 5.1KOhm 1%" H 4550 7100 50  0001 C CNN "Description"
+F 5 "Panasonic" H 4550 7100 50  0001 C CNN "Mfr."
+F 6 "ERJ-2RKF5101X" H 4550 7100 50  0001 C CNN "Mfr. No"
+F 7 "667-ERJ-2RKF5101X" H 4550 7100 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF5101X/?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xIXmurKOGv8o%3D" H 4550 7100 50  0001 C CNN "Mouser Price/Stock"
 	1    4550 7100
 	1    0    0    -1  
 $EndComp
@@ -2830,8 +2929,13 @@ AR Path="/5FB442B7/6251D251" Ref="R?"  Part="1"
 AR Path="/5FFBC089/5FFBFEFE/6251D251" Ref="R72"  Part="1" 
 F 0 "R72" V 6300 900 50  0000 C CNN
 F 1 "5.1k" V 6300 1150 50  0000 C CNN
-F 2 "" H 6400 1000 50  0001 C CNN
-F 3 "~" H 6400 1000 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 6400 1000 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/315/AOA0000C304-1149620.pdf" H 6400 1000 50  0001 C CNN
+F 4 "0402 1/10W 5.1KOhm 1%" H 6400 1000 50  0001 C CNN "Description"
+F 5 "Panasonic" H 6400 1000 50  0001 C CNN "Mfr."
+F 6 "ERJ-2RKF5101X" H 6400 1000 50  0001 C CNN "Mfr. No"
+F 7 "667-ERJ-2RKF5101X" H 6400 1000 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF5101X/?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xIXmurKOGv8o%3D" H 6400 1000 50  0001 C CNN "Mouser Price/Stock"
 	1    6400 1000
 	0    1    1    0   
 $EndComp
@@ -2964,8 +3068,13 @@ U 1 1 60BF627F
 P 1700 7450
 F 0 "R40" V 1650 7300 50  0000 C CNN
 F 1 "330" V 1650 7600 50  0000 C CNN
-F 2 "" H 1700 7450 50  0001 C CNN
-F 3 "~" H 1700 7450 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1700 7450 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 1700 7450 50  0001 C CNN
+F 4 "0402 1/16W 330Ohm 1%" H 1700 7450 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 1700 7450 50  0001 C CNN "Mfr."
+F 6 "CRCW0402330RFKEDC" H 1700 7450 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402330RFKEDC" H 1700 7450 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402330RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gUyDGo38wXjAq0Lll9pYo4A%3D%3D" H 1700 7450 50  0001 C CNN "Mouser Price/Stock"
 	1    1700 7450
 	0    1    1    0   
 $EndComp
@@ -2975,8 +3084,13 @@ U 1 1 60BF664A
 P 1700 7250
 F 0 "R38" V 1650 7100 50  0000 C CNN
 F 1 "330" V 1650 7400 50  0000 C CNN
-F 2 "" H 1700 7250 50  0001 C CNN
-F 3 "~" H 1700 7250 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1700 7250 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 1700 7250 50  0001 C CNN
+F 4 "0402 1/16W 330Ohm 1%" H 1700 7250 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 1700 7250 50  0001 C CNN "Mfr."
+F 6 "CRCW0402330RFKEDC" H 1700 7250 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402330RFKEDC" H 1700 7250 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402330RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gUyDGo38wXjAq0Lll9pYo4A%3D%3D" H 1700 7250 50  0001 C CNN "Mouser Price/Stock"
 	1    1700 7250
 	0    1    1    0   
 $EndComp
@@ -2986,8 +3100,13 @@ U 1 1 60BF6503
 P 1700 7350
 F 0 "R39" V 1650 7200 50  0000 C CNN
 F 1 "330" V 1650 7500 50  0000 C CNN
-F 2 "" H 1700 7350 50  0001 C CNN
-F 3 "~" H 1700 7350 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1700 7350 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 1700 7350 50  0001 C CNN
+F 4 "0402 1/16W 330Ohm 1%" H 1700 7350 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 1700 7350 50  0001 C CNN "Mfr."
+F 6 "CRCW0402330RFKEDC" H 1700 7350 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402330RFKEDC" H 1700 7350 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402330RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gUyDGo38wXjAq0Lll9pYo4A%3D%3D" H 1700 7350 50  0001 C CNN "Mouser Price/Stock"
 	1    1700 7350
 	0    1    1    0   
 $EndComp
@@ -2997,8 +3116,13 @@ U 1 1 60BF679B
 P 1700 7150
 F 0 "R37" V 1650 7000 50  0000 C CNN
 F 1 "330" V 1650 7300 50  0000 C CNN
-F 2 "" H 1700 7150 50  0001 C CNN
-F 3 "~" H 1700 7150 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1700 7150 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 1700 7150 50  0001 C CNN
+F 4 "0402 1/16W 330Ohm 1%" H 1700 7150 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 1700 7150 50  0001 C CNN "Mfr."
+F 6 "CRCW0402330RFKEDC" H 1700 7150 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402330RFKEDC" H 1700 7150 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402330RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gUyDGo38wXjAq0Lll9pYo4A%3D%3D" H 1700 7150 50  0001 C CNN "Mouser Price/Stock"
 	1    1700 7150
 	0    1    1    0   
 $EndComp
@@ -3008,8 +3132,13 @@ U 1 1 60BF6893
 P 1700 7050
 F 0 "R36" V 1650 6900 50  0000 C CNN
 F 1 "330" V 1650 7200 50  0000 C CNN
-F 2 "" H 1700 7050 50  0001 C CNN
-F 3 "~" H 1700 7050 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1700 7050 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 1700 7050 50  0001 C CNN
+F 4 "0402 1/16W 330Ohm 1%" H 1700 7050 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 1700 7050 50  0001 C CNN "Mfr."
+F 6 "CRCW0402330RFKEDC" H 1700 7050 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402330RFKEDC" H 1700 7050 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402330RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gUyDGo38wXjAq0Lll9pYo4A%3D%3D" H 1700 7050 50  0001 C CNN "Mouser Price/Stock"
 	1    1700 7050
 	0    1    1    0   
 $EndComp
