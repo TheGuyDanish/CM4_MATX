@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 16
+Sheet 14 15
 Title "PCIe x16 - Slot 1"
 Date "2021-02-08"
 Rev "0.1"
@@ -188,8 +188,8 @@ L CM4_MATX:PCIe_x16 J14
 U 2 1 5FED16BC
 P 8300 4050
 AR Path="/5FCA7683/5FED16BC" Ref="J14"  Part="2" 
-AR Path="/5FFBC089/5FFBFF2A/5FED16BC" Ref="J14"  Part="2" 
-F 0 "J14" H 8300 6065 50  0000 C CNN
+AR Path="/5FFBC089/5FFBFF2A/5FED16BC" Ref="J13"  Part="2" 
+F 0 "J13" H 8300 6065 50  0000 C CNN
 F 1 "PCIe_x16" H 8300 5974 50  0000 C CNN
 F 2 "CM4_MATX:10018783-10113TLF" H 6500 8450 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_gen3.pdf" H 6500 8450 50  0001 C CNN
@@ -596,16 +596,6 @@ PCIE1_SMBUS_CLK
 Text HLabel 4400 3200 2    50   Input ~ 0
 PCIE1_SMBUS_DATA
 Wire Wire Line
-	4150 3350 4400 3350
-Wire Wire Line
-	4150 3450 4400 3450
-Wire Wire Line
-	4150 3550 4400 3550
-Wire Wire Line
-	4150 3650 4400 3650
-Wire Wire Line
-	4150 3750 4400 3750
-Wire Wire Line
 	2550 2850 2550 2750
 Connection ~ 2550 2850
 Wire Wire Line
@@ -613,16 +603,6 @@ Wire Wire Line
 Connection ~ 2200 3400
 Wire Wire Line
 	1800 3750 1800 2750
-Text HLabel 4400 3350 2    50   Input ~ 0
-PCIE1_JTAG_TCK
-Text HLabel 4400 3450 2    50   Input ~ 0
-PCIE1_JTAG_TDI
-Text HLabel 4400 3550 2    50   Input ~ 0
-PCIE1_JTAG_TDO
-Text HLabel 4400 3650 2    50   Input ~ 0
-PCIE1_JTAG_TMS
-Text HLabel 4400 3750 2    50   Input ~ 0
-PCIE1_JTAG_TRST#
 NoConn ~ 7550 2300
 NoConn ~ 7550 2550
 NoConn ~ 7550 2400
@@ -661,8 +641,8 @@ L CM4_MATX:PCIe_x16 J14
 U 3 1 5FED4A83
 P 10150 3550
 AR Path="/5FCA7683/5FED4A83" Ref="J14"  Part="3" 
-AR Path="/5FFBC089/5FFBFF2A/5FED4A83" Ref="J14"  Part="3" 
-F 0 "J14" H 10150 5565 50  0000 C CNN
+AR Path="/5FFBC089/5FFBFF2A/5FED4A83" Ref="J13"  Part="3" 
+F 0 "J13" H 10150 5565 50  0000 C CNN
 F 1 "PCIe_x16" H 10150 5474 50  0000 C CNN
 F 2 "CM4_MATX:10018783-10113TLF" H 8350 7950 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_gen3.pdf" H 8350 7950 50  0001 C CNN
@@ -703,13 +683,19 @@ NoConn ~ 9400 5300
 NoConn ~ 9400 5400
 NoConn ~ 9400 5550
 NoConn ~ 9400 5650
+Wire Wire Line
+	4150 2850 4300 2850
+Wire Wire Line
+	4300 2850 4300 4050
+Connection ~ 4300 4050
+NoConn ~ 2650 3900
 $Comp
 L CM4_MATX:PCIe_x16 J14
 U 1 1 5FECC3A6
 P 3450 4600
 AR Path="/5FCA7683/5FECC3A6" Ref="J14"  Part="1" 
-AR Path="/5FFBC089/5FFBFF2A/5FECC3A6" Ref="J14"  Part="1" 
-F 0 "J14" H 3400 6615 50  0000 C CNN
+AR Path="/5FFBC089/5FFBFF2A/5FECC3A6" Ref="J13"  Part="1" 
+F 0 "J13" H 3400 6615 50  0000 C CNN
 F 1 "PCIe_x16" H 3400 6524 50  0000 C CNN
 F 2 "CM4_MATX:10018783-10113TLF" H 1650 9000 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_gen3.pdf" H 1650 9000 50  0001 C CNN
@@ -721,10 +707,9 @@ F 8 "10018783-10113TLF" H 3450 4600 50  0001 C CNN "Mfr. No"
 	1    3450 4600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 2850 4300 2850
-Wire Wire Line
-	4300 2850 4300 4050
-Connection ~ 4300 4050
-NoConn ~ 2650 3900
+NoConn ~ 4150 3350
+NoConn ~ 4150 3450
+NoConn ~ 4150 3550
+NoConn ~ 4150 3650
+NoConn ~ 4150 3750
 $EndSCHEMATC

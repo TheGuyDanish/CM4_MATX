@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 16
+Sheet 6 15
 Title ""
 Date "2021-02-08"
 Rev "0.1"

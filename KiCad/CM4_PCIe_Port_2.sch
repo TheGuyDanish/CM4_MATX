@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 16
+Sheet 15 15
 Title "PCIe x16 - Slot 2"
 Date "2021-02-08"
 Rev "0.1"
@@ -204,8 +204,8 @@ L CM4_MATX:PCIe_x16 J13
 U 1 1 5FED8C9C
 P 3050 4400
 AR Path="/5FD73012/5FED8C9C" Ref="J13"  Part="1" 
-AR Path="/5FFBC089/5FFBFF20/5FED8C9C" Ref="J13"  Part="1" 
-F 0 "J13" H 3000 6415 50  0000 C CNN
+AR Path="/5FFBC089/5FFBFF20/5FED8C9C" Ref="J14"  Part="1" 
+F 0 "J14" H 3000 6415 50  0000 C CNN
 F 1 "PCIe_x16" H 3000 6324 50  0000 C CNN
 F 2 "CM4_MATX:10018783-10113TLF" H 1250 8800 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_gen3.pdf" H 1250 8800 50  0001 C CNN
@@ -222,8 +222,8 @@ L CM4_MATX:PCIe_x16 J13
 U 2 1 5FEDF22E
 P 8150 3900
 AR Path="/5FD73012/5FEDF22E" Ref="J13"  Part="2" 
-AR Path="/5FFBC089/5FFBFF20/5FEDF22E" Ref="J13"  Part="2" 
-F 0 "J13" H 8150 5915 50  0000 C CNN
+AR Path="/5FFBC089/5FFBFF20/5FEDF22E" Ref="J14"  Part="2" 
+F 0 "J14" H 8150 5915 50  0000 C CNN
 F 1 "PCIe_x16" H 8150 5824 50  0000 C CNN
 F 2 "CM4_MATX:10018783-10113TLF" H 6350 8300 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_gen3.pdf" H 6350 8300 50  0001 C CNN
@@ -240,8 +240,8 @@ L CM4_MATX:PCIe_x16 J13
 U 3 1 5FEE2CC4
 P 9950 3450
 AR Path="/5FD73012/5FEE2CC4" Ref="J13"  Part="3" 
-AR Path="/5FFBC089/5FFBFF20/5FEE2CC4" Ref="J13"  Part="3" 
-F 0 "J13" H 9950 5465 50  0000 C CNN
+AR Path="/5FFBC089/5FFBFF20/5FEE2CC4" Ref="J14"  Part="3" 
+F 0 "J14" H 9950 5465 50  0000 C CNN
 F 1 "PCIe_x16" H 9950 5374 50  0000 C CNN
 F 2 "CM4_MATX:10018783-10113TLF" H 8150 7850 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_gen3.pdf" H 8150 7850 50  0001 C CNN
@@ -643,26 +643,6 @@ Text HLabel 4000 2900 2    50   Input ~ 0
 PCIE2_SMBUS_CLK
 Text HLabel 4000 3000 2    50   Input ~ 0
 PCIE2_SMBUS_DATA
-Wire Wire Line
-	3750 3150 4000 3150
-Wire Wire Line
-	3750 3250 4000 3250
-Wire Wire Line
-	3750 3350 4000 3350
-Wire Wire Line
-	3750 3450 4000 3450
-Wire Wire Line
-	3750 3550 4000 3550
-Text HLabel 4000 3150 2    50   Input ~ 0
-PCIE2_JTAG_TCK
-Text HLabel 4000 3250 2    50   Input ~ 0
-PCIE2_JTAG_TDI
-Text HLabel 4000 3350 2    50   Input ~ 0
-PCIE2_JTAG_TDO
-Text HLabel 4000 3450 2    50   Input ~ 0
-PCIE2_JTAG_TMS
-Text HLabel 4000 3550 2    50   Input ~ 0
-PCIE2_JTAG_TRST#
 NoConn ~ 7400 2150
 NoConn ~ 7400 2250
 NoConn ~ 7400 2400
@@ -731,4 +711,9 @@ Wire Wire Line
 	3900 2650 3900 3850
 Connection ~ 3900 3850
 NoConn ~ 2250 3700
+NoConn ~ 3750 3550
+NoConn ~ 3750 3450
+NoConn ~ 3750 3350
+NoConn ~ 3750 3250
+NoConn ~ 3750 3150
 $EndSCHEMATC

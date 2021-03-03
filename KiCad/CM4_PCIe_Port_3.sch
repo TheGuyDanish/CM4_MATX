@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 16
+Sheet 13 15
 Title ""
 Date "2021-02-08"
 Rev "0.1"
@@ -643,26 +643,6 @@ Text HLabel 3850 2900 2    50   Input ~ 0
 PCIE3_SMBUS_CLK
 Text HLabel 3850 3000 2    50   Input ~ 0
 PCIE3_SMBUS_DATA
-Wire Wire Line
-	3600 3150 3850 3150
-Wire Wire Line
-	3600 3250 3850 3250
-Wire Wire Line
-	3600 3350 3850 3350
-Wire Wire Line
-	3600 3450 3850 3450
-Wire Wire Line
-	3600 3550 3850 3550
-Text HLabel 3850 3150 2    50   Input ~ 0
-PCIE3_JTAG_TCK
-Text HLabel 3850 3250 2    50   Input ~ 0
-PCIE3_JTAG_TDI
-Text HLabel 3850 3350 2    50   Input ~ 0
-PCIE3_JTAG_TDO
-Text HLabel 3850 3450 2    50   Input ~ 0
-PCIE3_JTAG_TMS
-Text HLabel 3850 3550 2    50   Input ~ 0
-PCIE3_JTAG_TRST#
 NoConn ~ 9000 2500
 NoConn ~ 10850 2100
 NoConn ~ 9350 1650
@@ -731,4 +711,9 @@ Wire Wire Line
 	3750 2650 3750 3850
 Connection ~ 3750 3850
 NoConn ~ 2100 3700
+NoConn ~ 3600 3150
+NoConn ~ 3600 3250
+NoConn ~ 3600 3350
+NoConn ~ 3600 3450
+NoConn ~ 3600 3550
 $EndSCHEMATC

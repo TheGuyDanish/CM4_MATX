@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 16
+Sheet 1 15
 Title "CM4 MATX Root Sheet"
 Date "2021-02-08"
 Rev "0.1"
