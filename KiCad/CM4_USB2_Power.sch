@@ -249,8 +249,13 @@ U 1 1 60A5E923
 P 2300 2550
 F 0 "R23" H 2359 2596 50  0000 L CNN
 F 1 "143 1%" H 2359 2505 50  0000 L CNN
-F 2 "" H 2300 2550 50  0001 C CNN
-F 3 "~" H 2300 2550 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 2300 2550 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 2300 2550 50  0001 C CNN
+F 4 "0402 1/16W 143Ohm 1%" H 2300 2550 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 2300 2550 50  0001 C CNN "Mfr."
+F 6 "CRCW0402143RFKEDC" H 2300 2550 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402143RFKEDC" H 2300 2550 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402143RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gVrzzIF%252BS5CurukA28nIrVg%3D%3D" H 2300 2550 50  0001 C CNN "Mouser Price/Stock"
 	1    2300 2550
 	1    0    0    -1  
 $EndComp
@@ -326,8 +331,13 @@ U 1 1 60A6B15C
 P 2300 3550
 F 0 "R24" H 2359 3596 50  0000 L CNN
 F 1 "143 1%" H 2359 3505 50  0000 L CNN
-F 2 "" H 2300 3550 50  0001 C CNN
-F 3 "~" H 2300 3550 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 2300 3550 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 2300 3550 50  0001 C CNN
+F 4 "0402 1/16W 143Ohm 1%" H 2300 3550 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 2300 3550 50  0001 C CNN "Mfr."
+F 6 "CRCW0402143RFKEDC" H 2300 3550 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402143RFKEDC" H 2300 3550 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402143RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gVrzzIF%252BS5CurukA28nIrVg%3D%3D" H 2300 3550 50  0001 C CNN "Mouser Price/Stock"
 	1    2300 3550
 	1    0    0    -1  
 $EndComp
@@ -405,8 +415,13 @@ U 1 1 60A765B9
 P 4250 2550
 F 0 "R25" H 4309 2596 50  0000 L CNN
 F 1 "143 1%" H 4309 2505 50  0000 L CNN
-F 2 "" H 4250 2550 50  0001 C CNN
-F 3 "~" H 4250 2550 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 4250 2550 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 4250 2550 50  0001 C CNN
+F 4 "0402 1/16W 143Ohm 1%" H 4250 2550 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 4250 2550 50  0001 C CNN "Mfr."
+F 6 "CRCW0402143RFKEDC" H 4250 2550 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402143RFKEDC" H 4250 2550 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402143RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gVrzzIF%252BS5CurukA28nIrVg%3D%3D" H 4250 2550 50  0001 C CNN "Mouser Price/Stock"
 	1    4250 2550
 	1    0    0    -1  
 $EndComp
@@ -478,8 +493,13 @@ U 1 1 60A7DE02
 P 4250 3550
 F 0 "R26" H 4309 3596 50  0000 L CNN
 F 1 "143 1%" H 4309 3505 50  0000 L CNN
-F 2 "" H 4250 3550 50  0001 C CNN
-F 3 "~" H 4250 3550 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 4250 3550 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 4250 3550 50  0001 C CNN
+F 4 "0402 1/16W 143Ohm 1%" H 4250 3550 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 4250 3550 50  0001 C CNN "Mfr."
+F 6 "CRCW0402143RFKEDC" H 4250 3550 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402143RFKEDC" H 4250 3550 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402143RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gVrzzIF%252BS5CurukA28nIrVg%3D%3D" H 4250 3550 50  0001 C CNN "Mouser Price/Stock"
 	1    4250 3550
 	1    0    0    -1  
 $EndComp
@@ -539,8 +559,13 @@ U 1 1 60A8389D
 P 6200 2550
 F 0 "R27" H 6259 2596 50  0000 L CNN
 F 1 "143 1%" H 6259 2505 50  0000 L CNN
-F 2 "" H 6200 2550 50  0001 C CNN
-F 3 "~" H 6200 2550 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 6200 2550 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 6200 2550 50  0001 C CNN
+F 4 "0402 1/16W 143Ohm 1%" H 6200 2550 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 6200 2550 50  0001 C CNN "Mfr."
+F 6 "CRCW0402143RFKEDC" H 6200 2550 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402143RFKEDC" H 6200 2550 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402143RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gVrzzIF%252BS5CurukA28nIrVg%3D%3D" H 6200 2550 50  0001 C CNN "Mouser Price/Stock"
 	1    6200 2550
 	1    0    0    -1  
 $EndComp
@@ -678,8 +703,13 @@ U 1 1 60AB385B
 P 8150 2550
 F 0 "R29" H 8209 2596 50  0000 L CNN
 F 1 "143 1%" H 8209 2505 50  0000 L CNN
-F 2 "" H 8150 2550 50  0001 C CNN
-F 3 "~" H 8150 2550 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 8150 2550 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 8150 2550 50  0001 C CNN
+F 4 "0402 1/16W 143Ohm 1%" H 8150 2550 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 8150 2550 50  0001 C CNN "Mfr."
+F 6 "CRCW0402143RFKEDC" H 8150 2550 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402143RFKEDC" H 8150 2550 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402143RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gVrzzIF%252BS5CurukA28nIrVg%3D%3D" H 8150 2550 50  0001 C CNN "Mouser Price/Stock"
 	1    8150 2550
 	1    0    0    -1  
 $EndComp
@@ -707,8 +737,13 @@ U 1 1 60AC1A09
 P 6200 3550
 F 0 "R28" H 6259 3596 50  0000 L CNN
 F 1 "143 1%" H 6259 3505 50  0000 L CNN
-F 2 "" H 6200 3550 50  0001 C CNN
-F 3 "~" H 6200 3550 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 6200 3550 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 6200 3550 50  0001 C CNN
+F 4 "0402 1/16W 143Ohm 1%" H 6200 3550 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 6200 3550 50  0001 C CNN "Mfr."
+F 6 "CRCW0402143RFKEDC" H 6200 3550 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402143RFKEDC" H 6200 3550 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402143RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gVrzzIF%252BS5CurukA28nIrVg%3D%3D" H 6200 3550 50  0001 C CNN "Mouser Price/Stock"
 	1    6200 3550
 	1    0    0    -1  
 $EndComp

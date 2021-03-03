@@ -144,7 +144,12 @@ P 8050 6000
 F 0 "R12" H 7850 6050 50  0000 L CNN
 F 1 "2.2K 1%" H 7700 5950 50  0000 L CNN
 F 2 "CM4_MATX:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8050 6000 50  0001 C CNN
-F 3 "~" H 8050 6000 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 8050 6000 50  0001 C CNN
+F 4 "0603 1/10W 2.2KOhm 1%" H 8050 6000 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 8050 6000 50  0001 C CNN "Mfr."
+F 6 "CRCW06032K20FKEAC" H 8050 6000 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW06032K20FKEAC" H 8050 6000 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06032K20FKEAC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gE5m%2FjtqQkMzhxZ01md9MxQ%3D%3D" H 8050 6000 50  0001 C CNN "Mouser Price/Stock"
 	1    8050 6000
 	1    0    0    -1  
 $EndComp
@@ -256,9 +261,14 @@ L CM4_MATX:R_Small R8
 U 1 1 5FBC6024
 P 5400 4400
 F 0 "R8" V 5300 4350 50  0000 L CNN
-F 1 "36K 1%" V 5500 4350 50  0000 L CNN
-F 2 "" H 5400 4400 50  0001 C CNN
-F 3 "~" H 5400 4400 50  0001 C CNN
+F 1 "100K 5%" V 5500 4350 50  0000 L CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 5400 4400 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 5400 4400 50  0001 C CNN
+F 4 "0402 1/16W 100KOhm 5%" H 5400 4400 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 5400 4400 50  0001 C CNN "Mfr."
+F 6 "CRCW0402100KJNEDC" H 5400 4400 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402100KJNEDC" H 5400 4400 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100KJNEDC/?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmPUoOyY5yMhyGmvgn6AkAGw%3D%3D" H 5400 4400 50  0001 C CNN "Mouser Price/Stock"
 	1    5400 4400
 	1    0    0    -1  
 $EndComp
@@ -267,9 +277,14 @@ L CM4_MATX:R_Small R9
 U 1 1 5FBC6467
 P 5700 4400
 F 0 "R9" V 5600 4350 50  0000 L CNN
-F 1 "36K 1%" V 5800 4350 50  0000 L CNN
-F 2 "" H 5700 4400 50  0001 C CNN
-F 3 "~" H 5700 4400 50  0001 C CNN
+F 1 "100K 5%" V 5800 4350 50  0000 L CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 5700 4400 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 5700 4400 50  0001 C CNN
+F 4 "0402 1/16W 100KOhm 5%" H 5700 4400 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 5700 4400 50  0001 C CNN "Mfr."
+F 6 "CRCW0402100KJNEDC" H 5700 4400 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402100KJNEDC" H 5700 4400 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100KJNEDC/?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmPUoOyY5yMhyGmvgn6AkAGw%3D%3D" H 5700 4400 50  0001 C CNN "Mouser Price/Stock"
 	1    5700 4400
 	1    0    0    -1  
 $EndComp
@@ -278,9 +293,14 @@ L CM4_MATX:R_Small R10
 U 1 1 5FBCAE8F
 P 6000 4400
 F 0 "R10" V 5900 4350 50  0000 L CNN
-F 1 "36K 1%" V 6100 4350 50  0000 L CNN
-F 2 "" H 6000 4400 50  0001 C CNN
-F 3 "~" H 6000 4400 50  0001 C CNN
+F 1 "100K 5%" V 6100 4350 50  0000 L CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 6000 4400 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 6000 4400 50  0001 C CNN
+F 4 "0402 1/16W 100KOhm 5%" H 6000 4400 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 6000 4400 50  0001 C CNN "Mfr."
+F 6 "CRCW0402100KJNEDC" H 6000 4400 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402100KJNEDC" H 6000 4400 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100KJNEDC/?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmPUoOyY5yMhyGmvgn6AkAGw%3D%3D" H 6000 4400 50  0001 C CNN "Mouser Price/Stock"
 	1    6000 4400
 	1    0    0    -1  
 $EndComp
@@ -289,9 +309,14 @@ L CM4_MATX:R_Small R11
 U 1 1 5FBCAF65
 P 6300 4400
 F 0 "R11" V 6200 4350 50  0000 L CNN
-F 1 "36K 1%" V 6400 4350 50  0000 L CNN
-F 2 "" H 6300 4400 50  0001 C CNN
-F 3 "~" H 6300 4400 50  0001 C CNN
+F 1 "100K 5%" V 6400 4350 50  0000 L CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 6300 4400 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 6300 4400 50  0001 C CNN
+F 4 "0402 1/16W 100KOhm 5%" H 6300 4400 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 6300 4400 50  0001 C CNN "Mfr."
+F 6 "CRCW0402100KJNEDC" H 6300 4400 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402100KJNEDC" H 6300 4400 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100KJNEDC/?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmPUoOyY5yMhyGmvgn6AkAGw%3D%3D" H 6300 4400 50  0001 C CNN "Mouser Price/Stock"
 	1    6300 4400
 	1    0    0    -1  
 $EndComp
@@ -607,8 +632,13 @@ U 1 1 5FF651A9
 P 2950 1200
 F 0 "R6" V 2754 1200 50  0000 C CNN
 F 1 "12K 1%" V 2845 1200 50  0000 C CNN
-F 2 "" H 2950 1200 50  0001 C CNN
-F 3 "~" H 2950 1200 50  0001 C CNN
+F 2 "CM4_MATX:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2950 1200 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/dcrcwe3-1762152.pdf" H 2950 1200 50  0001 C CNN
+F 4 "0603 1/16W 12KOhm 1%" H 2950 1200 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 2950 1200 50  0001 C CNN "Mfr."
+F 6 "CRCW040212K0FKED" H 2950 1200 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402-12K-E3" H 2950 1200 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW040212K0FKED/?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuGxPcVgtIGNs%3D" H 2950 1200 50  0001 C CNN "Mouser Price/Stock"
 	1    2950 1200
 	0    1    1    0   
 $EndComp
@@ -720,9 +750,14 @@ L CM4_MATX:R_Small R3
 U 1 1 6004C860
 P 1300 5050
 F 0 "R3" V 1200 5000 50  0000 L CNN
-F 1 "36K 1%" V 1400 5000 50  0000 L CNN
-F 2 "" H 1300 5050 50  0001 C CNN
-F 3 "~" H 1300 5050 50  0001 C CNN
+F 1 "100K 5%" V 1400 5000 50  0000 L CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1300 5050 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 1300 5050 50  0001 C CNN
+F 4 "0402 1/16W 100KOhm 5%" H 1300 5050 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 1300 5050 50  0001 C CNN "Mfr."
+F 6 "CRCW0402100KJNEDC" H 1300 5050 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402100KJNEDC" H 1300 5050 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100KJNEDC/?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmPUoOyY5yMhyGmvgn6AkAGw%3D%3D" H 1300 5050 50  0001 C CNN "Mouser Price/Stock"
 	1    1300 5050
 	1    0    0    -1  
 $EndComp
@@ -750,7 +785,12 @@ P 8150 5200
 F 0 "R13" H 7950 5250 50  0000 L CNN
 F 1 "2.2K 1%" H 7800 5150 50  0000 L CNN
 F 2 "CM4_MATX:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8150 5200 50  0001 C CNN
-F 3 "~" H 8150 5200 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/crcwce3-1762584.pdf" H 8150 5200 50  0001 C CNN
+F 4 "0603 1/10W 2.2KOhm 1%" H 8150 5200 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 8150 5200 50  0001 C CNN "Mfr."
+F 6 "CRCW06032K20FKEAC" H 8150 5200 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW06032K20FKEAC" H 8150 5200 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06032K20FKEAC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gE5m%2FjtqQkMzhxZ01md9MxQ%3D%3D" H 8150 5200 50  0001 C CNN "Mouser Price/Stock"
 	1    8150 5200
 	1    0    0    -1  
 $EndComp

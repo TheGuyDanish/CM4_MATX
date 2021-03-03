@@ -2964,8 +2964,13 @@ U 1 1 60BF627F
 P 1700 7450
 F 0 "R40" V 1650 7300 50  0000 C CNN
 F 1 "330" V 1650 7600 50  0000 C CNN
-F 2 "" H 1700 7450 50  0001 C CNN
-F 3 "~" H 1700 7450 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1700 7450 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/dcrcwe3-1762152.pdf" H 1700 7450 50  0001 C CNN
+F 4 "0402 1/16W 330Ohm 1%" H 1700 7450 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 1700 7450 50  0001 C CNN "Mfr."
+F 6 "CRCW0402330RFKEDC" H 1700 7450 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402330RFKEDC" H 1700 7450 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402330RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gUyDGo38wXjAq0Lll9pYo4A%3D%3D" H 1700 7450 50  0001 C CNN "Mouser Price/Stock"
 	1    1700 7450
 	0    1    1    0   
 $EndComp
@@ -2975,8 +2980,13 @@ U 1 1 60BF664A
 P 1700 7250
 F 0 "R38" V 1650 7100 50  0000 C CNN
 F 1 "330" V 1650 7400 50  0000 C CNN
-F 2 "" H 1700 7250 50  0001 C CNN
-F 3 "~" H 1700 7250 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1700 7250 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/dcrcwe3-1762152.pdf" H 1700 7250 50  0001 C CNN
+F 4 "0402 1/16W 330Ohm 1%" H 1700 7250 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 1700 7250 50  0001 C CNN "Mfr."
+F 6 "CRCW0402330RFKEDC" H 1700 7250 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402330RFKEDC" H 1700 7250 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402330RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gUyDGo38wXjAq0Lll9pYo4A%3D%3D" H 1700 7250 50  0001 C CNN "Mouser Price/Stock"
 	1    1700 7250
 	0    1    1    0   
 $EndComp
@@ -2986,8 +2996,13 @@ U 1 1 60BF6503
 P 1700 7350
 F 0 "R39" V 1650 7200 50  0000 C CNN
 F 1 "330" V 1650 7500 50  0000 C CNN
-F 2 "" H 1700 7350 50  0001 C CNN
-F 3 "~" H 1700 7350 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1700 7350 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/dcrcwe3-1762152.pdf" H 1700 7350 50  0001 C CNN
+F 4 "0402 1/16W 330Ohm 1%" H 1700 7350 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 1700 7350 50  0001 C CNN "Mfr."
+F 6 "CRCW0402330RFKEDC" H 1700 7350 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402330RFKEDC" H 1700 7350 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402330RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gUyDGo38wXjAq0Lll9pYo4A%3D%3D" H 1700 7350 50  0001 C CNN "Mouser Price/Stock"
 	1    1700 7350
 	0    1    1    0   
 $EndComp
@@ -2997,8 +3012,13 @@ U 1 1 60BF679B
 P 1700 7150
 F 0 "R37" V 1650 7000 50  0000 C CNN
 F 1 "330" V 1650 7300 50  0000 C CNN
-F 2 "" H 1700 7150 50  0001 C CNN
-F 3 "~" H 1700 7150 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1700 7150 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/dcrcwe3-1762152.pdf" H 1700 7150 50  0001 C CNN
+F 4 "0402 1/16W 330Ohm 1%" H 1700 7150 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 1700 7150 50  0001 C CNN "Mfr."
+F 6 "CRCW0402330RFKEDC" H 1700 7150 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402330RFKEDC" H 1700 7150 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402330RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gUyDGo38wXjAq0Lll9pYo4A%3D%3D" H 1700 7150 50  0001 C CNN "Mouser Price/Stock"
 	1    1700 7150
 	0    1    1    0   
 $EndComp
@@ -3008,8 +3028,13 @@ U 1 1 60BF6893
 P 1700 7050
 F 0 "R36" V 1650 6900 50  0000 C CNN
 F 1 "330" V 1650 7200 50  0000 C CNN
-F 2 "" H 1700 7050 50  0001 C CNN
-F 3 "~" H 1700 7050 50  0001 C CNN
+F 2 "CM4_MATX:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1700 7050 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/dcrcwe3-1762152.pdf" H 1700 7050 50  0001 C CNN
+F 4 "0402 1/16W 330Ohm 1%" H 1700 7050 50  0001 C CNN "Description"
+F 5 "Vishay / Dale" H 1700 7050 50  0001 C CNN "Mfr."
+F 6 "CRCW0402330RFKEDC" H 1700 7050 50  0001 C CNN "Mfr. No"
+F 7 "71-CRCW0402330RFKEDC" H 1700 7050 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402330RFKEDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gUyDGo38wXjAq0Lll9pYo4A%3D%3D" H 1700 7050 50  0001 C CNN "Mouser Price/Stock"
 	1    1700 7050
 	0    1    1    0   
 $EndComp
