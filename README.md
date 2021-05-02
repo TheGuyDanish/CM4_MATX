@@ -1,5 +1,7 @@
 # CM4 MATX
 
+### I am currently looking for help to route the traces on this board. If you have any applicable knowledge, please do head down to [Help Wanted](#help-wanted) and check out where you can help!
+
 Welcome! CM4 MATX is a project aiming to create an open source, micro-ATX standard-compliant motherboard for the Raspberry Pi Compute Module 4.
 
 <p align="center"><img src="CM4_MATX_rendering.png?raw=true" alt="3D rendering of the PCB (design not final)" /></p>
@@ -21,6 +23,10 @@ The current design goals are as follows:
 * Via the PI3PCIE2215 PCI-e mux IC, offer the user the choice between a physical PCI-e slot, or an NVMe slot using one of the downstream PCI-e lanes from the above switch.
 
 # Help Wanted
+
+Update: We have reached a state where we feel comfortable beginning to route the different features of the board. If you have experience with routing PCBs, you are very welcome to download the Kicad files and have a look for yourself. If you have any questions, feel free to join us on Discord if you have any questions and would like to reach out to me directly!
+
+> [![Discord](https://img.shields.io/discord/777658938476855337.svg?style=for-the-badge&logo=discord)](https://discord.gg/KqpndZfXZY)
 
 I (TheGuyDanish) am not an experienced board designer, nor a whiz at electronic schematics. That's why I am posting this to Github. I'd love for other hobbyists to join this project. Not just to correct my inevitable mistakes, but also to suggest new features that would make this board even better.
 
