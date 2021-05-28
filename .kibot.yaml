@@ -98,7 +98,7 @@ outputs:
 
   ### PDFs ##########################################################
   - name: 'pdf-sch'
-    comment: 'Exporting the PCB to PDF. Suitable for printing.'
+    comment: 'Exporting the schematic to PDF. Suitable for printing.'
     type: 'pdf_sch_print'
     dir: 'pdf' 
     options:
@@ -132,10 +132,15 @@ outputs:
       # [number=1.0] scale factor (0 means autoscaling)
       scaling: 1.0
       # [boolean=false] print layers in separated pages
-      separated: false
+      separated: true
       # [string=''] Board variant to apply
       #variant: ''
-    layers: 'all'
+    layers:
+      - 'F.Cu'
+      - 'In1.Cu'
+      - 'In2.Cu'
+      - 'B.Cu'
+      - 'F.SilkS'
 
   ### STEP ##########################################################
   #- name: 'step'
