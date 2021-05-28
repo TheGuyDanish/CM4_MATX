@@ -16673,7 +16673,7 @@
   (zone (net 156) (net_name +3V3) (layer In2.Cu) (tstamp 60B346A3) (hatch edge 0.508)
     (connect_pads (clearance 1))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 281.9 266.70026) (xy 38.1 266.70026) (xy 38.1 167.386) (xy 82.6008 167.386) (xy 82.6008 22.90026)
