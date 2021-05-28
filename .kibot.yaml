@@ -61,9 +61,9 @@ outputs:
       # Not generated unless a format is specified
       map:
         # [string='%f-%i%v.%x'] name for the map file, KiCad defaults if empty (%i='PTH_drill_map'). Affected by global options
-        #output: ''
+        output: ''
         # [string='pdf'] [hpgl,ps,gerber,dxf,svg,pdf] format for a graphical drill map
-        #type: 'gerber'
+        type: 'gerber'
       # [string='%f-%i%v.%x'] name for the drill file, KiCad defaults if empty (%i='PTH_drill'). Affected by global options
       output: gerber
       # [boolean=false] use the auxiliar axis as origin for coordinates

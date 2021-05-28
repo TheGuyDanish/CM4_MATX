@@ -581,4 +581,12 @@ F 4 "Pi CM4 Mounting Holes" H 650 6750 50  0001 C CNN "Description"
 	1    650  6750
 	1    0    0    -1  
 $EndComp
+NoConn ~ 9050 2350
+NoConn ~ 9050 2250
+NoConn ~ 9050 2100
+NoConn ~ 9050 2000
+NoConn ~ 9050 1850
+NoConn ~ 9050 1750
+NoConn ~ 9050 1600
+NoConn ~ 9050 1500
 $EndSCHEMATC
