@@ -28,18 +28,18 @@ jobs:
     - name: Upload PCB PDF
       uses: actions/upload-artifact@v2
       with:
-        name: CM4_MATX_PCB.pdf
-        path: output/pdf/CM4_MATX_PCB.pdf
+        name: CM4_MATX_PCB
+        path: output/pdf/CM4_MATX_PCB*.pdf
     - name: Upload Schematic PDF
       uses: actions/upload-artifact@v2
       with:
-        name: CM4_MATX_SCH.pdf
+        name: CM4_MATX_Schematic
         path: output/pdf/CM4_MATX_SCH.pdf
-    - name: Upload 3D (STEP) model
-      uses: actions/upload-artifact@v2
-      with:
-        name: CM4_MATX.step
-        path: output/step/CM4_MATX.step
+    #- name: Upload 3D (STEP) model
+      #uses: actions/upload-artifact@v2
+      #with:
+        #name: CM4_MATX.step
+        #path: output/step/CM4_MATX.step
     - name: Upload Gerber job files
       uses: actions/upload-artifact@v2
       with:
