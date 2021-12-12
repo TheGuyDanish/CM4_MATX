@@ -12,7 +12,7 @@ All help to get CM4 MATX into reality is more than appreciated! Be it filing iss
 These are broad steps that, when followed, make accepting your pull request significantly easier. As this project matures, more steps and suggestions may be added. For that reason, it is advised that you check this document frequently if you plan to make many changes or suggestions.
 
 ### 1. Use the commonly accepted version of KiCad
-At the moment, development of this board takes place in KiCad 5.1.8 (stable). Please refrain from using any unstable or nightly builds as these may break compatibility with stable branch clients. If a new version of KiCad is released, check if an issue has been raised about it. If not, feel free to raise one.
+At the moment, development of this board takes place in the stable branch of KiCad (5.1.x). Please refrain from using any unstable or nightly builds as these may break compatibility with stable branch clients. If a new version of KiCad is released, check if an issue has been raised about it. If not, feel free to raise one.
 
 ### 2. Keep your symbols and footprints to the CM4_MATX library
 As we reach milestones on the project, we'd like to be able to freeze that commit, such that anyone, at any time, may return to it. Any schematic symbol or PCB footprint you place in the project should be added to the default-loaded project library, ___including___ standard components. As we don't know when or if a default component may be changed, we would rather stay on the safe side and keep a local copy in the repository.
