@@ -1,6 +1,16 @@
 # CM4 MATX
 
-### I am currently looking for help to route the traces on this board. If you have any applicable knowledge, please do head down to [Help Wanted](#help-wanted) and check out where you can help!
+## This project has been archived.
+
+Due to a few different reasons, I have decided to archive this project. There's a few different reasons, but mainly that I don't think the CM4 is an appropriate platform for this kind of board. The CPU doesn't really have enough power to utilize the kind of IO that this board would provide it with, combined with the different limitations of using PCI-e switches. This, combined with the fact that I don't have as much time as I'd like to spend on this project, I've decided to leave it be for now.
+
+I'm not aware at the time of writing of any similar projects, but I'll be leaving this one up for folks to take resources and inspiration from.
+
+The original readme is below for archival purposes. So long, thanks for all the fish, and may you have the best of luck in your projects!
+
+/TheGuyDanish
+
+<hr />
 
 Welcome! CM4 MATX is a project aiming to create an open source, micro-ATX standard-compliant motherboard for the Raspberry Pi Compute Module 4.
 
@@ -25,8 +35,6 @@ The current design goals are as follows:
 # Help Wanted
 
 Update: We have reached a state where we feel comfortable beginning to route the different features of the board. If you have experience with routing PCBs, you are very welcome to download the Kicad files and have a look for yourself. If you have any questions, feel free to join us on Discord if you have any questions and would like to reach out to me directly!
-
-> [![Discord](https://img.shields.io/discord/777658938476855337.svg?style=for-the-badge&logo=discord)](https://discord.gg/KqpndZfXZY)
 
 I (TheGuyDanish) am not an experienced board designer, nor a whiz at electronic schematics. That's why I am posting this to Github. I'd love for other hobbyists to join this project. Not just to correct my inevitable mistakes, but also to suggest new features that would make this board even better.
 
